@@ -33,7 +33,7 @@ DATA		:=	data
 INCLUDES	:=	include
 
 APP_TITLE	:= ButtonPresser3DS
-APP_DESCRIPTION	:= Is this good
+APP_DESCRIPTION	:= ButtonPresser3DS
 APP_AUTHOR	:= trainboy2019
 
 #---------------------------------------------------------------------------------
