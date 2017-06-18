@@ -1,1 +1,1 @@
-./makerom -f cia -o ButtonPresser3DS.cia -rsf cia.rsf -target t -exefslogo -elf FidgetSpinner3DS.elf -icon icon.icn -banner banner.bnr
+./makerom -f cia -o ButtonPresser3DS.cia -rsf cia.rsf -target t -exefslogo -elf ButtonPresser3DS.elf -icon icon.icn -banner banner.bnr

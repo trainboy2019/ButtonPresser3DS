@@ -1,5 +1,4 @@
-main.o: \
- /Users/Ike1/Desktop/3DSBREWMAKER/FidgetSpinner3DS-master/source/main.cpp \
+main.o: /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/source/main.cpp \
  /usr/local/devkitPro/libctru/include/3ds.h \
  /usr/local/devkitPro/libctru/include/3ds/types.h \
  /usr/local/devkitPro/libctru/include/3ds/result.h \
@@ -85,9 +84,9 @@ main.o: \
  /usr/local/devkitPro/libctru/include/c3d/renderbuffer.h \
  /usr/local/devkitPro/libctru/include/c3d/renderqueue.h \
  /usr/local/devkitPro/libctru/include/sfil.h \
- /Users/Ike1/Desktop/3DSBREWMAKER/FidgetSpinner3DS-master/build/button_png.h \
- /Users/Ike1/Desktop/3DSBREWMAKER/FidgetSpinner3DS-master/build/pressedButton_png.h \
- /Users/Ike1/Desktop/3DSBREWMAKER/FidgetSpinner3DS-master/build/topscr_png.h
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/button_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedButton_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/topscr_png.h
 
 /usr/local/devkitPro/libctru/include/3ds.h:
 
@@ -259,8 +258,8 @@ main.o: \
 
 /usr/local/devkitPro/libctru/include/sfil.h:
 
-/Users/Ike1/Desktop/3DSBREWMAKER/FidgetSpinner3DS-master/build/button_png.h:
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/button_png.h:
 
-/Users/Ike1/Desktop/3DSBREWMAKER/FidgetSpinner3DS-master/build/pressedButton_png.h:
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedButton_png.h:
 
-/Users/Ike1/Desktop/3DSBREWMAKER/FidgetSpinner3DS-master/build/topscr_png.h:
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/topscr_png.h:
