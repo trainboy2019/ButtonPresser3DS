@@ -10,6 +10,7 @@
 #include "button_png.h"
 #include "pressedButton_png.h"
 #include "topscr_png.h"
+#include "click_wav.h"
 
 using namespace std;
 
@@ -42,7 +43,7 @@ int main() {
     ndspSetOutputCount(1); // Num of buffers
     
     // Reading wav file
-    FILE* fp = fopen("./click.wav", "rb");
+    FILE* fp = fopen("./click.wav.o", "rb");
     
     if(!fp)
     {

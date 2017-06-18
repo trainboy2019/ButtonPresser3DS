@@ -86,7 +86,8 @@ main.o: /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/source/main.cpp \
  /usr/local/devkitPro/libctru/include/sfil.h \
  /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/button_png.h \
  /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedButton_png.h \
- /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/topscr_png.h
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/topscr_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/click_wav.h
 
 /usr/local/devkitPro/libctru/include/3ds.h:
 
@@ -263,3 +264,5 @@ main.o: /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/source/main.cpp \
 /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedButton_png.h:
 
 /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/topscr_png.h:
+
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/click_wav.h:
