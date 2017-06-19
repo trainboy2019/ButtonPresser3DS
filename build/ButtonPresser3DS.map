@@ -4903,17 +4903,17 @@ Linker script and memory map
                 0x001b5558                pokeball5_png
                 0x001bbed7                pokeball5_png_end
                 0x001bbed8                pokeball5_png_size
- .rodata        0x001bbedc     0x6dec pokeball6.png.o
+ .rodata        0x001bbedc     0x6a88 pokeball6.png.o
                 0x001bbedc                pokeball6_png
-                0x001c2cc2                pokeball6_png_end
-                0x001c2cc4                pokeball6_png_size
- .rodata        0x001c2cc8     0x6498 pokeball7.png.o
-                0x001c2cc8                pokeball7_png
-                0x001c915a                pokeball7_png_end
-                0x001c915c                pokeball7_png_size
- .rodata        0x001c9160     0x6a88 pokeball8.png.o
-                0x001c9160                pokeball8_png
-                0x001cfbe4                pokeball8_png_end
+                0x001c2960                pokeball6_png_size
+                0x001c2960                pokeball6_png_end
+ .rodata        0x001c2964     0x6498 pokeball7.png.o
+                0x001c2964                pokeball7_png
+                0x001c8df6                pokeball7_png_end
+                0x001c8df8                pokeball7_png_size
+ .rodata        0x001c8dfc     0x6dec pokeball8.png.o
+                0x001c8dfc                pokeball8_png
+                0x001cfbe2                pokeball8_png_end
                 0x001cfbe4                pokeball8_png_size
  .rodata        0x001cfbe8     0xb9d8 pressedButton1.png.o
                 0x001cfbe8                pressedButton1_png
