@@ -84,14 +84,23 @@ main.o: /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/source/main.cpp \
  /usr/local/devkitPro/libctru/include/c3d/renderbuffer.h \
  /usr/local/devkitPro/libctru/include/c3d/renderqueue.h \
  /usr/local/devkitPro/libctru/include/sfil.h \
- /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/button_png.h \
- /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedButton_png.h \
- /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/buttonAudio_png.h \
- /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedButtonAudio_png.h \
- /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/buttonDSP_png.h \
- /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedButtonDSP_png.h \
- /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/topscr_png.h \
- /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/source/sound.h
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/button1_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedButton1_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/button2_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedButton2_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/button3_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedButton3_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/button4_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedButton4_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/button5_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedButton5_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/button6_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedButton6_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/button7_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedButton7_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/button8_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedButton8_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/topscr_png.h
 
 /usr/local/devkitPro/libctru/include/3ds.h:
 
@@ -263,18 +272,36 @@ main.o: /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/source/main.cpp \
 
 /usr/local/devkitPro/libctru/include/sfil.h:
 
-/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/button_png.h:
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/button1_png.h:
 
-/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedButton_png.h:
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedButton1_png.h:
 
-/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/buttonAudio_png.h:
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/button2_png.h:
 
-/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedButtonAudio_png.h:
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedButton2_png.h:
 
-/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/buttonDSP_png.h:
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/button3_png.h:
 
-/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedButtonDSP_png.h:
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedButton3_png.h:
+
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/button4_png.h:
+
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedButton4_png.h:
+
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/button5_png.h:
+
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedButton5_png.h:
+
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/button6_png.h:
+
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedButton6_png.h:
+
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/button7_png.h:
+
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedButton7_png.h:
+
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/button8_png.h:
+
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedButton8_png.h:
 
 /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/topscr_png.h:
-
-/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/source/sound.h:

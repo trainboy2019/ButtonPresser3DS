@@ -4,53 +4,52 @@
 #include <sf2d.h>
 #include <sfil.h>
 
-#include "button_png.h"
-#include "pressedButton_png.h"
-#include "buttonAudio_png.h"
-#include "pressedButtonAudio_png.h"
-#include "buttonDSP_png.h"
-#include "pressedButtonDSP_png.h"
+#include "button1_png.h"
+#include "pressedButton1_png.h"
+#include "button2_png.h"
+#include "pressedButton2_png.h"
+#include "button3_png.h"
+#include "pressedButton3_png.h"
+#include "button4_png.h"
+#include "pressedButton4_png.h"
+#include "button5_png.h"
+#include "pressedButton5_png.h"
+#include "button6_png.h"
+#include "pressedButton6_png.h"
+#include "button7_png.h"
+#include "pressedButton7_png.h"
+#include "button8_png.h"
+#include "pressedButton8_png.h"
 #include "topscr_png.h"
-#include "sound.h"
 
 using namespace std;
 
 int main() {
-    sdmcInit();
-    romfsInit();
     sf2d_init();
-    sf2d_texture* pressedButton   = sfil_load_PNG_buffer(pressedButton_png, SF2D_PLACE_RAM);
-    sf2d_texture* unpressedButton = sfil_load_PNG_buffer(button_png,        SF2D_PLACE_RAM);
-    sf2d_texture* pressedButtonAudio   = sfil_load_PNG_buffer(pressedButtonAudio_png, SF2D_PLACE_RAM);
-    sf2d_texture* unpressedButtonAudio = sfil_load_PNG_buffer(buttonAudio_png,        SF2D_PLACE_RAM);
-    sf2d_texture* pressedButtonDSP   = sfil_load_PNG_buffer(pressedButtonDSP_png, SF2D_PLACE_RAM);
-    sf2d_texture* unpressedButtonDSP = sfil_load_PNG_buffer(buttonDSP_png,        SF2D_PLACE_RAM);
+    sf2d_texture* pressedButton1   = sfil_load_PNG_buffer(pressedButton1_png, SF2D_PLACE_RAM);
+    sf2d_texture* unpressedButton1 = sfil_load_PNG_buffer(button1_png,        SF2D_PLACE_RAM);
+    sf2d_texture* pressedButton2   = sfil_load_PNG_buffer(pressedButton2_png, SF2D_PLACE_RAM);
+    sf2d_texture* unpressedButton2 = sfil_load_PNG_buffer(button2_png,        SF2D_PLACE_RAM);
+    sf2d_texture* pressedButton3   = sfil_load_PNG_buffer(pressedButton3_png, SF2D_PLACE_RAM);
+    sf2d_texture* unpressedButton3 = sfil_load_PNG_buffer(button3_png,        SF2D_PLACE_RAM);
+    sf2d_texture* pressedButton4   = sfil_load_PNG_buffer(pressedButton4_png, SF2D_PLACE_RAM);
+    sf2d_texture* unpressedButton4 = sfil_load_PNG_buffer(button4_png,        SF2D_PLACE_RAM);
+    sf2d_texture* pressedButton5   = sfil_load_PNG_buffer(pressedButton5_png, SF2D_PLACE_RAM);
+    sf2d_texture* unpressedButton5 = sfil_load_PNG_buffer(button5_png,        SF2D_PLACE_RAM);
+    sf2d_texture* pressedButton6   = sfil_load_PNG_buffer(pressedButton6_png, SF2D_PLACE_RAM);
+    sf2d_texture* unpressedButton6 = sfil_load_PNG_buffer(button6_png,        SF2D_PLACE_RAM);
+    sf2d_texture* pressedButton7   = sfil_load_PNG_buffer(pressedButton7_png, SF2D_PLACE_RAM);
+    sf2d_texture* unpressedButton7 = sfil_load_PNG_buffer(button7_png,        SF2D_PLACE_RAM);
+    sf2d_texture* pressedButton8   = sfil_load_PNG_buffer(pressedButton8_png, SF2D_PLACE_RAM);
+    sf2d_texture* unpressedButton8 = sfil_load_PNG_buffer(button8_png,        SF2D_PLACE_RAM);
 	sf2d_texture* topScreen       = sfil_load_PNG_buffer(topscr_png,        SF2D_PLACE_RAM);
 
 	int posx = (320 / 2);
 	int posy = (240 / 2);
     
     int score = 0;
+    int color = 0;
     bool pressed = false;
-    bool dspfirmfound=false;
-    sound *click = NULL;
-    
-    FILE *file = fopen("3ds/dspfirm.cdc","rb");
-    if (file == NULL) goto exit;
-    ndspInit();
-    dspfirmfound = true;
-    
-    if (dspfirmfound) {
-        ndspInit();
-    }
-    
-    // Load the sound effects if DSP is available.
-    if (dspfirmfound) {
-        
-        click = new sound("romfs:/click.wav", 2, false);
-    }
-    
-    
 
 	// Main loop
 	while (aptMainLoop()) {
@@ -62,17 +61,28 @@ int main() {
 		if (kDown & KEY_TOUCH) {
 			pressed=true;
             score=score+1;
-            if (dspfirmfound) {
-                click->play();
-            }
 		}
         if (kHeld & KEY_TOUCH){
             pressed=true;
         }
         if (kUp & KEY_TOUCH){
             pressed=false;
-            if (dspfirmfound) {
-               // click->stop();
+        }
+        
+        if (kDown & KEY_DUP) {
+            if (color==8) {
+                color=1;
+            }
+            else{
+                color++;
+            }
+        }
+        if (kDown & KEY_DDOWN) {
+            if (color==1) {
+                color=8;
+            }
+            else{
+                color--;
             }
         }
 
@@ -88,44 +98,90 @@ int main() {
 		// draw the spidget finner
         if (pressed){
             sf2d_start_frame(GFX_BOTTOM, GFX_LEFT);
-            if (dspfirmfound) {
-                if (ndspChnIsPlaying(2)){
-                    sf2d_draw_texture_rotate(pressedButtonAudio, posx, posy, 0.0f);
-                }
-                else{
-                    sf2d_draw_texture_rotate(pressedButtonDSP, posx, posy, 0.0f);
-                }
+            if (color==1) {
+                sf2d_draw_texture_rotate(pressedButton1, posx, posy, 0.0f);
             }
-            else{
-                sf2d_draw_texture_rotate(pressedButton, posx, posy, 0.0f);
+            else if (color==2) {
+                sf2d_draw_texture_rotate(pressedButton2, posx, posy, 0.0f);
+            }
+            else if (color==3) {
+                sf2d_draw_texture_rotate(pressedButton3, posx, posy, 0.0f);
+            }
+            else if (color==4) {
+                sf2d_draw_texture_rotate(pressedButton4, posx, posy, 0.0f);
+            }
+            else if (color==5) {
+                sf2d_draw_texture_rotate(pressedButton5, posx, posy, 0.0f);
+            }
+            else if (color==6) {
+                sf2d_draw_texture_rotate(pressedButton6, posx, posy, 0.0f);
+            }
+            else if (color==7) {
+                sf2d_draw_texture_rotate(pressedButton7, posx, posy, 0.0f);
+            }
+            else if (color==8) {
+                sf2d_draw_texture_rotate(pressedButton8, posx, posy, 0.0f);
+            }
+            else {
+                sf2d_draw_texture_rotate(pressedButton1, posx, posy, 0.0f);
             }
             sf2d_end_frame();
         }
         if (!pressed){
             sf2d_start_frame(GFX_BOTTOM, GFX_LEFT);
-            sf2d_draw_texture_rotate(unpressedButton, posx, posy, 0.0f);
+            if (color==1) {
+                sf2d_draw_texture_rotate(unpressedButton1, posx, posy, 0.0f);
+            }
+            else if (color==2) {
+                sf2d_draw_texture_rotate(unpressedButton2, posx, posy, 0.0f);
+            }
+            else if (color==3) {
+                sf2d_draw_texture_rotate(unpressedButton3, posx, posy, 0.0f);
+            }
+            else if (color==4) {
+                sf2d_draw_texture_rotate(unpressedButton4, posx, posy, 0.0f);
+            }
+            else if (color==5) {
+                sf2d_draw_texture_rotate(unpressedButton5, posx, posy, 0.0f);
+            }
+            else if (color==6) {
+                sf2d_draw_texture_rotate(unpressedButton6, posx, posy, 0.0f);
+            }
+            else if (color==7) {
+                sf2d_draw_texture_rotate(unpressedButton7, posx, posy, 0.0f);
+            }
+            else if (color==8) {
+                sf2d_draw_texture_rotate(unpressedButton8, posx, posy, 0.0f);
+            }
+            else {
+                sf2d_draw_texture_rotate(unpressedButton1, posx, posy, 0.0f);
+            }
             sf2d_end_frame();
         }
 		
 
+
 		sf2d_swapbuffers();
 	}
 
-    delete click;
-    fclose(file);
-exit:
     sf2d_free_texture(topScreen);
-    sf2d_free_texture(unpressedButton);
-    sf2d_free_texture(pressedButton);
-    sf2d_fini();
-    
-    romfsExit();
-    sdmcExit();
-    
-    if (dspfirmfound) {
-        ndspExit();
-    }
-    
+    sf2d_free_texture(unpressedButton1);
+    sf2d_free_texture(pressedButton1);
+    sf2d_free_texture(unpressedButton2);
+    sf2d_free_texture(pressedButton2);
+    sf2d_free_texture(unpressedButton3);
+    sf2d_free_texture(pressedButton3);
+    sf2d_free_texture(unpressedButton4);
+    sf2d_free_texture(pressedButton4);
+    sf2d_free_texture(unpressedButton5);
+    sf2d_free_texture(pressedButton5);
+    sf2d_free_texture(unpressedButton6);
+    sf2d_free_texture(pressedButton6);
+    sf2d_free_texture(unpressedButton7);
+    sf2d_free_texture(pressedButton7);
+    sf2d_free_texture(unpressedButton8);
+    sf2d_free_texture(pressedButton8);
+	sf2d_fini();
 
 	return 0;
 }
