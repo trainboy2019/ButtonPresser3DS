@@ -100,22 +100,6 @@ main.o: /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/source/main.cpp \
  /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedButton7_png.h \
  /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/button8_png.h \
  /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedButton8_png.h \
- /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pokeball1_png.h \
- /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedPokeball1_png.h \
- /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pokeball2_png.h \
- /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedPokeball2_png.h \
- /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pokeball3_png.h \
- /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedPokeball3_png.h \
- /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pokeball4_png.h \
- /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedPokeball4_png.h \
- /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pokeball5_png.h \
- /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedPokeball5_png.h \
- /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pokeball6_png.h \
- /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedPokeball6_png.h \
- /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pokeball7_png.h \
- /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedPokeball7_png.h \
- /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pokeball8_png.h \
- /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedPokeball8_png.h \
  /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/topscr_png.h
 
 /usr/local/devkitPro/libctru/include/3ds.h:
@@ -319,37 +303,5 @@ main.o: /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/source/main.cpp \
 /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/button8_png.h:
 
 /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedButton8_png.h:
-
-/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pokeball1_png.h:
-
-/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedPokeball1_png.h:
-
-/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pokeball2_png.h:
-
-/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedPokeball2_png.h:
-
-/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pokeball3_png.h:
-
-/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedPokeball3_png.h:
-
-/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pokeball4_png.h:
-
-/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedPokeball4_png.h:
-
-/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pokeball5_png.h:
-
-/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedPokeball5_png.h:
-
-/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pokeball6_png.h:
-
-/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedPokeball6_png.h:
-
-/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pokeball7_png.h:
-
-/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedPokeball7_png.h:
-
-/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pokeball8_png.h:
-
-/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedPokeball8_png.h:
 
 /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/topscr_png.h:
