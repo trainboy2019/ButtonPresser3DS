@@ -6,6 +6,8 @@
 
 #include "button_png.h"
 #include "pressedButton_png.h"
+#include "buttonDSP_png.h"
+#include "pressedButtonDSP_png.h"
 #include "topscr_png.h"
 #include "sound.h"
 
@@ -17,6 +19,8 @@ int main() {
     sf2d_init();
     sf2d_texture* pressedButton   = sfil_load_PNG_buffer(pressedButton_png, SF2D_PLACE_RAM);
     sf2d_texture* unpressedButton = sfil_load_PNG_buffer(button_png,        SF2D_PLACE_RAM);
+    sf2d_texture* pressedButtonDSP   = sfil_load_PNG_buffer(pressedButtonDSP_png, SF2D_PLACE_RAM);
+    sf2d_texture* unpressedButtonDSP = sfil_load_PNG_buffer(buttonDSP_png,        SF2D_PLACE_RAM);
 	sf2d_texture* topScreen       = sfil_load_PNG_buffer(topscr_png,        SF2D_PLACE_RAM);
 
 	int posx = (320 / 2);
@@ -64,7 +68,7 @@ int main() {
         if (kUp & KEY_TOUCH){
             pressed=false;
             if (dspfirmfound) {
-                click->stop();
+               // click->stop();
             }
         }
 
@@ -80,7 +84,12 @@ int main() {
 		// draw the spidget finner
         if (pressed){
             sf2d_start_frame(GFX_BOTTOM, GFX_LEFT);
-            sf2d_draw_texture_rotate(pressedButton, posx, posy, 0.0f);
+            if (dspfirmfound) {
+                sf2d_draw_texture_rotate(pressedButtonDSP, posx, posy, 0.0f);
+            }
+            else{
+                sf2d_draw_texture_rotate(pressedButton, posx, posy, 0.0f);
+            }
             sf2d_end_frame();
         }
         if (!pressed){
