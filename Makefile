@@ -31,6 +31,7 @@ BUILD		:=	build
 SOURCES		:=	source
 DATA		:=	data
 INCLUDES	:=	include
+ROMFS		:=	romfs
 
 APP_TITLE	:= ButtonPresser3DS
 APP_DESCRIPTION	:= ButtonPresser3DS

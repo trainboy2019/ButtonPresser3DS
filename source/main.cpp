@@ -7,10 +7,13 @@
 #include "button_png.h"
 #include "pressedButton_png.h"
 #include "topscr_png.h"
+#include "sound.h"
 
 using namespace std;
 
 int main() {
+    sdmcInit();
+    romfsInit();
     sf2d_init();
     sf2d_texture* pressedButton   = sfil_load_PNG_buffer(pressedButton_png, SF2D_PLACE_RAM);
     sf2d_texture* unpressedButton = sfil_load_PNG_buffer(button_png,        SF2D_PLACE_RAM);
@@ -21,6 +24,25 @@ int main() {
     
     int score = 0;
     bool pressed = false;
+    bool dspfirmfound=false;
+    sound *click = NULL;
+    
+    FILE *file = fopen("3ds/dspfirm.cdc","rb");
+    if (file == NULL) goto exit;
+    ndspInit();
+    dspfirmfound = true;
+    
+    if (dspfirmfound) {
+        ndspInit();
+    }
+    
+    // Load the sound effects if DSP is available.
+    if (dspfirmfound) {
+        
+        click = new sound("romfs:/click.wav", 2, false);
+    }
+    
+    
 
 	// Main loop
 	while (aptMainLoop()) {
@@ -32,12 +54,18 @@ int main() {
 		if (kDown & KEY_TOUCH) {
 			pressed=true;
             score=score+1;
+            if (dspfirmfound) {
+                click->play();
+            }
 		}
         if (kHeld & KEY_TOUCH){
             pressed=true;
         }
         if (kUp & KEY_TOUCH){
             pressed=false;
+            if (dspfirmfound) {
+                click->stop();
+            }
         }
 
 		if (kDown & KEY_START) {
@@ -65,10 +93,21 @@ int main() {
 		sf2d_swapbuffers();
 	}
 
+    delete click;
+    fclose(file);
+exit:
     sf2d_free_texture(topScreen);
     sf2d_free_texture(unpressedButton);
     sf2d_free_texture(pressedButton);
-	sf2d_fini();
+    sf2d_fini();
+    
+    romfsExit();
+    sdmcExit();
+    
+    if (dspfirmfound) {
+        ndspExit();
+    }
+    
 
 	return 0;
 }

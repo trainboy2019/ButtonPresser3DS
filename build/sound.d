@@ -1,4 +1,6 @@
-main.o: /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/source/main.cpp \
+sound.o: \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/source/sound.cpp \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/source/sound.h \
  /usr/local/devkitPro/libctru/include/3ds.h \
  /usr/local/devkitPro/libctru/include/3ds/types.h \
  /usr/local/devkitPro/libctru/include/3ds/result.h \
@@ -66,28 +68,9 @@ main.o: /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/source/main.cpp \
  /usr/local/devkitPro/libctru/include/3ds/applets/swkbd.h \
  /usr/local/devkitPro/libctru/include/3ds/sdmc.h \
  /usr/local/devkitPro/libctru/include/3ds/romfs.h \
- /usr/local/devkitPro/libctru/include/3ds/font.h \
- /usr/local/devkitPro/libctru/include/sf2d.h \
- /usr/local/devkitPro/libctru/include/citro3d.h \
- /usr/local/devkitPro/libctru/include/c3d/types.h \
- /usr/local/devkitPro/libctru/include/c3d/maths.h \
- /usr/local/devkitPro/libctru/include/c3d/mtxstack.h \
- /usr/local/devkitPro/libctru/include/c3d/uniforms.h \
- /usr/local/devkitPro/libctru/include/c3d/attribs.h \
- /usr/local/devkitPro/libctru/include/c3d/buffers.h \
- /usr/local/devkitPro/libctru/include/c3d/base.h \
- /usr/local/devkitPro/libctru/include/c3d/texenv.h \
- /usr/local/devkitPro/libctru/include/c3d/effect.h \
- /usr/local/devkitPro/libctru/include/c3d/texture.h \
- /usr/local/devkitPro/libctru/include/c3d/light.h \
- /usr/local/devkitPro/libctru/include/c3d/lightlut.h \
- /usr/local/devkitPro/libctru/include/c3d/renderbuffer.h \
- /usr/local/devkitPro/libctru/include/c3d/renderqueue.h \
- /usr/local/devkitPro/libctru/include/sfil.h \
- /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/button_png.h \
- /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedButton_png.h \
- /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/topscr_png.h \
- /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/source/sound.h
+ /usr/local/devkitPro/libctru/include/3ds/font.h
+
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/source/sound.h:
 
 /usr/local/devkitPro/libctru/include/3ds.h:
 
@@ -224,45 +207,3 @@ main.o: /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/source/main.cpp \
 /usr/local/devkitPro/libctru/include/3ds/romfs.h:
 
 /usr/local/devkitPro/libctru/include/3ds/font.h:
-
-/usr/local/devkitPro/libctru/include/sf2d.h:
-
-/usr/local/devkitPro/libctru/include/citro3d.h:
-
-/usr/local/devkitPro/libctru/include/c3d/types.h:
-
-/usr/local/devkitPro/libctru/include/c3d/maths.h:
-
-/usr/local/devkitPro/libctru/include/c3d/mtxstack.h:
-
-/usr/local/devkitPro/libctru/include/c3d/uniforms.h:
-
-/usr/local/devkitPro/libctru/include/c3d/attribs.h:
-
-/usr/local/devkitPro/libctru/include/c3d/buffers.h:
-
-/usr/local/devkitPro/libctru/include/c3d/base.h:
-
-/usr/local/devkitPro/libctru/include/c3d/texenv.h:
-
-/usr/local/devkitPro/libctru/include/c3d/effect.h:
-
-/usr/local/devkitPro/libctru/include/c3d/texture.h:
-
-/usr/local/devkitPro/libctru/include/c3d/light.h:
-
-/usr/local/devkitPro/libctru/include/c3d/lightlut.h:
-
-/usr/local/devkitPro/libctru/include/c3d/renderbuffer.h:
-
-/usr/local/devkitPro/libctru/include/c3d/renderqueue.h:
-
-/usr/local/devkitPro/libctru/include/sfil.h:
-
-/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/button_png.h:
-
-/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedButton_png.h:
-
-/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/topscr_png.h:
-
-/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/source/sound.h:
