@@ -37,6 +37,23 @@
 #include "pressedPokeball7_png.h"
 #include "pokeball8_png.h"
 #include "pressedPokeball8_png.h"
+
+#include "moon1_png.h"
+#include "pressedMoon1_png.h"
+#include "moon2_png.h"
+#include "pressedMoon2_png.h"
+#include "moon3_png.h"
+#include "pressedMoon3_png.h"
+#include "moon4_png.h"
+#include "pressedMoon4_png.h"
+#include "moon5_png.h"
+#include "pressedMoon5_png.h"
+#include "moon6_png.h"
+#include "pressedMoon6_png.h"
+#include "moon7_png.h"
+#include "pressedMoon7_png.h"
+#include "moon8_png.h"
+#include "pressedMoon8_png.h"
 #include "topscr_png.h"
 
 using namespace std;
@@ -75,6 +92,22 @@ int main() {
     sf2d_texture* unpressedPokeball7 = sfil_load_PNG_buffer(pokeball7_png,        SF2D_PLACE_RAM);
     sf2d_texture* pressedPokeball8   = sfil_load_PNG_buffer(pressedPokeball8_png, SF2D_PLACE_RAM);
     sf2d_texture* unpressedPokeball8 = sfil_load_PNG_buffer(pokeball8_png,        SF2D_PLACE_RAM);
+    sf2d_texture* pressedMoon1   = sfil_load_PNG_buffer(pressedMoon1_png, SF2D_PLACE_RAM);
+    sf2d_texture* unpressedMoon1 = sfil_load_PNG_buffer(moon1_png,        SF2D_PLACE_RAM);
+    sf2d_texture* pressedMoon2   = sfil_load_PNG_buffer(pressedMoon2_png, SF2D_PLACE_RAM);
+    sf2d_texture* unpressedMoon2 = sfil_load_PNG_buffer(moon2_png,        SF2D_PLACE_RAM);
+    sf2d_texture* pressedMoon3   = sfil_load_PNG_buffer(pressedMoon3_png, SF2D_PLACE_RAM);
+    sf2d_texture* unpressedMoon3 = sfil_load_PNG_buffer(moon3_png,        SF2D_PLACE_RAM);
+    sf2d_texture* pressedMoon4   = sfil_load_PNG_buffer(pressedMoon4_png, SF2D_PLACE_RAM);
+    sf2d_texture* unpressedMoon4 = sfil_load_PNG_buffer(moon4_png,        SF2D_PLACE_RAM);
+    sf2d_texture* pressedMoon5   = sfil_load_PNG_buffer(pressedMoon5_png, SF2D_PLACE_RAM);
+    sf2d_texture* unpressedMoon5 = sfil_load_PNG_buffer(moon5_png,        SF2D_PLACE_RAM);
+    sf2d_texture* pressedMoon6   = sfil_load_PNG_buffer(pressedMoon6_png, SF2D_PLACE_RAM);
+    sf2d_texture* unpressedMoon6 = sfil_load_PNG_buffer(moon6_png,        SF2D_PLACE_RAM);
+    sf2d_texture* pressedMoon7   = sfil_load_PNG_buffer(pressedMoon7_png, SF2D_PLACE_RAM);
+    sf2d_texture* unpressedMoon7 = sfil_load_PNG_buffer(moon7_png,        SF2D_PLACE_RAM);
+    sf2d_texture* pressedMoon8   = sfil_load_PNG_buffer(pressedMoon8_png, SF2D_PLACE_RAM);
+    sf2d_texture* unpressedMoon8 = sfil_load_PNG_buffer(moon8_png,        SF2D_PLACE_RAM);
 	sf2d_texture* topScreen       = sfil_load_PNG_buffer(topscr_png,        SF2D_PLACE_RAM);
 
 	int posx = (320 / 2);
@@ -121,7 +154,7 @@ int main() {
         }
         
         if (kDown & KEY_DRIGHT) {
-            if (style==2) {
+            if (style==3) {
                 style=1;
             }
             else{
@@ -130,7 +163,7 @@ int main() {
         }
         if (kDown & KEY_DLEFT) {
             if (style==1) {
-                style=2;
+                style=3;
             }
             else{
                 style--;
@@ -178,7 +211,7 @@ int main() {
                     sf2d_draw_texture_rotate(pressedButton1, posx, posy, 0.0f);
                 }
             }
-            else{
+            else if(style==2){
                 if (color==1) {
                     sf2d_draw_texture_rotate(pressedPokeball1, posx, posy, 0.0f);
                 }
@@ -205,6 +238,35 @@ int main() {
                 }
                 else {
                     sf2d_draw_texture_rotate(pressedPokeball1, posx, posy, 0.0f);
+                }
+            }
+            else {
+                if (color==1) {
+                    sf2d_draw_texture_rotate(pressedMoon1, posx, posy, 0.0f);
+                }
+                else if (color==2) {
+                    sf2d_draw_texture_rotate(pressedMoon2, posx, posy, 0.0f);
+                }
+                else if (color==3) {
+                    sf2d_draw_texture_rotate(pressedMoon3, posx, posy, 0.0f);
+                }
+                else if (color==4) {
+                    sf2d_draw_texture_rotate(pressedMoon4, posx, posy, 0.0f);
+                }
+                else if (color==5) {
+                    sf2d_draw_texture_rotate(pressedMoon5, posx, posy, 0.0f);
+                }
+                else if (color==6) {
+                    sf2d_draw_texture_rotate(pressedMoon6, posx, posy, 0.0f);
+                }
+                else if (color==7) {
+                    sf2d_draw_texture_rotate(pressedMoon7, posx, posy, 0.0f);
+                }
+                else if (color==8) {
+                    sf2d_draw_texture_rotate(pressedMoon8, posx, posy, 0.0f);
+                }
+                else {
+                    sf2d_draw_texture_rotate(pressedMoon1, posx, posy, 0.0f);
                 }
             }
             sf2d_end_frame();
@@ -240,7 +302,7 @@ int main() {
                     sf2d_draw_texture_rotate(unpressedButton1, posx, posy, 0.0f);
                 }
             }
-            else{
+            else if (style==2){
                 if (color==1) {
                     sf2d_draw_texture_rotate(unpressedPokeball1, posx, posy, 0.0f);
                 }
@@ -269,6 +331,35 @@ int main() {
                     sf2d_draw_texture_rotate(unpressedPokeball1, posx, posy, 0.0f);
                 }
             }
+            else {
+                if (color==1) {
+                    sf2d_draw_texture_rotate(unpressedMoon1, posx, posy, 0.0f);
+                }
+                else if (color==2) {
+                    sf2d_draw_texture_rotate(unpressedMoon2, posx, posy, 0.0f);
+                }
+                else if (color==3) {
+                    sf2d_draw_texture_rotate(unpressedMoon3, posx, posy, 0.0f);
+                }
+                else if (color==4) {
+                    sf2d_draw_texture_rotate(unpressedMoon4, posx, posy, 0.0f);
+                }
+                else if (color==5) {
+                    sf2d_draw_texture_rotate(unpressedMoon5, posx, posy, 0.0f);
+                }
+                else if (color==6) {
+                    sf2d_draw_texture_rotate(unpressedMoon6, posx, posy, 0.0f);
+                }
+                else if (color==7) {
+                    sf2d_draw_texture_rotate(unpressedMoon7, posx, posy, 0.0f);
+                }
+                else if (color==8) {
+                    sf2d_draw_texture_rotate(unpressedMoon8, posx, posy, 0.0f);
+                }
+                else {
+                    sf2d_draw_texture_rotate(unpressedMoon1, posx, posy, 0.0f);
+                }
+            }
             sf2d_end_frame();
         }
 		
@@ -294,6 +385,7 @@ int main() {
     sf2d_free_texture(pressedButton7);
     sf2d_free_texture(unpressedButton8);
     sf2d_free_texture(pressedButton8);
+    
     sf2d_free_texture(unpressedPokeball1);
     sf2d_free_texture(pressedPokeball1);
     sf2d_free_texture(unpressedPokeball2);
@@ -310,6 +402,24 @@ int main() {
     sf2d_free_texture(pressedPokeball7);
     sf2d_free_texture(unpressedPokeball8);
     sf2d_free_texture(pressedPokeball8);
+    
+    sf2d_free_texture(unpressedMoon1);
+    sf2d_free_texture(pressedMoon1);
+    sf2d_free_texture(unpressedMoon2);
+    sf2d_free_texture(pressedMoon2);
+    sf2d_free_texture(unpressedMoon3);
+    sf2d_free_texture(pressedMoon3);
+    sf2d_free_texture(unpressedMoon4);
+    sf2d_free_texture(pressedMoon4);
+    sf2d_free_texture(unpressedMoon5);
+    sf2d_free_texture(pressedMoon5);
+    sf2d_free_texture(unpressedMoon6);
+    sf2d_free_texture(pressedMoon6);
+    sf2d_free_texture(unpressedMoon7);
+    sf2d_free_texture(pressedMoon7);
+    sf2d_free_texture(unpressedMoon8);
+    sf2d_free_texture(pressedMoon8);
+    
 	sf2d_fini();
 
 	return 0;

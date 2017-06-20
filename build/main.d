@@ -116,6 +116,22 @@ main.o: /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/source/main.cpp \
  /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedPokeball7_png.h \
  /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pokeball8_png.h \
  /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedPokeball8_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/moon1_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedMoon1_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/moon2_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedMoon2_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/moon3_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedMoon3_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/moon4_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedMoon4_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/moon5_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedMoon5_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/moon6_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedMoon6_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/moon7_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedMoon7_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/moon8_png.h \
+ /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedMoon8_png.h \
  /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/topscr_png.h
 
 /usr/local/devkitPro/libctru/include/3ds.h:
@@ -351,5 +367,37 @@ main.o: /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/source/main.cpp \
 /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pokeball8_png.h:
 
 /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedPokeball8_png.h:
+
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/moon1_png.h:
+
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedMoon1_png.h:
+
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/moon2_png.h:
+
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedMoon2_png.h:
+
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/moon3_png.h:
+
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedMoon3_png.h:
+
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/moon4_png.h:
+
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedMoon4_png.h:
+
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/moon5_png.h:
+
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedMoon5_png.h:
+
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/moon6_png.h:
+
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedMoon6_png.h:
+
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/moon7_png.h:
+
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedMoon7_png.h:
+
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/moon8_png.h:
+
+/Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/pressedMoon8_png.h:
 
 /Users/Ike1/Desktop/3DSBREWMAKER/ButtonPresser3DS/build/topscr_png.h:
