@@ -3,6 +3,7 @@
 #include <3ds.h>
 #include <sf2d.h>
 #include <sfil.h>
+#include <stdlib.h>
 
 #include "button1_png.h"
 #include "pressedButton1_png.h"
@@ -174,6 +175,12 @@ int main() {
 			break;
 		}
 
+        
+        gfxInitDefault();
+        consoleInit(GFX_BOTTOM, NULL);
+        printf("%f",score);
+        gfxFlushBuffers();
+        gfxSwapBuffers();
 		// draw instructions
 		sf2d_start_frame(GFX_TOP, GFX_LEFT);
 		sf2d_draw_texture(topScreen, 0, 0);
@@ -368,6 +375,8 @@ int main() {
 		sf2d_swapbuffers();
 	}
 
+    
+    gfxExit();
     sf2d_free_texture(topScreen);
     sf2d_free_texture(unpressedButton1);
     sf2d_free_texture(pressedButton1);
