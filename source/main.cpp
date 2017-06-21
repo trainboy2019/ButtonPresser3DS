@@ -125,16 +125,21 @@ int main() {
         u32 kDown = hidKeysDown();
         u32 kHeld = hidKeysHeld();
         u32 kUp = hidKeysUp();
+        gfxInitDefault();
+        consoleInit(GFX_BOTTOM, NULL);
 
 		if (kDown & KEY_TOUCH) {
 			pressed=true;
             score=score+1;
+            printf("%f",score);
 		}
         if (kHeld & KEY_TOUCH){
             pressed=true;
         }
         if (kUp & KEY_TOUCH){
             pressed=false;
+            gfxFlushBuffers();
+            gfxSwapBuffers();
         }
         
         if (kDown & KEY_DUP) {
@@ -176,11 +181,8 @@ int main() {
 		}
 
         
-        gfxInitDefault();
-        consoleInit(GFX_BOTTOM, NULL);
-        printf("%f",score);
-        gfxFlushBuffers();
-        gfxSwapBuffers();
+        
+        
 		// draw instructions
 		sf2d_start_frame(GFX_TOP, GFX_LEFT);
 		sf2d_draw_texture(topScreen, 0, 0);
