@@ -118,20 +118,21 @@ int main() {
     int color = 1;
     int style = 1;
     bool pressed = false;
-
+    
+    gfxInitDefault();
+    
 	// Main loop
 	while (aptMainLoop()) {
         hidScanInput();
         u32 kDown = hidKeysDown();
         u32 kHeld = hidKeysHeld();
         u32 kUp = hidKeysUp();
-        gfxInitDefault();
-        consoleInit(GFX_BOTTOM, NULL);
+        //consoleInit(GFX_BOTTOM, NULL);
 
 		if (kDown & KEY_TOUCH) {
 			pressed=true;
             score=score+1;
-            printf("%f",score);
+            printf("0x%08x", (unsigned int)score);
 		}
         if (kHeld & KEY_TOUCH){
             pressed=true;
