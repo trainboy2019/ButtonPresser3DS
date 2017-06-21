@@ -3,7 +3,6 @@
 #include <3ds.h>
 #include <sf2d.h>
 #include <sfil.h>
-#include <stdlib.h>
 
 #include "button1_png.h"
 #include "pressedButton1_png.h"
@@ -55,6 +54,24 @@
 #include "pressedMoon7_png.h"
 #include "moon8_png.h"
 #include "pressedMoon8_png.h"
+
+#include "frame1_png.h"
+#include "pressedFrame1_png.h"
+#include "frame2_png.h"
+#include "pressedFrame2_png.h"
+#include "frame3_png.h"
+#include "pressedFrame3_png.h"
+#include "frame4_png.h"
+#include "pressedFrame4_png.h"
+#include "frame5_png.h"
+#include "pressedFrame5_png.h"
+#include "frame6_png.h"
+#include "pressedFrame6_png.h"
+#include "frame7_png.h"
+#include "pressedFrame7_png.h"
+#include "frame8_png.h"
+#include "pressedFrame8_png.h"
+
 #include "topscr_png.h"
 
 using namespace std;
@@ -109,6 +126,22 @@ int main() {
     sf2d_texture* unpressedMoon7 = sfil_load_PNG_buffer(moon7_png,        SF2D_PLACE_RAM);
     sf2d_texture* pressedMoon8   = sfil_load_PNG_buffer(pressedMoon8_png, SF2D_PLACE_RAM);
     sf2d_texture* unpressedMoon8 = sfil_load_PNG_buffer(moon8_png,        SF2D_PLACE_RAM);
+    sf2d_texture* pressedFrame1   = sfil_load_PNG_buffer(pressedFrame1_png, SF2D_PLACE_RAM);
+    sf2d_texture* unpressedFrame1 = sfil_load_PNG_buffer(frame1_png,        SF2D_PLACE_RAM);
+    sf2d_texture* pressedFrame2   = sfil_load_PNG_buffer(pressedFrame2_png, SF2D_PLACE_RAM);
+    sf2d_texture* unpressedFrame2 = sfil_load_PNG_buffer(frame2_png,        SF2D_PLACE_RAM);
+    sf2d_texture* pressedFrame3   = sfil_load_PNG_buffer(pressedFrame3_png, SF2D_PLACE_RAM);
+    sf2d_texture* unpressedFrame3 = sfil_load_PNG_buffer(frame3_png,        SF2D_PLACE_RAM);
+    sf2d_texture* pressedFrame4   = sfil_load_PNG_buffer(pressedFrame4_png, SF2D_PLACE_RAM);
+    sf2d_texture* unpressedFrame4 = sfil_load_PNG_buffer(frame4_png,        SF2D_PLACE_RAM);
+    sf2d_texture* pressedFrame5   = sfil_load_PNG_buffer(pressedFrame5_png, SF2D_PLACE_RAM);
+    sf2d_texture* unpressedFrame5 = sfil_load_PNG_buffer(frame5_png,        SF2D_PLACE_RAM);
+    sf2d_texture* pressedFrame6   = sfil_load_PNG_buffer(pressedFrame6_png, SF2D_PLACE_RAM);
+    sf2d_texture* unpressedFrame6 = sfil_load_PNG_buffer(frame6_png,        SF2D_PLACE_RAM);
+    sf2d_texture* pressedFrame7   = sfil_load_PNG_buffer(pressedFrame7_png, SF2D_PLACE_RAM);
+    sf2d_texture* unpressedFrame7 = sfil_load_PNG_buffer(frame7_png,        SF2D_PLACE_RAM);
+    sf2d_texture* pressedFrame8   = sfil_load_PNG_buffer(pressedFrame8_png, SF2D_PLACE_RAM);
+    sf2d_texture* unpressedFrame8 = sfil_load_PNG_buffer(frame8_png,        SF2D_PLACE_RAM);
 	sf2d_texture* topScreen       = sfil_load_PNG_buffer(topscr_png,        SF2D_PLACE_RAM);
 
 	int posx = (320 / 2);
@@ -118,29 +151,23 @@ int main() {
     int color = 1;
     int style = 1;
     bool pressed = false;
-    
-    gfxInitDefault();
-    consoleInit(GFX_BOTTOM, NULL);
+
 	// Main loop
 	while (aptMainLoop()) {
         hidScanInput();
         u32 kDown = hidKeysDown();
         u32 kHeld = hidKeysHeld();
         u32 kUp = hidKeysUp();
-        //consoleInit(GFX_BOTTOM, NULL);
 
 		if (kDown & KEY_TOUCH) {
 			pressed=true;
             score=score+1;
-            printf("0x%08x", (unsigned int)score);
 		}
         if (kHeld & KEY_TOUCH){
             pressed=true;
         }
         if (kUp & KEY_TOUCH){
             pressed=false;
-            gfxFlushBuffers();
-            gfxSwapBuffers();
         }
         
         if (kDown & KEY_DUP) {
@@ -161,7 +188,7 @@ int main() {
         }
         
         if (kDown & KEY_DRIGHT) {
-            if (style==3) {
+            if (style==4) {
                 style=1;
             }
             else{
@@ -170,7 +197,7 @@ int main() {
         }
         if (kDown & KEY_DLEFT) {
             if (style==1) {
-                style=3;
+                style=4;
             }
             else{
                 style--;
@@ -181,9 +208,6 @@ int main() {
 			break;
 		}
 
-        
-        
-        
 		// draw instructions
 		sf2d_start_frame(GFX_TOP, GFX_LEFT);
 		sf2d_draw_texture(topScreen, 0, 0);
@@ -250,7 +274,7 @@ int main() {
                     sf2d_draw_texture_rotate(pressedPokeball1, posx, posy, 0.0f);
                 }
             }
-            else {
+            else if(style==3) {
                 if (color==1) {
                     sf2d_draw_texture_rotate(pressedMoon1, posx, posy, 0.0f);
                 }
@@ -277,6 +301,35 @@ int main() {
                 }
                 else {
                     sf2d_draw_texture_rotate(pressedMoon1, posx, posy, 0.0f);
+                }
+            }
+            else{
+                if (color==1) {
+                    sf2d_draw_texture_rotate(pressedFrame1, posx, posy, 0.0f);
+                }
+                else if (color==2) {
+                    sf2d_draw_texture_rotate(pressedFrame2, posx, posy, 0.0f);
+                }
+                else if (color==3) {
+                    sf2d_draw_texture_rotate(pressedFrame3, posx, posy, 0.0f);
+                }
+                else if (color==4) {
+                    sf2d_draw_texture_rotate(pressedFrame4, posx, posy, 0.0f);
+                }
+                else if (color==5) {
+                    sf2d_draw_texture_rotate(pressedFrame5, posx, posy, 0.0f);
+                }
+                else if (color==6) {
+                    sf2d_draw_texture_rotate(pressedFrame6, posx, posy, 0.0f);
+                }
+                else if (color==7) {
+                    sf2d_draw_texture_rotate(pressedFrame7, posx, posy, 0.0f);
+                }
+                else if (color==8) {
+                    sf2d_draw_texture_rotate(pressedFrame8, posx, posy, 0.0f);
+                }
+                else {
+                    sf2d_draw_texture_rotate(pressedFrame1, posx, posy, 0.0f);
                 }
             }
             sf2d_end_frame();
@@ -341,7 +394,7 @@ int main() {
                     sf2d_draw_texture_rotate(unpressedPokeball1, posx, posy, 0.0f);
                 }
             }
-            else {
+            else if(style==3) {
                 if (color==1) {
                     sf2d_draw_texture_rotate(unpressedMoon1, posx, posy, 0.0f);
                 }
@@ -370,6 +423,35 @@ int main() {
                     sf2d_draw_texture_rotate(unpressedMoon1, posx, posy, 0.0f);
                 }
             }
+            else {
+                if (color==1) {
+                    sf2d_draw_texture_rotate(unpressedFrame1, posx, posy, 0.0f);
+                }
+                else if (color==2) {
+                    sf2d_draw_texture_rotate(unpressedFrame2, posx, posy, 0.0f);
+                }
+                else if (color==3) {
+                    sf2d_draw_texture_rotate(unpressedFrame3, posx, posy, 0.0f);
+                }
+                else if (color==4) {
+                    sf2d_draw_texture_rotate(unpressedFrame4, posx, posy, 0.0f);
+                }
+                else if (color==5) {
+                    sf2d_draw_texture_rotate(unpressedFrame5, posx, posy, 0.0f);
+                }
+                else if (color==6) {
+                    sf2d_draw_texture_rotate(unpressedFrame6, posx, posy, 0.0f);
+                }
+                else if (color==7) {
+                    sf2d_draw_texture_rotate(unpressedFrame7, posx, posy, 0.0f);
+                }
+                else if (color==8) {
+                    sf2d_draw_texture_rotate(unpressedFrame8, posx, posy, 0.0f);
+                }
+                else {
+                    sf2d_draw_texture_rotate(unpressedFrame1, posx, posy, 0.0f);
+                }
+            }
             sf2d_end_frame();
         }
 		
@@ -378,8 +460,6 @@ int main() {
 		sf2d_swapbuffers();
 	}
 
-    
-    gfxExit();
     sf2d_free_texture(topScreen);
     sf2d_free_texture(unpressedButton1);
     sf2d_free_texture(pressedButton1);
@@ -431,7 +511,24 @@ int main() {
     sf2d_free_texture(pressedMoon7);
     sf2d_free_texture(unpressedMoon8);
     sf2d_free_texture(pressedMoon8);
-    
+
+    sf2d_free_texture(unpressedFrame1);
+    sf2d_free_texture(pressedFrame1);
+    sf2d_free_texture(unpressedFrame2);
+    sf2d_free_texture(pressedFrame2);
+    sf2d_free_texture(unpressedFrame3);
+    sf2d_free_texture(pressedFrame3);
+    sf2d_free_texture(unpressedFrame4);
+    sf2d_free_texture(pressedFrame4);
+    sf2d_free_texture(unpressedFrame5);
+    sf2d_free_texture(pressedFrame5);
+    sf2d_free_texture(unpressedFrame6);
+    sf2d_free_texture(pressedFrame6);
+    sf2d_free_texture(unpressedFrame7);
+    sf2d_free_texture(pressedFrame7);
+    sf2d_free_texture(unpressedFrame8);
+    sf2d_free_texture(pressedFrame8);
+
 	sf2d_fini();
 
 	return 0;
