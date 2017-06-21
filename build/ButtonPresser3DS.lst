@@ -56,1028 +56,1107 @@
 00100be0 t register_tm_clones
 00100c18 t __do_global_dtors_aux
 00100c5c t frame_dummy
-00100cb8 00000a90 T main
-00101748 000002f8 t _sfil_load_PNG_generic
-00101a40 00000034 t _sfil_read_png_buffer_fn
-00101a74 0000004c T sfil_load_PNG_buffer
-00101ac0 00000050 T png_zalloc
-00101b10 00000004 T png_zfree
-00101b18 000001d0 t png_build_16bit_table
-00101ce8 00000114 t png_colorspace_endpoints_match
-00101dfc 00000498 t png_free_data.part.3
-00102298 00000088 t png_muldiv.part.9
-00102320 00000070 t png_gamma_8bit_correct.part.15
-00102390 00000200 t png_icc_profile_error
-00102590 0000003c T png_set_sig_bytes
-001025cc 00000070 T png_sig_cmp
-0010263c 00000020 T png_reset_crc
-0010265c 00000054 T png_calculate_crc
-001026b0 00000110 T png_user_version_check
-001027c0 00000114 T png_create_png_struct
-001028d4 00000040 T png_create_info_struct
-00102914 000003a0 T png_destroy_info_struct
-00102cb4 00000010 T png_free_data
-00102cc4 0000000c T png_get_io_ptr
-00102cd0 00000094 T png_chunk_unknown_handling
-00102d64 000000e4 T png_zstream_error
-00102e48 00000158 T png_colorspace_set_gamma
-00102fa0 00000084 T png_colorspace_sync
-00103028 00000204 T png_colorspace_set_sRGB
-0010322c 00000198 T png_icc_check_length
-001033c4 0000037c T png_icc_check_header
-00103740 00000138 T png_icc_check_tag_table
-00103878 00000250 T png_icc_set_sRGB
-00103ac8 00000284 T png_colorspace_set_rgb_coefficients
-00103d4c 000002ac T png_check_IHDR
-00103ff8 000002a8 T png_check_fp_number
-001042a0 000002d4 T png_check_fp_string
-00104578 000000c8 T png_muldiv
-00104640 00000078 T png_reciprocal
-001046b8 00000b6c T png_colorspace_set_chromaticities
-00105224 00000020 T png_gamma_significant
-00105248 000000a0 T png_reciprocal2
-001052e8 00000090 T png_gamma_8bit_correct
-00105378 00000104 T png_gamma_correct
-0010547c 00000134 T png_destroy_gamma_table
-001055b0 00000880 T png_build_gamma_table
-00105e30 000001f0 t png_format_buffer.isra.0
-00106020 00000078 T png_safecat
-00106098 00000170 T png_format_number
-00106208 0000014c T png_warning
-00106354 000001ac T png_chunk_warning
-00106500 00000094 T png_free_jmpbuf
-00106594 0000002c T png_longjmp
-001065c0 00000060 T png_error
-00106620 0000015c T png_app_warning
-0010677c 0000015c T png_app_error
-001068d8 0000002c T png_chunk_error
-00106904 000001a4 T png_chunk_benign_error
-00106aa8 000002d4 T png_benign_error
-00106d7c 000000f0 T png_set_longjmp_fn
-00106e6c 000002dc T png_chunk_report
-00107148 00000014 T png_set_error_fn
-0010715c 0000001c T png_get_valid
-00107178 000000a0 T png_get_IHDR
-00107218 00000064 T png_destroy_png_struct
-0010727c 00000078 T png_calloc
-001072f4 00000030 T png_malloc_base
-00107324 0000008c T png_malloc_array
-001073b0 00000104 T png_realloc_array
-001074b4 0000005c T png_malloc
-00107510 00000064 T png_malloc_warn
-00107574 00000024 T png_free
-00107598 00000014 T png_set_mem_fn
-001075ac 00000110 t png_do_read_intrapixel
-001076bc 00000408 t png_read_info.part.3
-00107ac4 00000058 T png_create_read_struct
-00107b1c 00000010 T png_read_info
-00107b2c 00000040 T png_read_update_info
-00107b6c 000003bc T png_read_image
-00107f28 00000134 T png_destroy_read_struct
-0010805c 00000038 T png_default_read_data
-00108094 00000020 T png_read_data
-001080b4 00000050 T png_set_read_fn
-00108104 00000218 t png_do_gray_to_rgb
-0010831c 00001170 t png_do_compose
-0010948c 00000038 T png_set_scale_16
-001094c4 0000003c T png_set_expand
-00109500 0000003c T png_set_palette_to_rgb
-0010953c 0000003c T png_set_tRNS_to_alpha
-00109578 00000038 T png_set_gray_to_rgb
-001095b0 00000cc4 T png_init_read_transformations
-0010a274 000002c4 T png_read_transform_info
-0010a538 000023f0 T png_do_read_transformations
-0010c928 000001d0 t png_read_filter_row_sub
-0010caf8 000001ac t png_read_filter_row_up
-0010cca4 00000080 t png_read_filter_row_avg
-0010cd24 0000008c t png_read_filter_row_paeth_1byte_pixel
-0010cdb0 0000026c t png_read_filter_row_paeth_multibyte_pixel
-0010d01c 00000110 t png_inflate_claim
-0010d12c 000001d0 t png_inflate.constprop.7
-0010d2fc 00000158 t png_inflate_read.part.3.constprop.5
-0010d454 000000dc t png_crc_finish.constprop.10
-0010d530 000002c8 t png_decompress_chunk.constprop.6
-0010d7f8 000000ac T png_read_sig
-0010d8a4 00000158 T png_read_chunk_header
-0010d9fc 0000015c T png_crc_finish
-0010db58 00000178 T png_handle_IHDR
-0010dcd0 00000250 T png_handle_PLTE
-0010df20 00000054 T png_handle_IEND
-0010df74 000000e4 T png_handle_gAMA
-0010e058 00000214 T png_handle_sBIT
-0010e26c 00000300 T png_handle_cHRM
-0010e56c 00000108 T png_handle_sRGB
-0010e674 000005dc T png_handle_iCCP
-0010ec50 0000033c T png_handle_sPLT
-0010ef8c 0000023c T png_handle_tRNS
-0010f1c8 00000224 T png_handle_bKGD
-0010f3ec 0000013c T png_handle_hIST
-0010f528 0000013c T png_handle_pHYs
-0010f664 0000015c T png_handle_oFFs
-0010f7c0 00000378 T png_handle_pCAL
-0010fb38 00000284 T png_handle_sCAL
-0010fdbc 00000114 T png_handle_tIME
-0010fed0 000001c4 T png_handle_tEXt
-00110094 0000024c T png_handle_zTXt
-001102e0 00000348 T png_handle_iTXt
-00110628 0000036c T png_handle_unknown
-00110994 000004dc T png_combine_row
-00110e70 00000484 T png_do_read_interlace
-001112f4 00000090 T png_read_filter_row
-00111384 00000508 T png_read_IDAT_data
-0011188c 00000368 T png_read_finish_row
-00111bf4 00000340 T png_read_start_row
-00111f34 00000050 T png_set_bKGD
-00111f84 000000ac T png_set_hIST
-00112030 000000dc T png_set_IHDR
-0011210c 0000002c T png_set_oFFs
-00112138 00000268 T png_set_pCAL
-001123a0 00000164 T png_set_sCAL_s
-00112504 0000002c T png_set_pHYs
-00112530 0000013c T png_set_PLTE
-0011266c 00000044 T png_set_sBIT
-001126b0 00000334 T png_set_text_2
-001129e4 000000a0 T png_set_tIME
-00112a84 00000138 T png_set_tRNS
-00112bbc 00000184 T png_set_sPLT
-00112d40 0000018c T png_set_unknown_chunks
-00112ecc 00000028 T png_set_packing
-00112ef4 00000030 T png_set_interlace_handling
-00112f24 00000088 T png_set_filler
-00112fac 000001ec T png_do_invert
-00113198 0000004c T png_do_swap
-001131e4 0000006c T png_do_packswap
-00113250 0000022c T png_do_strip_channel
-0011347c 0000013c T png_do_bgr
-001135b8 000001d0 T png_do_check_palette_indexes
-00113788 0000044c T adler32
-00113bd4 0000059c T crc32
-00114170 0000009c T inflateReset
-0011420c 00000120 T inflateReset2
-0011432c 00000178 T inflateInit2_
-001144a4 00001ffc T inflate
-001164a0 00000060 T inflateEnd
-00116500 00000b64 T inflate_table
-00117064 00000008 T zcalloc
-0011706c 00000008 T zcfree
-00117074 00000df0 T inflate_fast
-00117e64 00000048 T sf2d_fini
-00117eac 000000a0 T sf2d_start_frame_target
-00117f4c 00000038 T sf2d_start_frame
-00117f84 00000004 T sf2d_end_frame
-00117f88 000000b0 T sf2d_swapbuffers
-00118038 00000040 T sf2d_pool_memalign
-00118078 00000038 T sf2d_set_clear_color
-001180b0 000001ac t sf2d_init_advanced.part.0
-0011825c 00000028 T sf2d_init
-00118284 00000118 T sf2d_create_texture
-0011839c 00000094 T sf2d_create_rendertarget
-00118430 00000020 T sf2d_free_texture
-00118450 00000014 T sf2d_clear_target
-00118464 00000054 T sf2d_bind_texture
-001184b8 00000160 T sf2d_draw_texture
-00118618 000001d4 T sf2d_draw_texture_rotate
-001187ec 00000110 T sf2d_texture_tile32
-001188fc 000002b4 T C3D_UpdateUniforms
-00118bb0 000000c0 T C3Di_DirtyUniforms
-00118c70 000000e8 T C3Di_LoadShaderUniforms
-00118d58 00000028 T C3Di_ClearShaderUniforms
-00118d80 00000028 T AttrInfo_Init
-00118da8 000000ac T AttrInfo_AddLoader
-00118e54 00000024 T C3D_GetAttrInfo
-00118e78 00000080 T C3Di_AttrInfoBind
-00118ef8 0000003c T C3D_DepthMap
-00118f34 0000001c T C3D_CullFace
-00118f50 00000040 T C3D_StencilTest
-00118f90 00000024 T C3D_StencilOp
-00118fb4 0000001c T C3D_BlendingColor
-00118fd0 0000002c T C3D_DepthTest
-00118ffc 0000002c T C3D_AlphaTest
-00119028 00000050 T C3D_AlphaBlend
-00119078 00000030 T C3D_FragOpMode
-001190a8 0000011c T C3Di_EffectBind
-001191c4 00000148 T C3D_DrawArrays
-0011930c 00000020 T BufInfo_Init
-0011932c 00000084 T BufInfo_Add
-001193b0 00000024 T C3D_GetBufInfo
-001193d4 00000048 T C3Di_BufInfoBind
-0011941c 00000034 T TexEnv_Init
-00119450 00000034 T C3D_GetTexEnv
-00119484 00000024 T C3Di_TexEnvBind
-001194a8 000000b8 T C3D_TexInit
-00119560 000000b8 T C3D_TexInitVRAM
-00119618 00000028 T C3D_TexSetWrap
-00119640 00000034 T C3D_TexBind
-00119674 0000003c T C3D_TexDelete
-001196b0 0000003c t C3Di_RenderQueueWaitDone
-001196ec 00000078 t performTransfer.part.0
-00119764 00000050 t transferTarget
-001197b4 00000024 t onVBlank1
-001197d8 0000008c t onVBlank0
-00119864 0000003c t performClear.part.2
-001198a0 0000004c t clearTarget
-001198ec 000000c0 t updateFrameQueue.part.4
-001199ac 000000e0 t onRenderFinish
-00119a8c 000000bc t onTransferFinish
-00119b48 0000005c t checkRenderQueueInit.part.7
-00119ba4 00000070 t onClearDone
-00119c14 0000006c T C3D_FrameBegin
-00119c80 00000078 T C3D_FrameDrawOn
-00119cf8 000000cc T C3D_FrameEnd
-00119dc4 000000e0 T C3D_RenderTargetCreate
-00119ea4 0000007c T C3D_RenderTargetDelete
-00119f20 00000084 t C3Di_RenderQueueExit
-00119fa4 00000050 T C3D_RenderTargetSetClear
-00119ff4 00000058 T C3D_RenderTargetSetOutput
-0011a04c 00000088 t C3Di_AptEventHook
-0011a0d4 00000174 T C3D_Init
-0011a248 00000098 T C3D_SetViewport
-0011a2e0 00000584 T C3Di_UpdateContext
-0011a864 000000e0 T C3Di_FinalizeFrame
-0011a944 00000048 T C3D_Fini
-0011a98c 000000d4 T C3D_BindProgram
-0011aa60 000000c8 T Mtx_OrthoTilt
-0011ab28 000000a4 T C3D_RenderBufInit
-0011abcc 00000080 T C3D_RenderBufClearAsync
-0011ac4c 00000028 T C3D_RenderBufTransferAsync
-0011ac74 00000038 T C3D_RenderBufBind
-0011acac 00000170 T C3Di_RenderBufBind
-0011ae1c 00000018 T C3D_RenderBufDelete
-0011ae34 000000b4 T C3D_ImmSendAttrib
-0011aee8 00000024 t addrMapNodeComparator(rbtree_node const*, rbtree_node const*)
-0011af0c 00000004 t addrMapNodeDestructor(rbtree_node*)
-0011af10 0000013c T linearMemAlign
-0011b04c 00000008 T linearAlloc
-0011b054 00000050 T linearFree
-0011b0a4 00000024 t addrMapNodeComparator(rbtree_node const*, rbtree_node const*)
-0011b0c8 00000004 t addrMapNodeDestructor(rbtree_node*)
-0011b0cc 0000012c T vramMemAlign
-0011b1f8 00000008 T vramAlloc
-0011b200 00000050 T vramFree
-0011b250 0000008c t gfxSetFramebufferInfo.part.0
-0011b2dc 00000010 T gfxSet3D
-0011b2ec 00000010 T gfxIs3D
-0011b2fc 00000018 T __get_bytes_per_pixel
-0011b314 00000174 T gfxSetScreenFormat
-0011b488 00000070 T gfxSetFramebufferInfo
-0011b4f8 00000088 T gfxWriteFramebufferInfo
-0011b580 000001fc T gfxInit
-0011b77c 00000010 T gfxInitDefault
-0011b78c 000000e0 T gfxExit
-0011b86c 000000b0 T gfxGetFramebuffer
-0011b91c 000000c8 T gfxFlushBuffers
-0011b9e4 00000070 T gfxConfigScreen
-0011ba54 00000020 T gfxSwapBuffers
-0011ba74 00000058 t getSysTime
-0011bacc 0000004c T osConvertVirtToPhys
-0011bb18 00000024 T osGetMemRegionUsed
-0011bb40 000000f4 T __libctru_gtod
-0011bc38 00000078 T osGetTime
-0011bcb0 00000034 T __ctru_speedup_config
-0011bce4 0000002c T GPUCMD_SetBuffer
-0011bd10 00000040 T GPUCMD_GetBuffer
-0011bd50 00000108 T GPUCMD_Add
-0011be58 00000098 T GPUCMD_Finalize
-0011bef0 00000044 T f32tof24
-0011bf34 00000040 T f32tof31
-0011bf74 00000054 T GX_ProcessCommandList
-0011bfc8 00000060 T GX_MemoryFill
-0011c028 00000050 T GX_DisplayTransfer
-0011c078 00000054 T GX_FlushCacheRegions
-0011c0cc 00000038 T DVLB_Free
-0011c104 00000078 T DVLE_GetUniformRegister
-0011c17c 000001ec T DVLE_GenerateOutmap
-0011c368 000001c0 T DVLB_ParseFile
-0011c528 000001f4 T shaderInstanceInit
-0011c71c 00000034 T shaderInstanceFree
-0011c750 00000018 T shaderInstanceGetUniformLocation
-0011c768 00000018 T shaderProgramInit
-0011c780 0000002c T shaderProgramFree
-0011c7ac 0000006c T shaderProgramSetVsh
-0011c818 00000894 T shaderProgramConfigure
-0011d0ac 00000070 T ptmSysmInit
-0011d11c 00000034 T ptmSysmExit
-0011d150 00000034 T PTMSYSM_ConfigureNew3DSCPU
-0011d184 000000d0 T hidExit
-0011d254 00000234 T hidScanInput
-0011d488 00000010 T hidKeysHeld
-0011d498 00000010 T hidKeysDown
-0011d4a8 00000010 T hidKeysUp
-0011d4b8 00000090 T HIDUSER_GetHandles
-0011d548 0000018c T hidInit
-0011d6d4 00000004 W _aptDebug
-0011d6d8 00000130 T aptSendCommand
-0011d808 0000003c t aptExitProcess
-0011d844 00000038 T aptHook
-0011d87c 0000002c T aptUnhook
-0011d8a8 0000004c T APT_InquireNotification
-0011d8f4 0000019c t aptEventHandler
-0011da90 00000074 T APT_AppletUtility
-0011db04 000000b4 T aptSetSleepAllowed
-0011dbb8 000000b4 T APT_GlanceParameter
-0011dc6c 000000c0 T APT_ReceiveParameter
-0011dd2c 000000a8 t aptReceiveParameter.constprop.1
-0011ddd8 000001ec t aptScreenTransfer
-0011dfc4 00000228 t aptWaitForWakeUp
-0011e1ec 00000070 T APT_CancelParameter
-0011e25c 00000230 T aptInit
-0011e48c 0000008c t aptClearParamQueue
-0011e518 00000214 T aptMainLoop
-0011e72c 00000148 T aptExit
-0011e874 00000070 T APT_CheckNew3DS
-0011e8e4 00000160 t gspEventThreadMain
-0011ea44 00000074 T gspInit
-0011eab8 0000003c T gspExit
-0011eaf4 0000002c T gspSetEventCallback
-0011eb20 00000088 T gspInitEventHandler
-0011eba8 00000030 T gspExitEventHandler
-0011ebd8 00000044 T gspWaitForEvent
-0011ec1c 0000006c T gspWaitForAnyEvent
-0011ec88 00000124 T gspSubmitGxCommand
-0011edac 0000006c T GSPGPU_SetBufferSwap
-0011ee18 0000004c T GSPGPU_FlushDataCache
-0011ee64 00000034 T GSPGPU_SetLcdForceBlack
-0011ee98 00000064 T GSPGPU_RegisterInterruptRelayQueue
-0011eefc 0000002c T GSPGPU_UnregisterInterruptRelayQueue
-0011ef28 00000048 T GSPGPU_AcquireRight
-0011ef70 0000002c T GSPGPU_ReleaseRight
-0011ef9c 00000080 T GSPGPU_ImportDisplayCaptureInfo
-0011f01c 0000002c T GSPGPU_SaveVramSysArea
-0011f048 0000002c T GSPGPU_RestoreVramSysArea
-0011f074 000000b0 T irrstScanInput
-0011f124 0000001c T irrstKeysHeld
-0011f140 00000050 T IRRST_GetHandles
-0011f190 00000150 T irrstInit
-0011f2e0 0000002c T IRRST_Shutdown
-0011f30c 000000ac T irrstExit
-0011f3b8 00000070 T rbtree_find
-0011f428 00000324 T rbtree_remove
-0011f74c 00000074 T rbtree_node_next
-0011f7c0 00000094 T rbtree_rotate
-0011f854 0000018c t do_insert
-0011f9e0 00000008 T rbtree_insert
-0011f9e8 00000014 T rbtree_init
-0011f9fc 000000e8 T __system_initArgv
-0011fae4 00000058 t osGetMemRegionSize
-0011fb3c 00000104 W __system_allocateHeaps
-0011fc40 00000038 W __libctru_init
-0011fc78 T svcControlMemory
-0011fc98 T svcExitProcess
-0011fca0 T svcCreateThread
-0011fcc0 T svcExitThread
-0011fcc8 T svcSleepThread
-0011fcd0 T svcReleaseMutex
-0011fcd8 T svcCreateEvent
-0011fcec T svcSignalEvent
-0011fcf4 T svcClearEvent
-0011fcfc T svcMapMemoryBlock
-0011fd04 T svcUnmapMemoryBlock
-0011fd0c T svcCreateAddressArbiter
-0011fd20 T svcArbitrateAddress
-0011fd38 T svcCloseHandle
-0011fd40 T svcWaitSynchronization
-0011fd48 T svcWaitSynchronizationN
-0011fd70 T svcDuplicateHandle
-0011fd84 T svcGetSystemTick
-0011fd8c T svcGetSystemInfo
-0011fda4 T svcConnectToPort
-0011fdb8 T svcSendSyncRequest
-0011fdc0 T svcBreak
-0011fdc8 00000098 T MemPool::CoalesceRight(MemBlock*)
-0011fe60 00000178 T MemPool::Allocate(MemChunk&, unsigned long, int)
-0011ffd8 00000100 T MemPool::Deallocate(MemChunk const&)
-001200d8 00000024 t addrMapNodeComparator(rbtree_node const*, rbtree_node const*)
-001200fc 00000004 t addrMapNodeDestructor(rbtree_node*)
-00120100 000000f4 T mappableAlloc
-001201f4 00000050 T mappableFree
-00120244 000001bc T threadCreate
-00120400 00000024 T threadJoin
-00120424 00000070 T threadExit
-00120494 00000040 t _thread_begin
-001204d4 00000050 T srvExit
-00120524 00000038 T srvRegisterClient
-0012055c 00000078 T srvInit
-001205d4 00000068 T srvGetServiceHandleDirect
-0012063c 00000038 T srvGetServiceHandle
-00120674 00000084 T envGetHandle
-001206f8 0000004c T envDestroyHandles
-00120744 00000034 t LightLock_Unlock.part.1
-00120778 0000000c T __sync_init
-00120784 00000018 T __sync_fini
-0012079c 00000010 T __sync_get_arbiter
-001207ac 00000018 T LightLock_Init
-001207c4 000000a0 T LightLock_Lock
-00120864 00000034 T LightLock_TryLock
-00120898 00000020 T LightLock_Unlock
-001208b8 00000024 T RecursiveLock_Init
-001208dc 00000030 T RecursiveLock_Lock
-0012090c 00000058 T RecursiveLock_TryLock
-00120964 00000038 T RecursiveLock_Unlock
-0012099c 00000038 T LightEvent_Init
-001209d4 0000007c T LightEvent_Clear
-00120a50 000000dc T LightEvent_Signal
-00120b2c 000000d0 T LightEvent_Wait
-00120bfc 000000a4 W __libctru_exit
-00120ca0 0000001c W __appExit
-00120cbc 00000030 t __ctru_get_reent
-00120cec 000000e4 T __system_initSyscalls
-00120dd0 0000001c W __appInit
-00120dec 00000010 t sdmc_link
-00120dfc 00000010 t sdmc_dirreset
-00120e0c 00000010 t sdmc_fchmod
-00120e1c 00000024 t error_cmp
-00120e40 00000050 t sdmc_translate_error
-00120e90 00000034 t sdmc_fsync
-00120ec4 00000054 t sdmc_ftruncate
-00120f18 000000b8 t sdmc_statvfs
-00120fd0 00000038 t sdmc_dirclose
-00121008 00000138 t sdmc_dirnext
-00121140 00000034 t sdmc_close
-00121174 00000074 t sdmc_fstat
-001211e8 000000d8 t sdmc_seek
-001212c0 00000084 t sdmc_read
-00121344 000000b8 t sdmc_write
-001213fc 000001b4 t sdmc_utf16path
-001215b0 00000074 t sdmc_rmdir
-00121624 000000a4 t sdmc_diropen
-001216c8 000000a0 t sdmc_chdir
-00121768 00000098 t sdmc_mkdir
-00121800 00000108 t sdmc_rename
-00121908 00000074 t sdmc_unlink
-0012197c 00000108 t sdmc_stat
-00121a84 00000188 t sdmc_open
-00121c0c 00000010 t sdmc_chmod
-00121c1c 0000015c T sdmcInit
-00121d78 00000058 T sdmcExit
-00121dd0 00000028 t fsSessionForArchive.part.0
-00121df8 000000c8 T fsInit
-00121ec0 00000038 T fsExit
-00121ef8 000000a0 T fsExemptFromSession
-00121f98 00000054 T fsUnexemptFromSession
-00121fec 000000bc T FSUSER_OpenFile
-001220a8 000000a4 T FSUSER_DeleteFile
-0012214c 000000e0 T FSUSER_RenameFile
-0012222c 000000a4 T FSUSER_DeleteDirectory
-001222d0 000000bc T FSUSER_CreateFile
-0012238c 000000ac T FSUSER_CreateDirectory
-00122438 000000e0 T FSUSER_RenameDirectory
-00122518 000000a4 T FSUSER_OpenDirectory
-001225bc 00000098 T FSUSER_OpenArchive
-00122654 00000074 T FSUSER_CloseArchive
-001226c8 00000078 T FSUSER_GetSdmcArchiveResource
-00122740 00000064 T FSUSER_IsSdmcWritable
-001227a4 0000005c T FSFILE_Read
-00122800 00000064 T FSFILE_Write
-00122864 0000003c T FSFILE_GetSize
-001228a0 0000002c T FSFILE_SetSize
-001228cc 0000003c T FSFILE_Close
-00122908 00000024 T FSFILE_Flush
-0012292c 00000054 T FSDIR_Read
-00122980 0000003c T FSDIR_Close
-001229bc 000000c0 T utf8_to_utf16
-00122a7c 00000138 T decode_utf8
-00122bb4 000000e8 T utf16_to_utf8
-00122c9c 00000104 T encode_utf8
-00122da0 00000068 T encode_utf16
-00122e08 T __aeabi_read_tp
-00122e14 00000060 T decode_utf16
-00122e78 00000184 T floor
-00123000 0000009c T frexp
-0012309c 000000c4 T cosf
-00123160 000000cc T sinf
-00123230 00000398 T pow
-001235c8 000008bc T __ieee754_pow
-00123e84 00000214 T __ieee754_sqrt
-00124098 000002e8 T __ieee754_rem_pio2f
-00124380 00000124 T __kernel_cosf
-001244a4 00000898 T __kernel_rem_pio2f
-00124d3c 000000a0 T __kernel_sinf
-00124ddc 00000010 T fabs
-00124dec 00000014 T finite
-00124e00 00000008 T matherr
-00124e08 00000010 T nan
-00124e18 00000178 T rint
-00124f90 00000170 T scalbn
-00125100 00000010 T fabsf
-00125110 000000bc T floorf
-001251cc 00000114 T scalbnf
-001252e0 0000001c T copysign
-001252fc 0000001c T copysignf
-00125318 00000128 T __udivmoddi4
-00125440 00000014 T abort
-00125454 00000074 T bsearch
-001254c8 00000020 T calloc
-001254e8 00000090 T _calloc_r
-00125578 0000000c T __errno
-00125584 00000154 T _fclose_r
-001256d8 00000254 T __sflush_r
-0012592c 00000094 T _fflush_r
-001259c0 00000038 T fflush
-001259f8 0000000c T _cleanup_r
-00125a04 00000080 t std.isra.0
-00125a84 0000008c T __sinit
-00125b10 0000000c T __sfp_lock_acquire
-00125b1c 0000000c T __sfp_lock_release
-00125b28 00000040 T __libc_fini_array
-00125b68 0000003c T fprintf
-00125ba4 00000094 T fputc
-00125c38 000002d4 T _fread_r
-00125f0c 00000038 T fread
-00125f44 000000f8 T _malloc_trim_r
-0012603c 000002e4 T _free_r
-00126320 00000078 T _fwalk
-00126398 00000080 T _fwalk_reent
-00126418 00000078 T __libc_init_array
-00126490 00000094 T __swhatbuf_r
-00126524 000000f4 T __smakebuf_r
-00126618 00000020 T memalign
-00126638 00000158 T _memalign_r
-00126790 00000018 T malloc
-001267a8 00000018 T free
-001267c0 0000078c T _malloc_r
-00126f4c 000000e8 T memcmp
-00127034 00000114 T memcpy
-00127148 00000110 T memset
-00127258 0000000c T __malloc_lock
-00127264 0000000c T __malloc_unlock
-00127270 00000038 T printf
-001272a8 000000d4 T _putc_r
-0012737c 0000001c t lflush
-00127398 000001b4 T __srefill_r
-0012754c 000000a0 T _raise_r
-001275ec 00000018 T raise
-00127604 0000003c T __sread
-00127640 00000064 T __swrite
-001276a4 0000004c T __sseek
-001276f0 00000008 T __sclose
-001276f8 0000005c T strlen
-00127754 0000009c T strncat
-001277f0 000000d8 T strncpy
-001278c8 00001624 t get_arg
-00128ef0 00004314 T _vfprintf_r
-0012d204 000000cc t __sbprintf
-0012d2d0 00000108 T __swbuf_r
-0012d3d8 000000a0 T _wcrtomb_r
-0012d478 00000020 T _wcsrtombs_r
-0012d498 00000144 T __swsetup_r
-0012d5dc 000001d0 t quorem
-0012d7b0 00001260 T _dtoa_r
-0012ea10 000004ac T __sfvwrite_r
-0012eebc 00000024 T __locale_mb_cur_max
-0012eee0 00000024 T __locale_ctype_ptr
-0012ef04 00000024 T _localeconv_r
-0012ef28 00000300 T __utf8_mbtowc
-0012f228 00000104 T memchr
-0012f32c 00000148 T memmove
-0012f474 00000088 T _Balloc
-0012f4fc 0000001c T _Bfree
-0012f518 000000d8 T __multadd
-0012f5f0 00000058 T __hi0bits
-0012f648 0000009c T __lo0bits
-0012f6e4 00000020 T __i2b
-0012f704 000001cc T __multiply
-0012f8d0 00000100 T __pow5mult
-0012f9d0 000000e4 T __lshift
-0012fab4 00000060 T __mcmp
-0012fb14 00000198 T __mdiff
-0012fcac 00000108 T __d2b
-0012fdb4 000004cc T _realloc_r
-00130280 000001ac T strchr
-0013042c 00000108 T strncmp
-00130534 0000001c t __sprint_r.part.0
-00130550 0000001c T __sprint_r
-0013056c 00000174 T _wcsnrtombs_l
-001306e0 00000064 T _wcsnrtombs_r
-00130744 000000e8 T __utf8_wctomb
-0013082c 00000008 t null_write
-00130834 00000018 T setDefaultDevice
-0013084c 000000cc T FindDevice
-00130918 00000028 T RemoveDevice
-00130940 00000098 T AddDevice
-001309d8 00000084 T _close_r
-00130a5c 0000007c T _fstat_r
-00130ad8 00000010 T _getpid_r
-00130ae8 00000008 T _isatty_r
-00130af0 00000010 T _kill_r
-00130b00 00000090 T _lseek_r
-00130b90 00000088 T _read_r
-00130c18 00000070 T _sbrk_r
-00130c88 00000088 T _write_r
-00130d10 00000024 T _exit
-00130d34 000001d4 T _concatenate_path
-00130f08 0000015c T chdir
-00131064 00000008 T __flockfile
-0013106c 00000008 T __funlockfile
-00131074 00000018 T __libc_lock_acquire
-0013108c 00000018 T __libc_lock_release
-001310a4 00000018 T __libc_lock_init_recursive
-001310bc 00000018 T __libc_lock_acquire_recursive
-001310d4 00000018 T __libc_lock_release_recursive
-001310ec 00000018 T __libc_lock_close_recursive
-00131104 0000004c T __free_handle
-00131150 00000040 T __release_handle
-00131190 00000018 T __get_handle
-001311a8 00000028 T __getreent
-001311d0 0000005c T strnlen
-0013122c 00000044 T strrchr
-00131270 T _fini
-00132000 R button1_png
-0013da65 R button1_png_end
-0013da68 R button1_png_size
-0013da6c R button2_png
-0014b157 R button2_png_end
-0014b158 R button2_png_size
-0014b15c R button3_png
-0015893b R button3_png_end
-0015893c R button3_png_size
-00158940 R button4_png
-0016639f R button4_png_end
-001663a0 R button4_png_size
-001663a4 R button5_png
-00173ea7 R button5_png_end
-00173ea8 R button5_png_size
-00173eac R button6_png
-00181845 R button6_png_end
-00181848 R button6_png_size
-0018184c R button7_png
-0018efa5 R button7_png_end
-0018efa8 R button7_png_size
-0018efac R button8_png
-0019ca6e R button8_png_end
-0019ca70 R button8_png_size
-0019ca74 R moon1_png
-001a50e1 R moon1_png_end
-001a50e4 R moon1_png_size
-001a50e8 R moon2_png
-001ae4df R moon2_png_end
-001ae4e0 R moon2_png_size
-001ae4e4 R moon3_png
-001b7098 R moon3_png_end
-001b7098 R moon3_png_size
-001b709c R moon4_png
-001bfb95 R moon4_png_end
-001bfb98 R moon4_png_size
-001bfb9c R moon5_png
-001c735b R moon5_png_end
-001c735c R moon5_png_size
-001c7360 R moon6_png
-001cfcb9 R moon6_png_end
-001cfcbc R moon6_png_size
-001cfcc0 R moon7_png
-001d833a R moon7_png_end
-001d833c R moon7_png_size
-001d8340 R moon8_png
-001e128c R moon8_png_end
-001e128c R moon8_png_size
-001e1290 R pokeball1_png
-001e8db1 R pokeball1_png_end
-001e8db4 R pokeball1_png_size
-001e8db8 R pokeball2_png
-001f0f47 R pokeball2_png_end
-001f0f48 R pokeball2_png_size
-001f0f4c R pokeball3_png
-001f8e36 R pokeball3_png_end
-001f8e38 R pokeball3_png_size
-001f8e3c R pokeball4_png
-0020171b R pokeball4_png_end
-0020171c R pokeball4_png_size
-00201720 R pokeball5_png
-00209967 R pokeball5_png_end
-00209968 R pokeball5_png_size
-0020996c R pokeball6_png
-00211d94 R pokeball6_png_end
-00211d94 R pokeball6_png_size
-00211d98 R pokeball7_png
-00219c9d R pokeball7_png_end
-00219ca0 R pokeball7_png_size
-00219ca4 R pokeball8_png
-002225a9 R pokeball8_png_end
-002225ac R pokeball8_png_size
-002225b0 R pressedButton1_png
-0022df84 R pressedButton1_png_end
-0022df84 R pressedButton1_png_size
-0022df88 R pressedButton2_png
-0023b4ed R pressedButton2_png_end
-0023b4f0 R pressedButton2_png_size
-0023b4f4 R pressedButton3_png
-00248b49 R pressedButton3_png_end
-00248b4c R pressedButton3_png_size
-00248b50 R pressedButton4_png
-002563d5 R pressedButton4_png_end
-002563d8 R pressedButton4_png_size
-002563dc R pressedButton5_png
-00263d06 R pressedButton5_png_end
-00263d08 R pressedButton5_png_size
-00263d0c R pressedButton6_png
-00271537 R pressedButton6_png_end
-00271538 R pressedButton6_png_size
-0027153c R pressedButton7_png
-0027eade R pressedButton7_png_end
-0027eae0 R pressedButton7_png_size
-0027eae4 R pressedButton8_png
-0028c41d R pressedButton8_png_end
-0028c420 R pressedButton8_png_size
-0028c424 R pressedMoon1_png
-00293cb2 R pressedMoon1_png_end
-00293cb4 R pressedMoon1_png_size
-00293cb8 R pressedMoon2_png
-0029c25e R pressedMoon2_png_end
-0029c260 R pressedMoon2_png_size
-0029c264 R pressedMoon3_png
-002a40d1 R pressedMoon3_png_end
-002a40d4 R pressedMoon3_png_size
-002a40d8 R pressedMoon4_png
-002abf08 R pressedMoon4_png_end
-002abf08 R pressedMoon4_png_size
-002abf0c R pressedMoon5_png
-002b2afc R pressedMoon5_png_end
-002b2afc R pressedMoon5_png_size
-002b2b00 R pressedMoon6_png
-002ba58d R pressedMoon6_png_end
-002ba590 R pressedMoon6_png_size
-002ba594 R pressedMoon7_png
-002c1e4d R pressedMoon7_png_end
-002c1e50 R pressedMoon7_png_size
-002c1e54 R pressedMoon8_png
-002c9df4 R pressedMoon8_png_end
-002c9df4 R pressedMoon8_png_size
-002c9df8 R pressedPokeball1_png
-002d1b32 R pressedPokeball1_png_end
-002d1b34 R pressedPokeball1_png_size
-002d1b38 R pressedPokeball2_png
-002d9e1b R pressedPokeball2_png_end
-002d9e1c R pressedPokeball2_png_size
-002d9e20 R pressedPokeball3_png
-002e1ea2 R pressedPokeball3_png_end
-002e1ea4 R pressedPokeball3_png_size
-002e1ea8 R pressedPokeball4_png
-002ea88e R pressedPokeball4_png_end
-002ea890 R pressedPokeball4_png_size
-002ea894 R pressedPokeball5_png
-002f2bca R pressedPokeball5_png_end
-002f2bcc R pressedPokeball5_png_size
-002f2bd0 R pressedPokeball6_png
-002fb1ac R pressedPokeball6_png_end
-002fb1ac R pressedPokeball6_png_size
-002fb1b0 R pressedPokeball7_png
-0030326e R pressedPokeball7_png_end
-00303270 R pressedPokeball7_png_size
-00303274 R pressedPokeball8_png
-0030bbdb R pressedPokeball8_png_end
-0030bbdc R pressedPokeball8_png_size
-0030bbe0 R topscr_png
-00315e41 R topscr_png_end
-00315e44 R topscr_png_size
-00315e50 00000030 r short_months.9538
-00315e80 00000020 r CSWTCH.116
-00315ea0 00000020 r CSWTCH.117
-00315ec0 00000020 r sRGB_xy
-00315ee0 00000024 r sRGB_XYZ.9728
-00315f04 0000000c r D50_nCIEXYZ
-00315f10 000000e0 r png_sRGB_checks
-00315ff0 00000200 R png_sRGB_delta
-003161f0 00000400 R png_sRGB_base
-003165f0 00000200 R png_sRGB_table
-003167f0 00000010 r png_digit
-00316800 00000011 r digits.9448
-00316814 00000048 r display_mask.9821
-0031685c 00000090 r row_mask.9820
-003168ec 0000001c r png_pass_inc.9865
-00316908 00000007 r png_pass_yinc.10051
-00316910 00000007 r png_pass_ystart.10050
-00316918 00000007 r png_pass_inc.10049
-00316918 00000007 r png_pass_inc.10058
-00316920 00000007 r png_pass_start.10048
-00316920 00000007 r png_pass_start.10057
-00316928 00000100 r onebppswaptable
-00316a28 00000100 r twobppswaptable
-00316b28 00000100 r fourbppswaptable
-00316c28 00002000 r crc_table
-00318c28 00000800 r lenfix.6883
-00319428 00000080 r distfix.6884
-003194a8 00000026 r order.6912
-003194d0 00000040 r dext.6798
-00319510 00000040 r dbase.6797
-00319550 0000003e r lext.6796
-00319590 0000003e r lbase.6795
-003195d0 0000002f R inflate_copyright
-00319600 00000010 r CSWTCH.23
-00319610 R shader_shbin
-0031975c R shader_shbin_end
-0031975c R shader_shbin_size
-00319760 00000038 r CSWTCH.2
-00319798 00000003 r parm.12748
-0031979c 00000004 r CSWTCH.7
-003197a0 00000005 r colorFmtSizes
-003197a8 00000004 r depthFmtSizes
-003197ac 00000014 r CSWTCH.26
-003197c0 00000008 r framebufferInfoSt
-003197c8 0000000c r serviceNameTable.7434
-003197d4 00000030 r error_table
-00319c88 r .LC2
-0031bdc8 00000080 r npio2_hw
-0031be48 00000318 r two_over_pi
-0031c160 0000002c r PIo2
-0031c18c 0000000c r init_jk
-0031c198 00000010 r TWO52
-0031c1a8 00000004 R _global_impure_ptr
-0031c1ec 00000010 r blanks.8415
-0031c1fc 00000010 r zeroes.8416
-0031c268 00000028 R __mprec_bigtens
-0031c290 000000c8 R __mprec_tens
-0031c358 0000000c r p05.7191
-0031c364 0000006c R __action_table
-0031c3d0 00000100 R __chclass
-0031c4d0 0000006c R __state_table
-0031c53c 00000101 R _ctype_
-0031c648 00000068 R dotab_stdnull
-0031c6b0 00000003 R DIRECTORY_PARENT
-0031c6b4 r __EH_FRAME_BEGIN__
-0031c6b4 R __exidx_end
-0031c6b4 R __exidx_start
-0031d000 00000004 d useTransform_desc
-0031d004 00000004 d transform_desc
-0031d008 00000004 d vblank_wait
-0031d00c 00000004 d projection_desc
-0031d010 00000001 d topFormat
-0031d011 00000001 d botFormat
-0031d014 00000008 d doubleBuf
-0031d01c 00000004 d aptFlags
-0031d020 00000004 d gspLastEvent
-0031d024 00000004 V __ctru_linear_heap_size
-0031d028 W __stacksize__
-0031d02c 00000401 d __cwd
-0031d430 00000068 d sdmc_devoptab
-0031d498 00000001 D __fdlib_version
-0031d49c 0000000c d __sfp_lock
-0031d4a8 0000000c d __sinit_lock
-0031d4b4 00000004 D _impure_ptr
-0031d4b8 00000460 d impure_data
-0031d918 00000408 D __malloc_av_
-0031dd20 00000004 D __malloc_sbrk_base
-0031dd24 00000004 D __malloc_trim_threshold
-0031dd28 0000000c d __malloc_lock_object
-0031dd34 0000016c D __global_locale
-0031dea0 00000004 d defaultDevice
-0031dea4 00000040 D devoptab_list
-0031dee4 00001000 d _current_working_directory
-0031eee4 00000004 d __hndl_lock
-0031eee8 0000000c d __stderr_handle
-0031eef4 0000000c d __stdin_handle
-0031ef00 0000000c d __stdout_handle
-0031ef0c 00001000 d handles
-0031ff0c d __JCR_LIST__
-0031ff0c D __TMC_END__
-0031ff0c d __TMC_LIST__
-0031ff0c t __frame_dummy_init_array_entry
-0031ff0c T __init_array_start
-0031ff0c B __preinit_array_end
-0031ff0c B __preinit_array_start
-0031ff0c D __tdata_lma
-0031ff0c D __tdata_lma_end
-0031ff10 t __do_global_dtors_aux_fini_array_entry
-0031ff10 T __fini_array_start
-0031ff10 T __init_array_end
-0031ff14 T __bss_start__
-0031ff14 T __fini_array_end
-0031ff18 00000004 b sf2d_initialized
-0031ff1c 00000004 b pool_addr
-0031ff20 00000014 b shader
-0031ff34 00000004 b dvlb
-0031ff38 00000004 b in_render
-0031ff3c 00000004 b pool_index
-0031ff40 00000001 b cur_screen
-0031ff41 00000001 b cur_side
-0031ff44 00000004 b targetTopLeft
-0031ff48 00000004 b targetTopRight
-0031ff4c 00000004 b targetBottom
-0031ff50 00000004 b frames
-0031ff58 00000008 b last_time
-0031ff60 00000004 b current_fps
-0031ff64 00000004 b pool_size
-0031ff68 00000018 b C3Di_ShaderFVecData
-0031ff80 000000c0 b C3Di_FVUnifEverDirty
-00320040 00000008 b C3Di_IVUnifEverDirty
-00320048 00000001 b queuedCount
-0032004c 00000004 b transferQueue
-00320050 00000004 b clearQueue
-00320054 00000001 b inSafeTransfer
-00320058 0000000c b linkedTarget
-00320064 0000004c b temp.13412
-003200b0 00000001 b inSafeClear
-003200b1 00000001 b queueSwap
-003200b4 00000020 b queuedFrame
-003200d4 00000001 b queuedState
-003200d5 00000001 b inFrame
-003200d8 00000004 b lastTarget
-003200dc 00000004 b firstTarget
-003200e0 0000000c b hookCookie
-003200ec 00000008 b sLinearPool
-003200f4 0000000c b sAddrMap
-00320100 00000008 b sVramPool
-00320108 0000000c b sAddrMap
-00320114 00000001 b enable3d
-00320118 00000004 b screenAlloc
-0032011c 00000004 b screenFree
-00320120 00000002 b currentBuffer
-00320122 00000001 V __ctru_speedup
-00320124 00000004 b ptmSysmRefCount
-00320128 00000004 b ptmSysmHandle
-0032012c 00000004 b hidRefCount
-00320130 00000004 b kOld
-00320134 00000004 b kHeld
-00320138 00000004 b cPos
-0032013c 00000004 b tPos
-00320140 00000006 b aVec
-00320148 00000006 b gRate
-00320150 00000004 b kDown
-00320154 00000004 b kUp
-00320158 00000004 b aptLockHandle
-0032015c 00000004 b serviceName.7433
-00320160 0000000c b aptFirstHook
-0032016c 00000004 b aptMessageFunc
-00320170 00000004 b aptMessageFuncData
-00320174 0000000c b aptEvents
-00320180 00000001 b aptHomeButtonState
-00320184 00000008 b aptSleepEvent
-0032018c 00001000 b aptParameters
-0032118c 00000004 b aptRefCount
-00321190 00000004 b aptEventHandlerThread
-00321194 00000001 b flagInit.7784
-00321195 00000001 b flagValue.7785
-00321198 00000001 b gspRunEvents
-0032119c 00000004 b gspEvent
-003211a0 00000004 b gspEventData
-003211a4 0000001c b gspEventCb
-003211c0 00000007 b gspEventCbOneShot
-003211c8 0000001c b gspEventCbData
-003211e4 00000038 b gspEvents
-0032121c 0000001c b gspEventCounts
-00321238 00000004 b gspRefCount
-0032123c 00000004 b gspEventThread
-00321240 00000004 b irrstRefCount
-00321244 00000004 b kHeld
-00321248 00000004 b csPos
-0032124c 00000004 V __ctru_heap_size
-00321250 b saved_stack
-00321258 00000008 b sMappablePool
-00321260 0000000c b sAddrMap
-0032126c 00000004 b srvRefCount
-00321270 00000004 b srvHandle
-00321274 00000004 b arbiter
-00321278 00000008 b sdmcArchive
-00321280 00000001 b sdmcInitialised
-00321288 00000004 b fsuHandle
-0032128c 00000004 b fsuRefCount
-00321290 00000080 b fsExemptArchives
-00321310 b completed.7620
-00321314 b object.7625
-0032132c 00000028 B __malloc_current_mallinfo
-00321354 00000004 B __malloc_max_sbrked_mem
-00321358 00000004 B __malloc_max_total_mem
-0032135c 00000004 B __malloc_top_pad
-00321360 00000004 b heap_start.6927
-00321364 00000004 B fake_heap_end
-00321368 00000004 B fake_heap_start
-0032136c 00001000 b temp_cwd
-0032236c 00000038 B __syscalls
-003223a4 00000020 B C3D_IVUnif
-003223c4 000000c0 B C3D_FVUnifDirty
-00322484 00000002 B C3D_BoolUnifsDirty
-00322488 00000008 B C3D_IVUnifDirty
-00322490 00000004 B C3D_BoolUnifs
-00322494 00000c00 B C3D_FVUnif
-00323098 00000278 B __C3D_Context
-00323310 00000008 B gfxBottomFramebuffers
-00323318 00000004 B gspSharedMemHandle
-0032331c 0000001c B bottomFramebufferInfo
-00323338 00000004 B gspEvent
-0032333c 00000008 B gfxTopLeftFramebuffers
-00323344 00000008 B gfxTopRightFramebuffers
-0032334c 0000001c B topFramebufferInfo
-00323368 00000001 B gfxThreadID
-0032336c 00000004 B gfxSharedMemory
-00323370 00000004 B gfxTopFramebufferMaxSize
-00323374 00000004 B gfxBottomFramebufferMaxSize
-00323378 00000004 B gpuCmdBuf
-0032337c 00000004 B gpuCmdBufOffset
-00323380 00000004 B gpuCmdBufSize
-00323384 00000004 B gxCmdBuf
-00323388 00000004 B hidMemHandle
-0032338c 00000004 B hidHandle
-00323390 00000004 B hidSharedMem
-00323394 00000014 B hidEvents
-003233a8 00000004 B gspGpuHandle
-003233ac 00000004 B irrstHandle
-003233b0 00000004 B irrstEvent
-003233b4 00000004 B irrstMemHandle
-003233b8 00000004 B irrstSharedMem
-003233bc 00000004 B __system_argv
-003233c0 00000004 B __system_argc
-003233c4 00000004 B __ctru_linear_heap
-003233c8 00000004 B __ctru_heap
-003233cc 00000004 B __system_retAddr
-003233d0 B __tls_start
-003267dc B __bss_end__
-003267dc A __end__
-003267dc B __tls_end
+00100cb8 00000a9c T main
+00101754 000002f8 t _sfil_load_PNG_generic
+00101a4c 00000034 t _sfil_read_png_buffer_fn
+00101a80 0000004c T sfil_load_PNG_buffer
+00101acc 00000050 T png_zalloc
+00101b1c 00000004 T png_zfree
+00101b20 000001d0 t png_build_16bit_table
+00101cf0 00000114 t png_colorspace_endpoints_match
+00101e04 00000498 t png_free_data.part.3
+001022a0 00000088 t png_muldiv.part.9
+00102328 00000070 t png_gamma_8bit_correct.part.15
+00102398 00000200 t png_icc_profile_error
+00102598 0000003c T png_set_sig_bytes
+001025d4 00000070 T png_sig_cmp
+00102644 00000020 T png_reset_crc
+00102664 00000054 T png_calculate_crc
+001026b8 00000110 T png_user_version_check
+001027c8 00000114 T png_create_png_struct
+001028dc 00000040 T png_create_info_struct
+0010291c 000003a0 T png_destroy_info_struct
+00102cbc 00000010 T png_free_data
+00102ccc 0000000c T png_get_io_ptr
+00102cd8 00000094 T png_chunk_unknown_handling
+00102d6c 000000e4 T png_zstream_error
+00102e50 00000158 T png_colorspace_set_gamma
+00102fa8 00000084 T png_colorspace_sync
+00103030 00000204 T png_colorspace_set_sRGB
+00103234 00000198 T png_icc_check_length
+001033cc 0000037c T png_icc_check_header
+00103748 00000138 T png_icc_check_tag_table
+00103880 00000250 T png_icc_set_sRGB
+00103ad0 00000284 T png_colorspace_set_rgb_coefficients
+00103d54 000002ac T png_check_IHDR
+00104000 000002a8 T png_check_fp_number
+001042a8 000002d4 T png_check_fp_string
+00104580 000000c8 T png_muldiv
+00104648 00000078 T png_reciprocal
+001046c0 00000b6c T png_colorspace_set_chromaticities
+0010522c 00000020 T png_gamma_significant
+00105250 000000a0 T png_reciprocal2
+001052f0 00000090 T png_gamma_8bit_correct
+00105380 00000104 T png_gamma_correct
+00105484 00000134 T png_destroy_gamma_table
+001055b8 00000880 T png_build_gamma_table
+00105e38 000001f0 t png_format_buffer.isra.0
+00106028 00000078 T png_safecat
+001060a0 00000170 T png_format_number
+00106210 0000014c T png_warning
+0010635c 000001ac T png_chunk_warning
+00106508 00000094 T png_free_jmpbuf
+0010659c 0000002c T png_longjmp
+001065c8 00000060 T png_error
+00106628 0000015c T png_app_warning
+00106784 0000015c T png_app_error
+001068e0 0000002c T png_chunk_error
+0010690c 000001a4 T png_chunk_benign_error
+00106ab0 000002d4 T png_benign_error
+00106d84 000000f0 T png_set_longjmp_fn
+00106e74 000002dc T png_chunk_report
+00107150 00000014 T png_set_error_fn
+00107164 0000001c T png_get_valid
+00107180 000000a0 T png_get_IHDR
+00107220 00000064 T png_destroy_png_struct
+00107284 00000078 T png_calloc
+001072fc 00000030 T png_malloc_base
+0010732c 0000008c T png_malloc_array
+001073b8 00000104 T png_realloc_array
+001074bc 0000005c T png_malloc
+00107518 00000064 T png_malloc_warn
+0010757c 00000024 T png_free
+001075a0 00000014 T png_set_mem_fn
+001075b4 00000110 t png_do_read_intrapixel
+001076c4 00000408 t png_read_info.part.3
+00107acc 00000058 T png_create_read_struct
+00107b24 00000010 T png_read_info
+00107b34 00000040 T png_read_update_info
+00107b74 000003bc T png_read_image
+00107f30 00000134 T png_destroy_read_struct
+00108064 00000038 T png_default_read_data
+0010809c 00000020 T png_read_data
+001080bc 00000050 T png_set_read_fn
+0010810c 00000218 t png_do_gray_to_rgb
+00108324 00001170 t png_do_compose
+00109494 00000038 T png_set_scale_16
+001094cc 0000003c T png_set_expand
+00109508 0000003c T png_set_palette_to_rgb
+00109544 0000003c T png_set_tRNS_to_alpha
+00109580 00000038 T png_set_gray_to_rgb
+001095b8 00000cc4 T png_init_read_transformations
+0010a27c 000002c4 T png_read_transform_info
+0010a540 000023f0 T png_do_read_transformations
+0010c930 000001d0 t png_read_filter_row_sub
+0010cb00 000001ac t png_read_filter_row_up
+0010ccac 00000080 t png_read_filter_row_avg
+0010cd2c 0000008c t png_read_filter_row_paeth_1byte_pixel
+0010cdb8 0000026c t png_read_filter_row_paeth_multibyte_pixel
+0010d024 00000110 t png_inflate_claim
+0010d134 000001d0 t png_inflate.constprop.7
+0010d304 00000158 t png_inflate_read.part.3.constprop.5
+0010d45c 000000dc t png_crc_finish.constprop.10
+0010d538 000002c8 t png_decompress_chunk.constprop.6
+0010d800 000000ac T png_read_sig
+0010d8ac 00000158 T png_read_chunk_header
+0010da04 0000015c T png_crc_finish
+0010db60 00000178 T png_handle_IHDR
+0010dcd8 00000250 T png_handle_PLTE
+0010df28 00000054 T png_handle_IEND
+0010df7c 000000e4 T png_handle_gAMA
+0010e060 00000214 T png_handle_sBIT
+0010e274 00000300 T png_handle_cHRM
+0010e574 00000108 T png_handle_sRGB
+0010e67c 000005dc T png_handle_iCCP
+0010ec58 0000033c T png_handle_sPLT
+0010ef94 0000023c T png_handle_tRNS
+0010f1d0 00000224 T png_handle_bKGD
+0010f3f4 0000013c T png_handle_hIST
+0010f530 0000013c T png_handle_pHYs
+0010f66c 0000015c T png_handle_oFFs
+0010f7c8 00000378 T png_handle_pCAL
+0010fb40 00000284 T png_handle_sCAL
+0010fdc4 00000114 T png_handle_tIME
+0010fed8 000001c4 T png_handle_tEXt
+0011009c 0000024c T png_handle_zTXt
+001102e8 00000348 T png_handle_iTXt
+00110630 0000036c T png_handle_unknown
+0011099c 000004dc T png_combine_row
+00110e78 00000484 T png_do_read_interlace
+001112fc 00000090 T png_read_filter_row
+0011138c 00000508 T png_read_IDAT_data
+00111894 00000368 T png_read_finish_row
+00111bfc 00000340 T png_read_start_row
+00111f3c 00000050 T png_set_bKGD
+00111f8c 000000ac T png_set_hIST
+00112038 000000dc T png_set_IHDR
+00112114 0000002c T png_set_oFFs
+00112140 00000268 T png_set_pCAL
+001123a8 00000164 T png_set_sCAL_s
+0011250c 0000002c T png_set_pHYs
+00112538 0000013c T png_set_PLTE
+00112674 00000044 T png_set_sBIT
+001126b8 00000334 T png_set_text_2
+001129ec 000000a0 T png_set_tIME
+00112a8c 00000138 T png_set_tRNS
+00112bc4 00000184 T png_set_sPLT
+00112d48 0000018c T png_set_unknown_chunks
+00112ed4 00000028 T png_set_packing
+00112efc 00000030 T png_set_interlace_handling
+00112f2c 00000088 T png_set_filler
+00112fb4 000001ec T png_do_invert
+001131a0 0000004c T png_do_swap
+001131ec 0000006c T png_do_packswap
+00113258 0000022c T png_do_strip_channel
+00113484 0000013c T png_do_bgr
+001135c0 000001d0 T png_do_check_palette_indexes
+00113790 0000044c T adler32
+00113bdc 0000059c T crc32
+00114178 0000009c T inflateReset
+00114214 00000120 T inflateReset2
+00114334 00000178 T inflateInit2_
+001144ac 00001ffc T inflate
+001164a8 00000060 T inflateEnd
+00116508 00000b64 T inflate_table
+0011706c 00000008 T zcalloc
+00117074 00000008 T zcfree
+0011707c 00000df0 T inflate_fast
+00117e6c 00000048 T sf2d_fini
+00117eb4 000000a0 T sf2d_start_frame_target
+00117f54 00000038 T sf2d_start_frame
+00117f8c 00000004 T sf2d_end_frame
+00117f90 000000b0 T sf2d_swapbuffers
+00118040 00000040 T sf2d_pool_memalign
+00118080 00000038 T sf2d_set_clear_color
+001180b8 000001ac t sf2d_init_advanced.part.0
+00118264 00000028 T sf2d_init
+0011828c 00000118 T sf2d_create_texture
+001183a4 00000094 T sf2d_create_rendertarget
+00118438 00000020 T sf2d_free_texture
+00118458 00000014 T sf2d_clear_target
+0011846c 00000054 T sf2d_bind_texture
+001184c0 00000160 T sf2d_draw_texture
+00118620 000001d4 T sf2d_draw_texture_rotate
+001187f4 00000110 T sf2d_texture_tile32
+00118904 000002b4 T C3D_UpdateUniforms
+00118bb8 000000c0 T C3Di_DirtyUniforms
+00118c78 000000e8 T C3Di_LoadShaderUniforms
+00118d60 00000028 T C3Di_ClearShaderUniforms
+00118d88 00000028 T AttrInfo_Init
+00118db0 000000ac T AttrInfo_AddLoader
+00118e5c 00000024 T C3D_GetAttrInfo
+00118e80 00000080 T C3Di_AttrInfoBind
+00118f00 0000003c T C3D_DepthMap
+00118f3c 0000001c T C3D_CullFace
+00118f58 00000040 T C3D_StencilTest
+00118f98 00000024 T C3D_StencilOp
+00118fbc 0000001c T C3D_BlendingColor
+00118fd8 0000002c T C3D_DepthTest
+00119004 0000002c T C3D_AlphaTest
+00119030 00000050 T C3D_AlphaBlend
+00119080 00000030 T C3D_FragOpMode
+001190b0 0000011c T C3Di_EffectBind
+001191cc 00000148 T C3D_DrawArrays
+00119314 00000020 T BufInfo_Init
+00119334 00000084 T BufInfo_Add
+001193b8 00000024 T C3D_GetBufInfo
+001193dc 00000048 T C3Di_BufInfoBind
+00119424 00000034 T TexEnv_Init
+00119458 00000034 T C3D_GetTexEnv
+0011948c 00000024 T C3Di_TexEnvBind
+001194b0 000000b8 T C3D_TexInit
+00119568 000000b8 T C3D_TexInitVRAM
+00119620 00000028 T C3D_TexSetWrap
+00119648 00000034 T C3D_TexBind
+0011967c 0000003c T C3D_TexDelete
+001196b8 0000003c t C3Di_RenderQueueWaitDone
+001196f4 00000078 t performTransfer.part.0
+0011976c 00000050 t transferTarget
+001197bc 00000024 t onVBlank1
+001197e0 0000008c t onVBlank0
+0011986c 0000003c t performClear.part.2
+001198a8 0000004c t clearTarget
+001198f4 000000c0 t updateFrameQueue.part.4
+001199b4 000000e0 t onRenderFinish
+00119a94 000000bc t onTransferFinish
+00119b50 0000005c t checkRenderQueueInit.part.7
+00119bac 00000070 t onClearDone
+00119c1c 0000006c T C3D_FrameBegin
+00119c88 00000078 T C3D_FrameDrawOn
+00119d00 000000cc T C3D_FrameEnd
+00119dcc 000000e0 T C3D_RenderTargetCreate
+00119eac 0000007c T C3D_RenderTargetDelete
+00119f28 00000084 t C3Di_RenderQueueExit
+00119fac 00000050 T C3D_RenderTargetSetClear
+00119ffc 00000058 T C3D_RenderTargetSetOutput
+0011a054 00000088 t C3Di_AptEventHook
+0011a0dc 00000174 T C3D_Init
+0011a250 00000098 T C3D_SetViewport
+0011a2e8 00000584 T C3Di_UpdateContext
+0011a86c 000000e0 T C3Di_FinalizeFrame
+0011a94c 00000048 T C3D_Fini
+0011a994 000000d4 T C3D_BindProgram
+0011aa68 000000c8 T Mtx_OrthoTilt
+0011ab30 000000a4 T C3D_RenderBufInit
+0011abd4 00000080 T C3D_RenderBufClearAsync
+0011ac54 00000028 T C3D_RenderBufTransferAsync
+0011ac7c 00000038 T C3D_RenderBufBind
+0011acb4 00000170 T C3Di_RenderBufBind
+0011ae24 00000018 T C3D_RenderBufDelete
+0011ae3c 000000b4 T C3D_ImmSendAttrib
+0011aef0 00000024 t addrMapNodeComparator(rbtree_node const*, rbtree_node const*)
+0011af14 00000004 t addrMapNodeDestructor(rbtree_node*)
+0011af18 0000013c T linearMemAlign
+0011b054 00000008 T linearAlloc
+0011b05c 00000050 T linearFree
+0011b0ac 00000024 t addrMapNodeComparator(rbtree_node const*, rbtree_node const*)
+0011b0d0 00000004 t addrMapNodeDestructor(rbtree_node*)
+0011b0d4 0000012c T vramMemAlign
+0011b200 00000008 T vramAlloc
+0011b208 00000050 T vramFree
+0011b258 0000008c t gfxSetFramebufferInfo.part.0
+0011b2e4 00000010 T gfxSet3D
+0011b2f4 00000010 T gfxIs3D
+0011b304 00000018 T __get_bytes_per_pixel
+0011b31c 00000174 T gfxSetScreenFormat
+0011b490 00000014 T gfxSetDoubleBuffering
+0011b4a4 00000070 T gfxSetFramebufferInfo
+0011b514 00000088 T gfxWriteFramebufferInfo
+0011b59c 000001fc T gfxInit
+0011b798 00000010 T gfxInitDefault
+0011b7a8 000000e0 T gfxExit
+0011b888 000000b0 T gfxGetFramebuffer
+0011b938 000000c8 T gfxFlushBuffers
+0011ba00 00000070 T gfxConfigScreen
+0011ba70 00000020 T gfxSwapBuffers
+0011ba90 00000020 T gfxSwapBuffersGpu
+0011bab0 0000001c T debug_write
+0011bacc 000001b0 T consoleDrawChar
+0011bc7c 00000124 T consolePrintChar
+0011bda0 00000190 t consoleCls
+0011bf30 000000f8 T consoleInit
+0011c028 00000144 t consoleClearLine
+0011c16c 000000bc t newRow
+0011c228 0000079c T con_write
+0011c9c4 00000058 t getSysTime
+0011ca1c 0000004c T osConvertVirtToPhys
+0011ca68 00000024 T osGetMemRegionUsed
+0011ca90 000000f4 T __libctru_gtod
+0011cb88 00000078 T osGetTime
+0011cc00 00000034 T __ctru_speedup_config
+0011cc34 0000002c T GPUCMD_SetBuffer
+0011cc60 00000040 T GPUCMD_GetBuffer
+0011cca0 00000108 T GPUCMD_Add
+0011cda8 00000098 T GPUCMD_Finalize
+0011ce40 00000044 T f32tof24
+0011ce84 00000040 T f32tof31
+0011cec4 00000054 T GX_ProcessCommandList
+0011cf18 00000060 T GX_MemoryFill
+0011cf78 00000050 T GX_DisplayTransfer
+0011cfc8 00000054 T GX_FlushCacheRegions
+0011d01c 00000038 T DVLB_Free
+0011d054 00000078 T DVLE_GetUniformRegister
+0011d0cc 000001ec T DVLE_GenerateOutmap
+0011d2b8 000001c0 T DVLB_ParseFile
+0011d478 000001f4 T shaderInstanceInit
+0011d66c 00000034 T shaderInstanceFree
+0011d6a0 00000018 T shaderInstanceGetUniformLocation
+0011d6b8 00000018 T shaderProgramInit
+0011d6d0 0000002c T shaderProgramFree
+0011d6fc 0000006c T shaderProgramSetVsh
+0011d768 00000894 T shaderProgramConfigure
+0011dffc 00000070 T ptmSysmInit
+0011e06c 00000034 T ptmSysmExit
+0011e0a0 00000034 T PTMSYSM_ConfigureNew3DSCPU
+0011e0d4 000000d0 T hidExit
+0011e1a4 00000234 T hidScanInput
+0011e3d8 00000010 T hidKeysHeld
+0011e3e8 00000010 T hidKeysDown
+0011e3f8 00000010 T hidKeysUp
+0011e408 00000090 T HIDUSER_GetHandles
+0011e498 0000018c T hidInit
+0011e624 00000004 W _aptDebug
+0011e628 00000130 T aptSendCommand
+0011e758 0000003c t aptExitProcess
+0011e794 00000038 T aptHook
+0011e7cc 0000002c T aptUnhook
+0011e7f8 0000004c T APT_InquireNotification
+0011e844 0000019c t aptEventHandler
+0011e9e0 00000074 T APT_AppletUtility
+0011ea54 000000b4 T aptSetSleepAllowed
+0011eb08 000000b4 T APT_GlanceParameter
+0011ebbc 000000c0 T APT_ReceiveParameter
+0011ec7c 000000a8 t aptReceiveParameter.constprop.1
+0011ed28 000001ec t aptScreenTransfer
+0011ef14 00000228 t aptWaitForWakeUp
+0011f13c 00000070 T APT_CancelParameter
+0011f1ac 00000230 T aptInit
+0011f3dc 0000008c t aptClearParamQueue
+0011f468 00000214 T aptMainLoop
+0011f67c 00000148 T aptExit
+0011f7c4 00000070 T APT_CheckNew3DS
+0011f834 00000160 t gspEventThreadMain
+0011f994 00000074 T gspInit
+0011fa08 0000003c T gspExit
+0011fa44 0000002c T gspSetEventCallback
+0011fa70 00000088 T gspInitEventHandler
+0011faf8 00000030 T gspExitEventHandler
+0011fb28 00000044 T gspWaitForEvent
+0011fb6c 0000006c T gspWaitForAnyEvent
+0011fbd8 00000124 T gspSubmitGxCommand
+0011fcfc 0000006c T GSPGPU_SetBufferSwap
+0011fd68 0000004c T GSPGPU_FlushDataCache
+0011fdb4 00000034 T GSPGPU_SetLcdForceBlack
+0011fde8 00000064 T GSPGPU_RegisterInterruptRelayQueue
+0011fe4c 0000002c T GSPGPU_UnregisterInterruptRelayQueue
+0011fe78 00000048 T GSPGPU_AcquireRight
+0011fec0 0000002c T GSPGPU_ReleaseRight
+0011feec 00000080 T GSPGPU_ImportDisplayCaptureInfo
+0011ff6c 0000002c T GSPGPU_SaveVramSysArea
+0011ff98 0000002c T GSPGPU_RestoreVramSysArea
+0011ffc4 000000b0 T irrstScanInput
+00120074 0000001c T irrstKeysHeld
+00120090 00000050 T IRRST_GetHandles
+001200e0 00000150 T irrstInit
+00120230 0000002c T IRRST_Shutdown
+0012025c 000000ac T irrstExit
+00120308 00000070 T rbtree_find
+00120378 00000324 T rbtree_remove
+0012069c 00000074 T rbtree_node_next
+00120710 00000094 T rbtree_rotate
+001207a4 0000018c t do_insert
+00120930 00000008 T rbtree_insert
+00120938 00000014 T rbtree_init
+0012094c 000000e8 T __system_initArgv
+00120a34 00000058 t osGetMemRegionSize
+00120a8c 00000104 W __system_allocateHeaps
+00120b90 00000038 W __libctru_init
+00120bc8 T svcControlMemory
+00120be8 T svcExitProcess
+00120bf0 T svcCreateThread
+00120c10 T svcExitThread
+00120c18 T svcSleepThread
+00120c20 T svcReleaseMutex
+00120c28 T svcCreateEvent
+00120c3c T svcSignalEvent
+00120c44 T svcClearEvent
+00120c4c T svcMapMemoryBlock
+00120c54 T svcUnmapMemoryBlock
+00120c5c T svcCreateAddressArbiter
+00120c70 T svcArbitrateAddress
+00120c88 T svcCloseHandle
+00120c90 T svcWaitSynchronization
+00120c98 T svcWaitSynchronizationN
+00120cc0 T svcDuplicateHandle
+00120cd4 T svcGetSystemTick
+00120cdc T svcGetSystemInfo
+00120cf4 T svcConnectToPort
+00120d08 T svcSendSyncRequest
+00120d10 T svcBreak
+00120d18 T svcOutputDebugString
+00120d20 00000098 T MemPool::CoalesceRight(MemBlock*)
+00120db8 00000178 T MemPool::Allocate(MemChunk&, unsigned long, int)
+00120f30 00000100 T MemPool::Deallocate(MemChunk const&)
+00121030 00000024 t addrMapNodeComparator(rbtree_node const*, rbtree_node const*)
+00121054 00000004 t addrMapNodeDestructor(rbtree_node*)
+00121058 000000f4 T mappableAlloc
+0012114c 00000050 T mappableFree
+0012119c 000001bc T threadCreate
+00121358 00000024 T threadJoin
+0012137c 00000070 T threadExit
+001213ec 00000040 t _thread_begin
+0012142c 00000050 T srvExit
+0012147c 00000038 T srvRegisterClient
+001214b4 00000078 T srvInit
+0012152c 00000068 T srvGetServiceHandleDirect
+00121594 00000038 T srvGetServiceHandle
+001215cc 00000084 T envGetHandle
+00121650 0000004c T envDestroyHandles
+0012169c 00000034 t LightLock_Unlock.part.1
+001216d0 0000000c T __sync_init
+001216dc 00000018 T __sync_fini
+001216f4 00000010 T __sync_get_arbiter
+00121704 00000018 T LightLock_Init
+0012171c 000000a0 T LightLock_Lock
+001217bc 00000034 T LightLock_TryLock
+001217f0 00000020 T LightLock_Unlock
+00121810 00000024 T RecursiveLock_Init
+00121834 00000030 T RecursiveLock_Lock
+00121864 00000058 T RecursiveLock_TryLock
+001218bc 00000038 T RecursiveLock_Unlock
+001218f4 00000038 T LightEvent_Init
+0012192c 0000007c T LightEvent_Clear
+001219a8 000000dc T LightEvent_Signal
+00121a84 000000d0 T LightEvent_Wait
+00121b54 000000a4 W __libctru_exit
+00121bf8 0000001c W __appExit
+00121c14 00000030 t __ctru_get_reent
+00121c44 000000e4 T __system_initSyscalls
+00121d28 0000001c W __appInit
+00121d44 00000010 t sdmc_link
+00121d54 00000010 t sdmc_dirreset
+00121d64 00000010 t sdmc_fchmod
+00121d74 00000024 t error_cmp
+00121d98 00000050 t sdmc_translate_error
+00121de8 00000034 t sdmc_fsync
+00121e1c 00000054 t sdmc_ftruncate
+00121e70 000000b8 t sdmc_statvfs
+00121f28 00000038 t sdmc_dirclose
+00121f60 00000138 t sdmc_dirnext
+00122098 00000034 t sdmc_close
+001220cc 00000074 t sdmc_fstat
+00122140 000000d8 t sdmc_seek
+00122218 00000084 t sdmc_read
+0012229c 000000b8 t sdmc_write
+00122354 000001b4 t sdmc_utf16path
+00122508 00000074 t sdmc_rmdir
+0012257c 000000a4 t sdmc_diropen
+00122620 000000a0 t sdmc_chdir
+001226c0 00000098 t sdmc_mkdir
+00122758 00000108 t sdmc_rename
+00122860 00000074 t sdmc_unlink
+001228d4 00000108 t sdmc_stat
+001229dc 00000188 t sdmc_open
+00122b64 00000010 t sdmc_chmod
+00122b74 0000015c T sdmcInit
+00122cd0 00000058 T sdmcExit
+00122d28 00000028 t fsSessionForArchive.part.0
+00122d50 000000c8 T fsInit
+00122e18 00000038 T fsExit
+00122e50 000000a0 T fsExemptFromSession
+00122ef0 00000054 T fsUnexemptFromSession
+00122f44 000000bc T FSUSER_OpenFile
+00123000 000000a4 T FSUSER_DeleteFile
+001230a4 000000e0 T FSUSER_RenameFile
+00123184 000000a4 T FSUSER_DeleteDirectory
+00123228 000000bc T FSUSER_CreateFile
+001232e4 000000ac T FSUSER_CreateDirectory
+00123390 000000e0 T FSUSER_RenameDirectory
+00123470 000000a4 T FSUSER_OpenDirectory
+00123514 00000098 T FSUSER_OpenArchive
+001235ac 00000074 T FSUSER_CloseArchive
+00123620 00000078 T FSUSER_GetSdmcArchiveResource
+00123698 00000064 T FSUSER_IsSdmcWritable
+001236fc 0000005c T FSFILE_Read
+00123758 00000064 T FSFILE_Write
+001237bc 0000003c T FSFILE_GetSize
+001237f8 0000002c T FSFILE_SetSize
+00123824 0000003c T FSFILE_Close
+00123860 00000024 T FSFILE_Flush
+00123884 00000054 T FSDIR_Read
+001238d8 0000003c T FSDIR_Close
+00123914 000000c0 T utf8_to_utf16
+001239d4 00000138 T decode_utf8
+00123b0c 000000e8 T utf16_to_utf8
+00123bf4 00000104 T encode_utf8
+00123cf8 00000068 T encode_utf16
+00123d60 T __aeabi_read_tp
+00123d6c 00000060 T decode_utf16
+00123dd0 00000184 T floor
+00123f58 0000009c T frexp
+00123ff4 000000c4 T cosf
+001240b8 000000cc T sinf
+00124188 00000398 T pow
+00124520 000008bc T __ieee754_pow
+00124ddc 00000214 T __ieee754_sqrt
+00124ff0 000002e8 T __ieee754_rem_pio2f
+001252d8 00000124 T __kernel_cosf
+001253fc 00000898 T __kernel_rem_pio2f
+00125c94 000000a0 T __kernel_sinf
+00125d34 00000010 T fabs
+00125d44 00000014 T finite
+00125d58 00000008 T matherr
+00125d60 00000010 T nan
+00125d70 00000178 T rint
+00125ee8 00000170 T scalbn
+00126058 00000010 T fabsf
+00126068 000000bc T floorf
+00126124 00000114 T scalbnf
+00126238 0000001c T copysign
+00126254 0000001c T copysignf
+00126270 00000128 T __udivmoddi4
+00126398 00000014 T abort
+001263ac 00000074 T bsearch
+00126420 00000020 T calloc
+00126440 00000090 T _calloc_r
+001264d0 0000000c T __errno
+001264dc 00000154 T _fclose_r
+00126630 00000254 T __sflush_r
+00126884 00000094 T _fflush_r
+00126918 00000038 T fflush
+00126950 0000000c T _cleanup_r
+0012695c 00000080 t std.isra.0
+001269dc 0000008c T __sinit
+00126a68 0000000c T __sfp_lock_acquire
+00126a74 0000000c T __sfp_lock_release
+00126a80 00000040 T __libc_fini_array
+00126ac0 0000003c T fprintf
+00126afc 00000094 T fputc
+00126b90 000002d4 T _fread_r
+00126e64 00000038 T fread
+00126e9c 000000f8 T _malloc_trim_r
+00126f94 000002e4 T _free_r
+00127278 00000078 T _fwalk
+001272f0 00000080 T _fwalk_reent
+00127370 00000078 T __libc_init_array
+001273e8 00000094 T __swhatbuf_r
+0012747c 000000f4 T __smakebuf_r
+00127570 00000020 T memalign
+00127590 00000158 T _memalign_r
+001276e8 00000018 T malloc
+00127700 00000018 T free
+00127718 0000078c T _malloc_r
+00127ea4 00000104 T memchr
+00127fa8 000000e8 T memcmp
+00128090 00000114 T memcpy
+001281a4 00000110 T memset
+001282b4 0000000c T __malloc_lock
+001282c0 0000000c T __malloc_unlock
+001282cc 00000038 T printf
+00128304 000000d4 T _putc_r
+001283d8 0000001c t lflush
+001283f4 000001b4 T __srefill_r
+001285a8 00000258 T setvbuf
+00128800 000000a0 T _raise_r
+001288a0 00000018 T raise
+001288b8 00000074 T sscanf
+0012892c 0000003c T __sread
+00128968 00000008 T __seofread
+00128970 00000064 T __swrite
+001289d4 0000004c T __sseek
+00128a20 00000008 T __sclose
+00128a28 0000005c T strlen
+00128a84 0000009c T strncat
+00128b20 000000d8 T strncpy
+00128bf8 00000054 t sulp
+00128c50 00001434 T _strtod_l
+0012a084 0000003c T _strtod_r
+0012a0c0 0000290c T __ssvfscanf_r
+0012c9cc 0000001c t __sprint_r.part.0
+0012c9e8 0000001c T __sprint_r
+0012ca04 00001624 t get_arg
+0012e028 00004314 T _vfprintf_r
+0013233c 000000cc t __sbprintf
+00132408 00000108 T __swbuf_r
+00132510 000000a0 T _wcrtomb_r
+001325b0 00000020 T _wcsrtombs_r
+001325d0 00000144 T __swsetup_r
+00132714 000001d0 t quorem
+001328e8 00001260 T _dtoa_r
+00133b48 000004ac T __sfvwrite_r
+00133ff4 000000f0 t rshift
+001340e4 000007f4 T __gethex
+001348d8 00000064 T __match
+0013493c 00000264 T __hexnan
+00134ba0 00000074 T iswspace
+00134c14 00000204 t __jp2uc
+00134e18 000000c8 T _jp2uc
+00134ee0 00000024 T __locale_mb_cur_max
+00134f04 00000008 T __locale_ctype_ptr_l
+00134f0c 00000024 T __locale_ctype_ptr
+00134f30 00000008 T __localeconv_l
+00134f38 00000024 T _localeconv_r
+00134f5c 000000b4 T _mbrtowc_r
+00135010 00000300 T __utf8_mbtowc
+00135310 00000148 T memmove
+00135458 00000088 T _Balloc
+001354e0 0000001c T _Bfree
+001354fc 000000d8 T __multadd
+001355d4 000000f0 T __s2b
+001356c4 00000058 T __hi0bits
+0013571c 0000009c T __lo0bits
+001357b8 00000020 T __i2b
+001357d8 000001cc T __multiply
+001359a4 00000100 T __pow5mult
+00135aa4 000000e4 T __lshift
+00135b88 00000060 T __mcmp
+00135be8 00000198 T __mdiff
+00135d80 00000078 T __ulp
+00135df8 000000d4 T __b2d
+00135ecc 00000108 T __d2b
+00135fd4 0000007c T __ratio
+00136050 0000006c T __copybits
+001360bc 00000080 T __any_on
+0013613c 000004cc T _realloc_r
+00136608 000000cc T __sccl
+001366d4 0000000c T nanf
+001366e0 00000068 T sprintf
+00136748 00000100 T stpncpy
+00136848 000001ac T strchr
+001369f4 00000108 T strncmp
+00136afc 00000220 t _strtol_l.isra.0
+00136d1c 00000050 T _strtol_r
+00136d6c 000002dc t _strtoll_l.isra.0
+00137048 00000050 T _strtoll_r
+00137098 000001e4 t _strtoul_l.isra.0
+0013727c 00000050 T _strtoul_r
+001372d0 00000268 t _strtoull_l.isra.0
+00137538 00000050 T _strtoull_r
+00137588 00000188 T __ssprint_r
+00137710 000000e8 T _sungetc_r
+001377f8 0000006c T __ssrefill_r
+00137864 000000d0 T _sfread_r
+00137934 00001624 t get_arg
+00138f58 000041c4 T _svfprintf_r
+0013d11c 000000a8 T __submore
+0013d1c4 00000174 T _wcsnrtombs_l
+0013d338 00000064 T _wcsnrtombs_r
+0013d39c 000000e8 T __utf8_wctomb
+0013d484 00000008 t null_write
+0013d48c 00000018 T setDefaultDevice
+0013d4a4 000000cc T FindDevice
+0013d570 00000028 T RemoveDevice
+0013d598 00000098 T AddDevice
+0013d630 00000084 T _close_r
+0013d6b4 0000007c T _fstat_r
+0013d730 00000010 T _getpid_r
+0013d740 00000008 T _isatty_r
+0013d748 00000010 T _kill_r
+0013d758 00000090 T _lseek_r
+0013d7e8 00000088 T _read_r
+0013d870 00000070 T _sbrk_r
+0013d8e0 00000088 T _write_r
+0013d968 00000024 T _exit
+0013d98c 000001d4 T _concatenate_path
+0013db60 0000015c T chdir
+0013dcbc 00000008 T __flockfile
+0013dcc4 00000008 T __funlockfile
+0013dccc 00000018 T __libc_lock_acquire
+0013dce4 00000018 T __libc_lock_release
+0013dcfc 00000018 T __libc_lock_init_recursive
+0013dd14 00000018 T __libc_lock_acquire_recursive
+0013dd2c 00000018 T __libc_lock_release_recursive
+0013dd44 00000018 T __libc_lock_close_recursive
+0013dd5c 0000004c T __free_handle
+0013dda8 00000040 T __release_handle
+0013dde8 00000018 T __get_handle
+0013de00 00000028 T __getreent
+0013de28 0000005c T strnlen
+0013de84 00000044 T strrchr
+0013dec8 T _fini
+0013e000 R button1_png
+00149a65 R button1_png_end
+00149a68 R button1_png_size
+00149a6c R button2_png
+00157157 R button2_png_end
+00157158 R button2_png_size
+0015715c R button3_png
+0016493b R button3_png_end
+0016493c R button3_png_size
+00164940 R button4_png
+0017239f R button4_png_end
+001723a0 R button4_png_size
+001723a4 R button5_png
+0017fea7 R button5_png_end
+0017fea8 R button5_png_size
+0017feac R button6_png
+0018d845 R button6_png_end
+0018d848 R button6_png_size
+0018d84c R button7_png
+0019afa5 R button7_png_end
+0019afa8 R button7_png_size
+0019afac R button8_png
+001a8a6e R button8_png_end
+001a8a70 R button8_png_size
+001a8a74 R moon1_png
+001b10e1 R moon1_png_end
+001b10e4 R moon1_png_size
+001b10e8 R moon2_png
+001ba4df R moon2_png_end
+001ba4e0 R moon2_png_size
+001ba4e4 R moon3_png
+001c3098 R moon3_png_end
+001c3098 R moon3_png_size
+001c309c R moon4_png
+001cbb95 R moon4_png_end
+001cbb98 R moon4_png_size
+001cbb9c R moon5_png
+001d335b R moon5_png_end
+001d335c R moon5_png_size
+001d3360 R moon6_png
+001dbcb9 R moon6_png_end
+001dbcbc R moon6_png_size
+001dbcc0 R moon7_png
+001e433a R moon7_png_end
+001e433c R moon7_png_size
+001e4340 R moon8_png
+001ed28c R moon8_png_end
+001ed28c R moon8_png_size
+001ed290 R pokeball1_png
+001f4db1 R pokeball1_png_end
+001f4db4 R pokeball1_png_size
+001f4db8 R pokeball2_png
+001fcf47 R pokeball2_png_end
+001fcf48 R pokeball2_png_size
+001fcf4c R pokeball3_png
+00204e36 R pokeball3_png_end
+00204e38 R pokeball3_png_size
+00204e3c R pokeball4_png
+0020d71b R pokeball4_png_end
+0020d71c R pokeball4_png_size
+0020d720 R pokeball5_png
+00215967 R pokeball5_png_end
+00215968 R pokeball5_png_size
+0021596c R pokeball6_png
+0021dd94 R pokeball6_png_end
+0021dd94 R pokeball6_png_size
+0021dd98 R pokeball7_png
+00225c9d R pokeball7_png_end
+00225ca0 R pokeball7_png_size
+00225ca4 R pokeball8_png
+0022e5a9 R pokeball8_png_end
+0022e5ac R pokeball8_png_size
+0022e5b0 R pressedButton1_png
+00239f84 R pressedButton1_png_end
+00239f84 R pressedButton1_png_size
+00239f88 R pressedButton2_png
+002474ed R pressedButton2_png_end
+002474f0 R pressedButton2_png_size
+002474f4 R pressedButton3_png
+00254b49 R pressedButton3_png_end
+00254b4c R pressedButton3_png_size
+00254b50 R pressedButton4_png
+002623d5 R pressedButton4_png_end
+002623d8 R pressedButton4_png_size
+002623dc R pressedButton5_png
+0026fd06 R pressedButton5_png_end
+0026fd08 R pressedButton5_png_size
+0026fd0c R pressedButton6_png
+0027d537 R pressedButton6_png_end
+0027d538 R pressedButton6_png_size
+0027d53c R pressedButton7_png
+0028aade R pressedButton7_png_end
+0028aae0 R pressedButton7_png_size
+0028aae4 R pressedButton8_png
+0029841d R pressedButton8_png_end
+00298420 R pressedButton8_png_size
+00298424 R pressedMoon1_png
+0029fcb2 R pressedMoon1_png_end
+0029fcb4 R pressedMoon1_png_size
+0029fcb8 R pressedMoon2_png
+002a825e R pressedMoon2_png_end
+002a8260 R pressedMoon2_png_size
+002a8264 R pressedMoon3_png
+002b00d1 R pressedMoon3_png_end
+002b00d4 R pressedMoon3_png_size
+002b00d8 R pressedMoon4_png
+002b7f08 R pressedMoon4_png_end
+002b7f08 R pressedMoon4_png_size
+002b7f0c R pressedMoon5_png
+002beafc R pressedMoon5_png_end
+002beafc R pressedMoon5_png_size
+002beb00 R pressedMoon6_png
+002c658d R pressedMoon6_png_end
+002c6590 R pressedMoon6_png_size
+002c6594 R pressedMoon7_png
+002cde4d R pressedMoon7_png_end
+002cde50 R pressedMoon7_png_size
+002cde54 R pressedMoon8_png
+002d5df4 R pressedMoon8_png_end
+002d5df4 R pressedMoon8_png_size
+002d5df8 R pressedPokeball1_png
+002ddb32 R pressedPokeball1_png_end
+002ddb34 R pressedPokeball1_png_size
+002ddb38 R pressedPokeball2_png
+002e5e1b R pressedPokeball2_png_end
+002e5e1c R pressedPokeball2_png_size
+002e5e20 R pressedPokeball3_png
+002edea2 R pressedPokeball3_png_end
+002edea4 R pressedPokeball3_png_size
+002edea8 R pressedPokeball4_png
+002f688e R pressedPokeball4_png_end
+002f6890 R pressedPokeball4_png_size
+002f6894 R pressedPokeball5_png
+002febca R pressedPokeball5_png_end
+002febcc R pressedPokeball5_png_size
+002febd0 R pressedPokeball6_png
+003071ac R pressedPokeball6_png_end
+003071ac R pressedPokeball6_png_size
+003071b0 R pressedPokeball7_png
+0030f26e R pressedPokeball7_png_end
+0030f270 R pressedPokeball7_png_size
+0030f274 R pressedPokeball8_png
+00317bdb R pressedPokeball8_png_end
+00317bdc R pressedPokeball8_png_size
+00317be0 R topscr_png
+00321e41 R topscr_png_end
+00321e44 R topscr_png_size
+00321e50 00000030 r short_months.9538
+00321e80 00000020 r CSWTCH.116
+00321ea0 00000020 r CSWTCH.117
+00321ec0 00000020 r sRGB_xy
+00321ee0 00000024 r sRGB_XYZ.9728
+00321f04 0000000c r D50_nCIEXYZ
+00321f10 000000e0 r png_sRGB_checks
+00321ff0 00000200 R png_sRGB_delta
+003221f0 00000400 R png_sRGB_base
+003225f0 00000200 R png_sRGB_table
+003227f0 00000010 r png_digit
+00322800 00000011 r digits.9448
+00322814 00000048 r display_mask.9821
+0032285c 00000090 r row_mask.9820
+003228ec 0000001c r png_pass_inc.9865
+00322908 00000007 r png_pass_yinc.10051
+00322910 00000007 r png_pass_ystart.10050
+00322918 00000007 r png_pass_inc.10049
+00322918 00000007 r png_pass_inc.10058
+00322920 00000007 r png_pass_start.10048
+00322920 00000007 r png_pass_start.10057
+00322928 00000100 r onebppswaptable
+00322a28 00000100 r twobppswaptable
+00322b28 00000100 r fourbppswaptable
+00322c28 00002000 r crc_table
+00324c28 00000800 r lenfix.6883
+00325428 00000080 r distfix.6884
+003254a8 00000026 r order.6912
+003254d0 00000040 r dext.6798
+00325510 00000040 r dbase.6797
+00325550 0000003e r lext.6796
+00325590 0000003e r lbase.6795
+003255d0 0000002f R inflate_copyright
+00325600 00000010 r CSWTCH.23
+00325610 R shader_shbin
+0032575c R shader_shbin_end
+0032575c R shader_shbin_size
+00325760 00000038 r CSWTCH.2
+00325798 00000003 r parm.12748
+0032579c 00000004 r CSWTCH.7
+003257a0 00000005 r colorFmtSizes
+003257a8 00000004 r depthFmtSizes
+003257ac 00000014 r CSWTCH.26
+003257c0 00000008 r framebufferInfoSt
+003257c8 00000068 r dotab_3dmoo
+00325830 00000068 r dotab_stdout
+00325898 00000068 r dotab_null
+00325900 00000030 r colorTable
+00325930 0000000c r serviceNameTable.7434
+0032593c R default_font_bin
+0032613c R default_font_bin_end
+0032613c R default_font_bin_size
+00326140 00000030 r error_table
+003265f4 r .LC2
+003287a4 00000080 r npio2_hw
+00328824 00000318 r two_over_pi
+00328b3c 0000002c r PIo2
+00328b68 0000000c r init_jk
+00328b78 00000010 r TWO52
+00328b88 00000004 R _global_impure_ptr
+00328b9c 00000014 r fpi.7277
+00328bb0 00000014 r fpinan.7313
+00328bc8 00000028 r tinytens
+00328bf8 00000022 r basefix.8441
+00328c5c 00000010 r blanks.8415
+00328c6c 00000010 r zeroes.8416
+00328c8c 00000100 R __hexdig
+00328da0 000000bc r a1
+00328e5c 000000bc r a2
+00328f18 0000005b r a3
+00328f74 00000070 r a6
+00328fe4 000000a2 r a7
+00329088 00000040 r a8
+003290c8 0000172a r b02cf
+0032a7f4 00001a7c r d02f4
+0032c2b8 00000028 R __mprec_bigtens
+0032c2e0 000000c8 R __mprec_tens
+0032c3a8 0000000c r p05.7191
+0032c3b4 0000006c R __action_table
+0032c420 00000100 R __chclass
+0032c520 0000006c R __state_table
+0032c58c 00000010 r blanks.8400
+0032c59c 00000010 r zeroes.8401
+0032c5ac 00000101 R _ctype_
+0032c6b8 00000068 R dotab_stdnull
+0032c720 00000003 R DIRECTORY_PARENT
+0032c724 r __EH_FRAME_BEGIN__
+0032c724 R __exidx_end
+0032c724 R __exidx_start
+0032d000 00000004 d useTransform_desc
+0032d004 00000004 d transform_desc
+0032d008 00000004 d vblank_wait
+0032d00c 00000004 d projection_desc
+0032d010 00000001 d topFormat
+0032d011 00000001 d botFormat
+0032d014 00000008 d doubleBuf
+0032d01c 0000004c D defaultConsole
+0032d068 00000004 D currentConsole
+0032d06c 00000001 d firstConsoleInit.7754
+0032d070 00000004 d aptFlags
+0032d074 00000004 d gspLastEvent
+0032d078 00000004 V __ctru_linear_heap_size
+0032d07c W __stacksize__
+0032d080 00000401 d __cwd
+0032d484 00000068 d sdmc_devoptab
+0032d4ec 00000001 D __fdlib_version
+0032d4f0 0000000c d __sfp_lock
+0032d4fc 0000000c d __sinit_lock
+0032d508 00000004 D _impure_ptr
+0032d510 00000460 d impure_data
+0032d970 00000408 D __malloc_av_
+0032dd78 00000004 D __malloc_sbrk_base
+0032dd7c 00000004 D __malloc_trim_threshold
+0032dd80 0000000c d __malloc_lock_object
+0032dd8c 0000016c D __global_locale
+0032def8 00000004 d defaultDevice
+0032defc 00000040 D devoptab_list
+0032df3c 00001000 d _current_working_directory
+0032ef3c 00000004 d __hndl_lock
+0032ef40 0000000c d __stderr_handle
+0032ef4c 0000000c d __stdin_handle
+0032ef58 0000000c d __stdout_handle
+0032ef64 00001000 d handles
+0032ff64 d __JCR_LIST__
+0032ff64 D __TMC_END__
+0032ff64 d __TMC_LIST__
+0032ff64 t __frame_dummy_init_array_entry
+0032ff64 T __init_array_start
+0032ff64 B __preinit_array_end
+0032ff64 B __preinit_array_start
+0032ff64 D __tdata_lma
+0032ff64 D __tdata_lma_end
+0032ff68 t __do_global_dtors_aux_fini_array_entry
+0032ff68 T __fini_array_start
+0032ff68 T __init_array_end
+0032ff6c T __bss_start__
+0032ff6c T __fini_array_end
+0032ff70 00000004 b sf2d_initialized
+0032ff74 00000004 b pool_addr
+0032ff78 00000014 b shader
+0032ff8c 00000004 b dvlb
+0032ff90 00000004 b in_render
+0032ff94 00000004 b pool_index
+0032ff98 00000001 b cur_screen
+0032ff99 00000001 b cur_side
+0032ff9c 00000004 b targetTopLeft
+0032ffa0 00000004 b targetTopRight
+0032ffa4 00000004 b targetBottom
+0032ffa8 00000004 b frames
+0032ffb0 00000008 b last_time
+0032ffb8 00000004 b current_fps
+0032ffbc 00000004 b pool_size
+0032ffc0 00000018 b C3Di_ShaderFVecData
+0032ffd8 000000c0 b C3Di_FVUnifEverDirty
+00330098 00000008 b C3Di_IVUnifEverDirty
+003300a0 00000001 b queuedCount
+003300a4 00000004 b transferQueue
+003300a8 00000004 b clearQueue
+003300ac 00000001 b inSafeTransfer
+003300b0 0000000c b linkedTarget
+003300bc 0000004c b temp.13412
+00330108 00000001 b inSafeClear
+00330109 00000001 b queueSwap
+0033010c 00000020 b queuedFrame
+0033012c 00000001 b queuedState
+0033012d 00000001 b inFrame
+00330130 00000004 b lastTarget
+00330134 00000004 b firstTarget
+00330138 0000000c b hookCookie
+00330144 00000008 b sLinearPool
+0033014c 0000000c b sAddrMap
+00330158 00000008 b sVramPool
+00330160 0000000c b sAddrMap
+0033016c 00000001 b enable3d
+00330170 00000004 b screenAlloc
+00330174 00000004 b screenFree
+00330178 00000002 b currentBuffer
+0033017a 00000001 V __ctru_speedup
+0033017c 00000004 b ptmSysmRefCount
+00330180 00000004 b ptmSysmHandle
+00330184 00000004 b hidRefCount
+00330188 00000004 b kOld
+0033018c 00000004 b kHeld
+00330190 00000004 b cPos
+00330194 00000004 b tPos
+00330198 00000006 b aVec
+003301a0 00000006 b gRate
+003301a8 00000004 b kDown
+003301ac 00000004 b kUp
+003301b0 00000004 b aptLockHandle
+003301b4 00000004 b serviceName.7433
+003301b8 0000000c b aptFirstHook
+003301c4 00000004 b aptMessageFunc
+003301c8 00000004 b aptMessageFuncData
+003301cc 0000000c b aptEvents
+003301d8 00000001 b aptHomeButtonState
+003301dc 00000008 b aptSleepEvent
+003301e4 00001000 b aptParameters
+003311e4 00000004 b aptRefCount
+003311e8 00000004 b aptEventHandlerThread
+003311ec 00000001 b flagInit.7784
+003311ed 00000001 b flagValue.7785
+003311f0 00000001 b gspRunEvents
+003311f4 00000004 b gspEvent
+003311f8 00000004 b gspEventData
+003311fc 0000001c b gspEventCb
+00331218 00000007 b gspEventCbOneShot
+00331220 0000001c b gspEventCbData
+0033123c 00000038 b gspEvents
+00331274 0000001c b gspEventCounts
+00331290 00000004 b gspRefCount
+00331294 00000004 b gspEventThread
+00331298 00000004 b irrstRefCount
+0033129c 00000004 b kHeld
+003312a0 00000004 b csPos
+003312a4 00000004 V __ctru_heap_size
+003312a8 b saved_stack
+003312b0 00000008 b sMappablePool
+003312b8 0000000c b sAddrMap
+003312c4 00000004 b srvRefCount
+003312c8 00000004 b srvHandle
+003312cc 00000004 b arbiter
+003312d0 00000008 b sdmcArchive
+003312d8 00000001 b sdmcInitialised
+003312e0 00000004 b fsuHandle
+003312e4 00000004 b fsuRefCount
+003312e8 00000080 b fsExemptArchives
+00331368 b completed.7620
+0033136c b object.7625
+00331384 00000028 B __malloc_current_mallinfo
+003313ac 00000004 B __malloc_max_sbrked_mem
+003313b0 00000004 B __malloc_max_total_mem
+003313b4 00000004 B __malloc_top_pad
+003313b8 00000004 b heap_start.6927
+003313bc 00000004 B fake_heap_end
+003313c0 00000004 B fake_heap_start
+003313c4 00001000 b temp_cwd
+003323c4 00000038 B __syscalls
+003323fc 00000020 B C3D_IVUnif
+0033241c 000000c0 B C3D_FVUnifDirty
+003324dc 00000002 B C3D_BoolUnifsDirty
+003324e0 00000008 B C3D_IVUnifDirty
+003324e8 00000004 B C3D_BoolUnifs
+003324ec 00000c00 B C3D_FVUnif
+003330f0 00000278 B __C3D_Context
+00333368 00000008 B gfxBottomFramebuffers
+00333370 00000004 B gspSharedMemHandle
+00333374 0000001c B bottomFramebufferInfo
+00333390 00000004 B gspEvent
+00333394 00000008 B gfxTopLeftFramebuffers
+0033339c 00000008 B gfxTopRightFramebuffers
+003333a4 0000001c B topFramebufferInfo
+003333c0 00000001 B gfxThreadID
+003333c4 00000004 B gfxSharedMemory
+003333c8 00000004 B gfxTopFramebufferMaxSize
+003333cc 00000004 B gfxBottomFramebufferMaxSize
+003333d0 0000004c B currentCopy
+0033341c 00000004 B gpuCmdBuf
+00333420 00000004 B gpuCmdBufOffset
+00333424 00000004 B gpuCmdBufSize
+00333428 00000004 B gxCmdBuf
+0033342c 00000004 B hidMemHandle
+00333430 00000004 B hidHandle
+00333434 00000004 B hidSharedMem
+00333438 00000014 B hidEvents
+0033344c 00000004 B gspGpuHandle
+00333450 00000004 B irrstHandle
+00333454 00000004 B irrstEvent
+00333458 00000004 B irrstMemHandle
+0033345c 00000004 B irrstSharedMem
+00333460 00000004 B __system_argv
+00333464 00000004 B __system_argc
+00333468 00000004 B __ctru_linear_heap
+0033346c 00000004 B __ctru_heap
+00333470 00000004 B __system_retAddr
+00333474 B __tls_start
+00336880 B __bss_end__
+00336880 A __end__
+00336880 B __tls_end

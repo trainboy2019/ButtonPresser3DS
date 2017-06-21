@@ -120,7 +120,7 @@ int main() {
     bool pressed = false;
     
     gfxInitDefault();
-    
+    consoleInit(GFX_BOTTOM, NULL);
 	// Main loop
 	while (aptMainLoop()) {
         hidScanInput();
