@@ -234,6 +234,11 @@ int main() {
                 style--;
             }
         }
+        
+        if (kDown & KEY_R){
+            scoreO=0;
+            scoreT=0;
+        }
 
 		if (kDown & KEY_START) {
 			break;
