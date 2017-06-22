@@ -192,69 +192,7 @@ int main() {
                     scoreT++;
                 }
             }
-            sf2d_start_frame(GFX_BOTTOM, GFX_LEFT);
-            if (scoreO==0) {
-                sf2d_draw_texture(number0, 50, 52);
-            }
-            else if (scoreO==1) {
-                sf2d_draw_texture(number1, 50, 52);
-            }
-            else if (scoreO==2) {
-                sf2d_draw_texture(number2, 50, 52);
-            }
-            else if (scoreO==3) {
-                sf2d_draw_texture(number3, 50, 52);
-            }
-            else if (scoreO==4) {
-                sf2d_draw_texture(number4, 50, 52);
-            }
-            else if (scoreO==5) {
-                sf2d_draw_texture(number5, 50, 52);
-            }
-            else if (scoreO==6) {
-                sf2d_draw_texture(number6, 50, 52);
-            }
-            else if (scoreO==7) {
-                sf2d_draw_texture(number7, 50, 52);
-            }
-            else if (scoreO==8) {
-                sf2d_draw_texture(number8, 50, 52);
-            }
-            else if (scoreO==9) {
-                sf2d_draw_texture(number9, 50, 52);
-            }
             
-            if (scoreT==0) {
-                sf2d_draw_texture(number0, 0, 52);
-            }
-            else if (scoreT==1) {
-                sf2d_draw_texture(number1, 0, 52);
-            }
-            else if (scoreT==2) {
-                sf2d_draw_texture(number2, 0, 52);
-            }
-            else if (scoreT==3) {
-                sf2d_draw_texture(number3, 0, 52);
-            }
-            else if (scoreT==4) {
-                sf2d_draw_texture(number4, 0, 52);
-            }
-            else if (scoreT==5) {
-                sf2d_draw_texture(number5, 0, 52);
-            }
-            else if (scoreT==6) {
-                sf2d_draw_texture(number6, 0, 52);
-            }
-            else if (scoreT==7) {
-                sf2d_draw_texture(number7, 0, 52);
-            }
-            else if (scoreT==8) {
-                sf2d_draw_texture(number8, 0, 52);
-            }
-            else if (scoreT==9) {
-                sf2d_draw_texture(number9, 0, 52);
-            }
-            sf2d_end_frame();
 		}
         if (kHeld & KEY_TOUCH){
             pressed=true;
@@ -300,11 +238,79 @@ int main() {
 		if (kDown & KEY_START) {
 			break;
 		}
+        
+        
+        
+        
+        //Scores
+        sf2d_start_frame(GFX_BOTTOM, GFX_LEFT);
+        if (scoreO==0) {
+            sf2d_draw_texture(number0, 50, 0);
+        }
+        else if (scoreO==1) {
+            sf2d_draw_texture(number1, 50, 0);
+        }
+        else if (scoreO==2) {
+            sf2d_draw_texture(number2, 50, 0);
+        }
+        else if (scoreO==3) {
+            sf2d_draw_texture(number3, 50, 0);
+        }
+        else if (scoreO==4) {
+            sf2d_draw_texture(number4, 50, 0);
+        }
+        else if (scoreO==5) {
+            sf2d_draw_texture(number5, 50, 0);
+        }
+        else if (scoreO==6) {
+            sf2d_draw_texture(number6, 50, 0);
+        }
+        else if (scoreO==7) {
+            sf2d_draw_texture(number7, 50, 0);
+        }
+        else if (scoreO==8) {
+            sf2d_draw_texture(number8, 50, 0);
+        }
+        else if (scoreO==9) {
+            sf2d_draw_texture(number9, 50, 0);
+        }
+        
+        if (scoreT==0) {
+            sf2d_draw_texture(number0, 0, 0);
+        }
+        else if (scoreT==1) {
+            sf2d_draw_texture(number1, 0, 0);
+        }
+        else if (scoreT==2) {
+            sf2d_draw_texture(number2, 0, 0);
+        }
+        else if (scoreT==3) {
+            sf2d_draw_texture(number3, 0, 0);
+        }
+        else if (scoreT==4) {
+            sf2d_draw_texture(number4, 0, 0);
+        }
+        else if (scoreT==5) {
+            sf2d_draw_texture(number5, 0, 0);
+        }
+        else if (scoreT==6) {
+            sf2d_draw_texture(number6, 0, 0);
+        }
+        else if (scoreT==7) {
+            sf2d_draw_texture(number7, 0, 0);
+        }
+        else if (scoreT==8) {
+            sf2d_draw_texture(number8, 0, 0);
+        }
+        else if (scoreT==9) {
+            sf2d_draw_texture(number9, 0, 0);
+        }
+        sf2d_end_frame();
 
 		// draw instructions
 		sf2d_start_frame(GFX_TOP, GFX_LEFT);
 		sf2d_draw_texture(topScreen, 0, 0);
-		sf2d_end_frame();		
+		sf2d_end_frame();
 
 		// draw the spidget finner
         if (pressed){
