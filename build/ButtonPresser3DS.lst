@@ -750,225 +750,225 @@
 00216700 R moon8_png_end
 00216700 R moon8_png_size
 00216704 R number0_png
-00216e30 R number0_png_end
-00216e30 R number0_png_size
-00216e34 R number1_png
-002173a4 R number1_png_end
-002173a4 R number1_png_size
-002173a8 R number2_png
-00217ad8 R number2_png_end
-00217ad8 R number2_png_size
-00217adc R number3_png
-0021823f R number3_png_end
-00218240 R number3_png_size
-00218244 R number4_png
-00218946 R number4_png_end
-00218948 R number4_png_size
-0021894c R number5_png
-0021908a R number5_png_end
-0021908c R number5_png_size
-00219090 R number6_png
-002197be R number6_png_end
+00216e56 R number0_png_end
+00216e58 R number0_png_size
+00216e5c R number1_png
+0021743b R number1_png_end
+0021743c R number1_png_size
+00217440 R number2_png
+00217b57 R number2_png_end
+00217b58 R number2_png_size
+00217b5c R number3_png
+0021829b R number3_png_end
+0021829c R number3_png_size
+002182a0 R number4_png
+00218979 R number4_png_end
+0021897c R number4_png_size
+00218980 R number5_png
+002190af R number5_png_end
+002190b0 R number5_png_size
+002190b4 R number6_png
+002197bf R number6_png_end
 002197c0 R number6_png_size
 002197c4 R number7_png
-00219da3 R number7_png_end
-00219da4 R number7_png_size
-00219da8 R number8_png
-0021a5e4 R number8_png_end
-0021a5e4 R number8_png_size
-0021a5e8 R number9_png
-0021ad4a R number9_png_end
-0021ad4c R number9_png_size
-0021ad50 R pokeball1_png
-00222871 R pokeball1_png_end
-00222874 R pokeball1_png_size
-00222878 R pokeball2_png
-0022aa07 R pokeball2_png_end
-0022aa08 R pokeball2_png_size
-0022aa0c R pokeball3_png
-002328f6 R pokeball3_png_end
-002328f8 R pokeball3_png_size
-002328fc R pokeball4_png
-0023b1db R pokeball4_png_end
-0023b1dc R pokeball4_png_size
-0023b1e0 R pokeball5_png
-00243427 R pokeball5_png_end
-00243428 R pokeball5_png_size
-0024342c R pokeball6_png
-0024b854 R pokeball6_png_end
-0024b854 R pokeball6_png_size
-0024b858 R pokeball7_png
-0025375d R pokeball7_png_end
-00253760 R pokeball7_png_size
-00253764 R pokeball8_png
-0025c069 R pokeball8_png_end
-0025c06c R pokeball8_png_size
-0025c070 R pressedButton1_png
-00267a44 R pressedButton1_png_end
-00267a44 R pressedButton1_png_size
-00267a48 R pressedButton2_png
-00274fad R pressedButton2_png_end
-00274fb0 R pressedButton2_png_size
-00274fb4 R pressedButton3_png
-00282609 R pressedButton3_png_end
-0028260c R pressedButton3_png_size
-00282610 R pressedButton4_png
-0028fe95 R pressedButton4_png_end
-0028fe98 R pressedButton4_png_size
-0028fe9c R pressedButton5_png
-0029d7c6 R pressedButton5_png_end
-0029d7c8 R pressedButton5_png_size
-0029d7cc R pressedButton6_png
-002aaff7 R pressedButton6_png_end
-002aaff8 R pressedButton6_png_size
-002aaffc R pressedButton7_png
-002b859e R pressedButton7_png_end
-002b85a0 R pressedButton7_png_size
-002b85a4 R pressedButton8_png
-002c5edd R pressedButton8_png_end
-002c5ee0 R pressedButton8_png_size
-002c5ee4 R pressedFrame1_png
-002cd899 R pressedFrame1_png_end
-002cd89c R pressedFrame1_png_size
-002cd8a0 R pressedFrame2_png
-002d5501 R pressedFrame2_png_end
-002d5504 R pressedFrame2_png_size
-002d5508 R pressedFrame3_png
-002ddf72 R pressedFrame3_png_end
-002ddf74 R pressedFrame3_png_size
-002ddf78 R pressedFrame4_png
-002e5b25 R pressedFrame4_png_end
-002e5b28 R pressedFrame4_png_size
-002e5b2c R pressedFrame5_png
-002ee967 R pressedFrame5_png_end
-002ee968 R pressedFrame5_png_size
-002ee96c R pressedFrame6_png
-002f4d17 R pressedFrame6_png_end
-002f4d18 R pressedFrame6_png_size
-002f4d1c R pressedFrame7_png
-002fdefe R pressedFrame7_png_end
-002fdf00 R pressedFrame7_png_size
-002fdf04 R pressedFrame8_png
-00307767 R pressedFrame8_png_end
-00307768 R pressedFrame8_png_size
-0030776c R pressedMoon1_png
-0030effa R pressedMoon1_png_end
-0030effc R pressedMoon1_png_size
-0030f000 R pressedMoon2_png
-003175a6 R pressedMoon2_png_end
-003175a8 R pressedMoon2_png_size
-003175ac R pressedMoon3_png
-0031f419 R pressedMoon3_png_end
-0031f41c R pressedMoon3_png_size
-0031f420 R pressedMoon4_png
-00327250 R pressedMoon4_png_end
-00327250 R pressedMoon4_png_size
-00327254 R pressedMoon5_png
-0032de44 R pressedMoon5_png_end
-0032de44 R pressedMoon5_png_size
-0032de48 R pressedMoon6_png
-003358d5 R pressedMoon6_png_end
-003358d8 R pressedMoon6_png_size
-003358dc R pressedMoon7_png
-0033d195 R pressedMoon7_png_end
-0033d198 R pressedMoon7_png_size
-0033d19c R pressedMoon8_png
-0034513c R pressedMoon8_png_end
-0034513c R pressedMoon8_png_size
-00345140 R pressedPokeball1_png
-0034ce7a R pressedPokeball1_png_end
-0034ce7c R pressedPokeball1_png_size
-0034ce80 R pressedPokeball2_png
-00355163 R pressedPokeball2_png_end
-00355164 R pressedPokeball2_png_size
-00355168 R pressedPokeball3_png
-0035d1ea R pressedPokeball3_png_end
-0035d1ec R pressedPokeball3_png_size
-0035d1f0 R pressedPokeball4_png
-00365bd6 R pressedPokeball4_png_end
-00365bd8 R pressedPokeball4_png_size
-00365bdc R pressedPokeball5_png
-0036df12 R pressedPokeball5_png_end
-0036df14 R pressedPokeball5_png_size
-0036df18 R pressedPokeball6_png
-003764f4 R pressedPokeball6_png_end
-003764f4 R pressedPokeball6_png_size
-003764f8 R pressedPokeball7_png
-0037e5b6 R pressedPokeball7_png_end
-0037e5b8 R pressedPokeball7_png_size
-0037e5bc R pressedPokeball8_png
-00386f23 R pressedPokeball8_png_end
-00386f24 R pressedPokeball8_png_size
-00386f28 R topscr_png
-00391189 R topscr_png_end
-0039118c R topscr_png_size
-00391198 00000030 r short_months.9538
-003911c8 00000020 r CSWTCH.116
-003911e8 00000020 r CSWTCH.117
-00391208 00000020 r sRGB_xy
-00391228 00000024 r sRGB_XYZ.9728
-0039124c 0000000c r D50_nCIEXYZ
-00391258 000000e0 r png_sRGB_checks
-00391338 00000200 R png_sRGB_delta
-00391538 00000400 R png_sRGB_base
-00391938 00000200 R png_sRGB_table
-00391b38 00000010 r png_digit
-00391b48 00000011 r digits.9448
-00391b5c 00000048 r display_mask.9821
-00391ba4 00000090 r row_mask.9820
-00391c34 0000001c r png_pass_inc.9865
-00391c50 00000007 r png_pass_yinc.10051
-00391c58 00000007 r png_pass_ystart.10050
-00391c60 00000007 r png_pass_inc.10049
-00391c60 00000007 r png_pass_inc.10058
-00391c68 00000007 r png_pass_start.10048
-00391c68 00000007 r png_pass_start.10057
-00391c70 00000100 r onebppswaptable
-00391d70 00000100 r twobppswaptable
-00391e70 00000100 r fourbppswaptable
-00391f70 00002000 r crc_table
-00393f70 00000800 r lenfix.6883
-00394770 00000080 r distfix.6884
-003947f0 00000026 r order.6912
-00394818 00000040 r dext.6798
-00394858 00000040 r dbase.6797
-00394898 0000003e r lext.6796
-003948d8 0000003e r lbase.6795
-00394918 0000002f R inflate_copyright
-00394948 00000010 r CSWTCH.23
-00394958 R shader_shbin
-00394aa4 R shader_shbin_end
-00394aa4 R shader_shbin_size
-00394aa8 00000038 r CSWTCH.2
-00394ae0 00000003 r parm.12748
-00394ae4 00000004 r CSWTCH.7
-00394ae8 00000005 r colorFmtSizes
-00394af0 00000004 r depthFmtSizes
-00394af4 00000014 r CSWTCH.26
-00394b08 00000008 r framebufferInfoSt
-00394b10 0000000c r serviceNameTable.7434
-00394b1c 00000030 r error_table
-00394fc8 r .LC2
-00397108 00000080 r npio2_hw
-00397188 00000318 r two_over_pi
-003974a0 0000002c r PIo2
-003974cc 0000000c r init_jk
-003974d8 00000010 r TWO52
-003974e8 00000004 R _global_impure_ptr
-0039752c 00000010 r blanks.8415
-0039753c 00000010 r zeroes.8416
-003975a8 00000028 R __mprec_bigtens
-003975d0 000000c8 R __mprec_tens
-00397698 0000000c r p05.7191
-003976a4 0000006c R __action_table
-00397710 00000100 R __chclass
-00397810 0000006c R __state_table
-0039787c 00000101 R _ctype_
-00397988 00000068 R dotab_stdnull
-003979f0 00000003 R DIRECTORY_PARENT
-003979f4 r __EH_FRAME_BEGIN__
-003979f4 R __exidx_end
-003979f4 R __exidx_start
+00219e2f R number7_png_end
+00219e30 R number7_png_size
+00219e34 R number8_png
+0021a59c R number8_png_end
+0021a59c R number8_png_size
+0021a5a0 R number9_png
+0021acb1 R number9_png_end
+0021acb4 R number9_png_size
+0021acb8 R pokeball1_png
+002227d9 R pokeball1_png_end
+002227dc R pokeball1_png_size
+002227e0 R pokeball2_png
+0022a96f R pokeball2_png_end
+0022a970 R pokeball2_png_size
+0022a974 R pokeball3_png
+0023285e R pokeball3_png_end
+00232860 R pokeball3_png_size
+00232864 R pokeball4_png
+0023b143 R pokeball4_png_end
+0023b144 R pokeball4_png_size
+0023b148 R pokeball5_png
+0024338f R pokeball5_png_end
+00243390 R pokeball5_png_size
+00243394 R pokeball6_png
+0024b7bc R pokeball6_png_end
+0024b7bc R pokeball6_png_size
+0024b7c0 R pokeball7_png
+002536c5 R pokeball7_png_end
+002536c8 R pokeball7_png_size
+002536cc R pokeball8_png
+0025bfd1 R pokeball8_png_end
+0025bfd4 R pokeball8_png_size
+0025bfd8 R pressedButton1_png
+002679ac R pressedButton1_png_end
+002679ac R pressedButton1_png_size
+002679b0 R pressedButton2_png
+00274f15 R pressedButton2_png_end
+00274f18 R pressedButton2_png_size
+00274f1c R pressedButton3_png
+00282571 R pressedButton3_png_end
+00282574 R pressedButton3_png_size
+00282578 R pressedButton4_png
+0028fdfd R pressedButton4_png_end
+0028fe00 R pressedButton4_png_size
+0028fe04 R pressedButton5_png
+0029d72e R pressedButton5_png_end
+0029d730 R pressedButton5_png_size
+0029d734 R pressedButton6_png
+002aaf5f R pressedButton6_png_end
+002aaf60 R pressedButton6_png_size
+002aaf64 R pressedButton7_png
+002b8506 R pressedButton7_png_end
+002b8508 R pressedButton7_png_size
+002b850c R pressedButton8_png
+002c5e45 R pressedButton8_png_end
+002c5e48 R pressedButton8_png_size
+002c5e4c R pressedFrame1_png
+002cd801 R pressedFrame1_png_end
+002cd804 R pressedFrame1_png_size
+002cd808 R pressedFrame2_png
+002d5469 R pressedFrame2_png_end
+002d546c R pressedFrame2_png_size
+002d5470 R pressedFrame3_png
+002ddeda R pressedFrame3_png_end
+002ddedc R pressedFrame3_png_size
+002ddee0 R pressedFrame4_png
+002e5a8d R pressedFrame4_png_end
+002e5a90 R pressedFrame4_png_size
+002e5a94 R pressedFrame5_png
+002ee8cf R pressedFrame5_png_end
+002ee8d0 R pressedFrame5_png_size
+002ee8d4 R pressedFrame6_png
+002f4c7f R pressedFrame6_png_end
+002f4c80 R pressedFrame6_png_size
+002f4c84 R pressedFrame7_png
+002fde66 R pressedFrame7_png_end
+002fde68 R pressedFrame7_png_size
+002fde6c R pressedFrame8_png
+003076cf R pressedFrame8_png_end
+003076d0 R pressedFrame8_png_size
+003076d4 R pressedMoon1_png
+0030ef62 R pressedMoon1_png_end
+0030ef64 R pressedMoon1_png_size
+0030ef68 R pressedMoon2_png
+0031750e R pressedMoon2_png_end
+00317510 R pressedMoon2_png_size
+00317514 R pressedMoon3_png
+0031f381 R pressedMoon3_png_end
+0031f384 R pressedMoon3_png_size
+0031f388 R pressedMoon4_png
+003271b8 R pressedMoon4_png_end
+003271b8 R pressedMoon4_png_size
+003271bc R pressedMoon5_png
+0032ddac R pressedMoon5_png_end
+0032ddac R pressedMoon5_png_size
+0032ddb0 R pressedMoon6_png
+0033583d R pressedMoon6_png_end
+00335840 R pressedMoon6_png_size
+00335844 R pressedMoon7_png
+0033d0fd R pressedMoon7_png_end
+0033d100 R pressedMoon7_png_size
+0033d104 R pressedMoon8_png
+003450a4 R pressedMoon8_png_end
+003450a4 R pressedMoon8_png_size
+003450a8 R pressedPokeball1_png
+0034cde2 R pressedPokeball1_png_end
+0034cde4 R pressedPokeball1_png_size
+0034cde8 R pressedPokeball2_png
+003550cb R pressedPokeball2_png_end
+003550cc R pressedPokeball2_png_size
+003550d0 R pressedPokeball3_png
+0035d152 R pressedPokeball3_png_end
+0035d154 R pressedPokeball3_png_size
+0035d158 R pressedPokeball4_png
+00365b3e R pressedPokeball4_png_end
+00365b40 R pressedPokeball4_png_size
+00365b44 R pressedPokeball5_png
+0036de7a R pressedPokeball5_png_end
+0036de7c R pressedPokeball5_png_size
+0036de80 R pressedPokeball6_png
+0037645c R pressedPokeball6_png_end
+0037645c R pressedPokeball6_png_size
+00376460 R pressedPokeball7_png
+0037e51e R pressedPokeball7_png_end
+0037e520 R pressedPokeball7_png_size
+0037e524 R pressedPokeball8_png
+00386e8b R pressedPokeball8_png_end
+00386e8c R pressedPokeball8_png_size
+00386e90 R topscr_png
+003910f1 R topscr_png_end
+003910f4 R topscr_png_size
+00391100 00000030 r short_months.9538
+00391130 00000020 r CSWTCH.116
+00391150 00000020 r CSWTCH.117
+00391170 00000020 r sRGB_xy
+00391190 00000024 r sRGB_XYZ.9728
+003911b4 0000000c r D50_nCIEXYZ
+003911c0 000000e0 r png_sRGB_checks
+003912a0 00000200 R png_sRGB_delta
+003914a0 00000400 R png_sRGB_base
+003918a0 00000200 R png_sRGB_table
+00391aa0 00000010 r png_digit
+00391ab0 00000011 r digits.9448
+00391ac4 00000048 r display_mask.9821
+00391b0c 00000090 r row_mask.9820
+00391b9c 0000001c r png_pass_inc.9865
+00391bb8 00000007 r png_pass_yinc.10051
+00391bc0 00000007 r png_pass_ystart.10050
+00391bc8 00000007 r png_pass_inc.10049
+00391bc8 00000007 r png_pass_inc.10058
+00391bd0 00000007 r png_pass_start.10048
+00391bd0 00000007 r png_pass_start.10057
+00391bd8 00000100 r onebppswaptable
+00391cd8 00000100 r twobppswaptable
+00391dd8 00000100 r fourbppswaptable
+00391ed8 00002000 r crc_table
+00393ed8 00000800 r lenfix.6883
+003946d8 00000080 r distfix.6884
+00394758 00000026 r order.6912
+00394780 00000040 r dext.6798
+003947c0 00000040 r dbase.6797
+00394800 0000003e r lext.6796
+00394840 0000003e r lbase.6795
+00394880 0000002f R inflate_copyright
+003948b0 00000010 r CSWTCH.23
+003948c0 R shader_shbin
+00394a0c R shader_shbin_end
+00394a0c R shader_shbin_size
+00394a10 00000038 r CSWTCH.2
+00394a48 00000003 r parm.12748
+00394a4c 00000004 r CSWTCH.7
+00394a50 00000005 r colorFmtSizes
+00394a58 00000004 r depthFmtSizes
+00394a5c 00000014 r CSWTCH.26
+00394a70 00000008 r framebufferInfoSt
+00394a78 0000000c r serviceNameTable.7434
+00394a84 00000030 r error_table
+00394f30 r .LC2
+00397070 00000080 r npio2_hw
+003970f0 00000318 r two_over_pi
+00397408 0000002c r PIo2
+00397434 0000000c r init_jk
+00397440 00000010 r TWO52
+00397450 00000004 R _global_impure_ptr
+00397494 00000010 r blanks.8415
+003974a4 00000010 r zeroes.8416
+00397510 00000028 R __mprec_bigtens
+00397538 000000c8 R __mprec_tens
+00397600 0000000c r p05.7191
+0039760c 0000006c R __action_table
+00397678 00000100 R __chclass
+00397778 0000006c R __state_table
+003977e4 00000101 R _ctype_
+003978f0 00000068 R dotab_stdnull
+00397958 00000003 R DIRECTORY_PARENT
+0039795c r __EH_FRAME_BEGIN__
+0039795c R __exidx_end
+0039795c R __exidx_start
 00398000 00000004 d useTransform_desc
 00398004 00000004 d transform_desc
 00398008 00000004 d vblank_wait

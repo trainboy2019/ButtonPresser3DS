@@ -245,34 +245,34 @@ int main() {
         //Scores
         sf2d_start_frame(GFX_BOTTOM, GFX_LEFT);
         if (scoreO==0) {
-            sf2d_draw_texture(number0, 50, 0);
+            sf2d_draw_texture(number0, 58, 0);
         }
         else if (scoreO==1) {
-            sf2d_draw_texture(number1, 50, 0);
+            sf2d_draw_texture(number1, 58, 0);
         }
         else if (scoreO==2) {
-            sf2d_draw_texture(number2, 50, 0);
+            sf2d_draw_texture(number2, 58, 0);
         }
         else if (scoreO==3) {
-            sf2d_draw_texture(number3, 50, 0);
+            sf2d_draw_texture(number3, 58, 0);
         }
         else if (scoreO==4) {
-            sf2d_draw_texture(number4, 50, 0);
+            sf2d_draw_texture(number4, 58, 0);
         }
         else if (scoreO==5) {
-            sf2d_draw_texture(number5, 50, 0);
+            sf2d_draw_texture(number5, 58, 0);
         }
         else if (scoreO==6) {
-            sf2d_draw_texture(number6, 50, 0);
+            sf2d_draw_texture(number6, 58, 0);
         }
         else if (scoreO==7) {
-            sf2d_draw_texture(number7, 50, 0);
+            sf2d_draw_texture(number7, 58, 0);
         }
         else if (scoreO==8) {
-            sf2d_draw_texture(number8, 50, 0);
+            sf2d_draw_texture(number8, 58, 0);
         }
         else if (scoreO==9) {
-            sf2d_draw_texture(number9, 50, 0);
+            sf2d_draw_texture(number9, 58, 0);
         }
         
         if (scoreT==0) {

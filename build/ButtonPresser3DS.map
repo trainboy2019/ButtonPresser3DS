@@ -4980,7 +4980,7 @@ Linker script and memory map
 .iplt           0x00131738        0x0
  .iplt          0x00131738        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/3dsx_crt0.o
 
-.rodata         0x00132000   0x2659f4
+.rodata         0x00132000   0x26595c
  *(.rodata)
  .rodata        0x00132000     0xba6c button1.png.o
                 0x00132000                button1_png
@@ -5078,381 +5078,381 @@ Linker script and memory map
                 0x0020d7b4                moon8_png
                 0x00216700                moon8_png_end
                 0x00216700                moon8_png_size
- .rodata        0x00216704      0x730 number0.png.o
+ .rodata        0x00216704      0x758 number0.png.o
                 0x00216704                number0_png
-                0x00216e30                number0_png_size
-                0x00216e30                number0_png_end
- .rodata        0x00216e34      0x574 number1.png.o
-                0x00216e34                number1_png
-                0x002173a4                number1_png_size
-                0x002173a4                number1_png_end
- .rodata        0x002173a8      0x734 number2.png.o
-                0x002173a8                number2_png
-                0x00217ad8                number2_png_end
-                0x00217ad8                number2_png_size
- .rodata        0x00217adc      0x768 number3.png.o
-                0x00217adc                number3_png
-                0x0021823f                number3_png_end
-                0x00218240                number3_png_size
- .rodata        0x00218244      0x708 number4.png.o
-                0x00218244                number4_png
-                0x00218946                number4_png_end
-                0x00218948                number4_png_size
- .rodata        0x0021894c      0x744 number5.png.o
-                0x0021894c                number5_png
-                0x0021908a                number5_png_end
-                0x0021908c                number5_png_size
- .rodata        0x00219090      0x734 number6.png.o
-                0x00219090                number6_png
-                0x002197be                number6_png_end
+                0x00216e56                number0_png_end
+                0x00216e58                number0_png_size
+ .rodata        0x00216e5c      0x5e4 number1.png.o
+                0x00216e5c                number1_png
+                0x0021743b                number1_png_end
+                0x0021743c                number1_png_size
+ .rodata        0x00217440      0x71c number2.png.o
+                0x00217440                number2_png
+                0x00217b57                number2_png_end
+                0x00217b58                number2_png_size
+ .rodata        0x00217b5c      0x744 number3.png.o
+                0x00217b5c                number3_png
+                0x0021829b                number3_png_end
+                0x0021829c                number3_png_size
+ .rodata        0x002182a0      0x6e0 number4.png.o
+                0x002182a0                number4_png
+                0x00218979                number4_png_end
+                0x0021897c                number4_png_size
+ .rodata        0x00218980      0x734 number5.png.o
+                0x00218980                number5_png
+                0x002190af                number5_png_end
+                0x002190b0                number5_png_size
+ .rodata        0x002190b4      0x710 number6.png.o
+                0x002190b4                number6_png
+                0x002197bf                number6_png_end
                 0x002197c0                number6_png_size
- .rodata        0x002197c4      0x5e4 number7.png.o
+ .rodata        0x002197c4      0x670 number7.png.o
                 0x002197c4                number7_png
-                0x00219da3                number7_png_end
-                0x00219da4                number7_png_size
- .rodata        0x00219da8      0x840 number8.png.o
-                0x00219da8                number8_png
-                0x0021a5e4                number8_png_end
-                0x0021a5e4                number8_png_size
- .rodata        0x0021a5e8      0x768 number9.png.o
-                0x0021a5e8                number9_png
-                0x0021ad4a                number9_png_end
-                0x0021ad4c                number9_png_size
- .rodata        0x0021ad50     0x7b28 pokeball1.png.o
-                0x0021ad50                pokeball1_png
-                0x00222871                pokeball1_png_end
-                0x00222874                pokeball1_png_size
- .rodata        0x00222878     0x8194 pokeball2.png.o
-                0x00222878                pokeball2_png
-                0x0022aa07                pokeball2_png_end
-                0x0022aa08                pokeball2_png_size
- .rodata        0x0022aa0c     0x7ef0 pokeball3.png.o
-                0x0022aa0c                pokeball3_png
-                0x002328f6                pokeball3_png_end
-                0x002328f8                pokeball3_png_size
- .rodata        0x002328fc     0x88e4 pokeball4.png.o
-                0x002328fc                pokeball4_png
-                0x0023b1db                pokeball4_png_end
-                0x0023b1dc                pokeball4_png_size
- .rodata        0x0023b1e0     0x824c pokeball5.png.o
-                0x0023b1e0                pokeball5_png
-                0x00243427                pokeball5_png_end
-                0x00243428                pokeball5_png_size
- .rodata        0x0024342c     0x842c pokeball6.png.o
-                0x0024342c                pokeball6_png
-                0x0024b854                pokeball6_png_size
-                0x0024b854                pokeball6_png_end
- .rodata        0x0024b858     0x7f0c pokeball7.png.o
-                0x0024b858                pokeball7_png
-                0x0025375d                pokeball7_png_end
-                0x00253760                pokeball7_png_size
- .rodata        0x00253764     0x890c pokeball8.png.o
-                0x00253764                pokeball8_png
-                0x0025c069                pokeball8_png_end
-                0x0025c06c                pokeball8_png_size
- .rodata        0x0025c070     0xb9d8 pressedButton1.png.o
-                0x0025c070                pressedButton1_png
-                0x00267a44                pressedButton1_png_end
-                0x00267a44                pressedButton1_png_size
- .rodata        0x00267a48     0xd56c pressedButton2.png.o
-                0x00267a48                pressedButton2_png
-                0x00274fad                pressedButton2_png_end
-                0x00274fb0                pressedButton2_png_size
- .rodata        0x00274fb4     0xd65c pressedButton3.png.o
-                0x00274fb4                pressedButton3_png
-                0x00282609                pressedButton3_png_end
-                0x0028260c                pressedButton3_png_size
- .rodata        0x00282610     0xd88c pressedButton4.png.o
-                0x00282610                pressedButton4_png
-                0x0028fe95                pressedButton4_png_end
-                0x0028fe98                pressedButton4_png_size
- .rodata        0x0028fe9c     0xd930 pressedButton5.png.o
-                0x0028fe9c                pressedButton5_png
-                0x0029d7c6                pressedButton5_png_end
-                0x0029d7c8                pressedButton5_png_size
- .rodata        0x0029d7cc     0xd830 pressedButton6.png.o
-                0x0029d7cc                pressedButton6_png
-                0x002aaff7                pressedButton6_png_end
-                0x002aaff8                pressedButton6_png_size
- .rodata        0x002aaffc     0xd5a8 pressedButton7.png.o
-                0x002aaffc                pressedButton7_png
-                0x002b859e                pressedButton7_png_end
-                0x002b85a0                pressedButton7_png_size
- .rodata        0x002b85a4     0xd940 pressedButton8.png.o
-                0x002b85a4                pressedButton8_png
-                0x002c5edd                pressedButton8_png_end
-                0x002c5ee0                pressedButton8_png_size
- .rodata        0x002c5ee4     0x79bc pressedFrame1.png.o
-                0x002c5ee4                pressedFrame1_png
-                0x002cd899                pressedFrame1_png_end
-                0x002cd89c                pressedFrame1_png_size
- .rodata        0x002cd8a0     0x7c68 pressedFrame2.png.o
-                0x002cd8a0                pressedFrame2_png
-                0x002d5501                pressedFrame2_png_end
-                0x002d5504                pressedFrame2_png_size
- .rodata        0x002d5508     0x8a70 pressedFrame3.png.o
-                0x002d5508                pressedFrame3_png
-                0x002ddf72                pressedFrame3_png_end
-                0x002ddf74                pressedFrame3_png_size
- .rodata        0x002ddf78     0x7bb4 pressedFrame4.png.o
-                0x002ddf78                pressedFrame4_png
-                0x002e5b25                pressedFrame4_png_end
-                0x002e5b28                pressedFrame4_png_size
- .rodata        0x002e5b2c     0x8e40 pressedFrame5.png.o
-                0x002e5b2c                pressedFrame5_png
-                0x002ee967                pressedFrame5_png_end
-                0x002ee968                pressedFrame5_png_size
- .rodata        0x002ee96c     0x63b0 pressedFrame6.png.o
-                0x002ee96c                pressedFrame6_png
-                0x002f4d17                pressedFrame6_png_end
-                0x002f4d18                pressedFrame6_png_size
- .rodata        0x002f4d1c     0x91e8 pressedFrame7.png.o
-                0x002f4d1c                pressedFrame7_png
-                0x002fdefe                pressedFrame7_png_end
-                0x002fdf00                pressedFrame7_png_size
- .rodata        0x002fdf04     0x9868 pressedFrame8.png.o
-                0x002fdf04                pressedFrame8_png
-                0x00307767                pressedFrame8_png_end
-                0x00307768                pressedFrame8_png_size
- .rodata        0x0030776c     0x7894 pressedMoon1.png.o
-                0x0030776c                pressedMoon1_png
-                0x0030effa                pressedMoon1_png_end
-                0x0030effc                pressedMoon1_png_size
- .rodata        0x0030f000     0x85ac pressedMoon2.png.o
-                0x0030f000                pressedMoon2_png
-                0x003175a6                pressedMoon2_png_end
-                0x003175a8                pressedMoon2_png_size
- .rodata        0x003175ac     0x7e74 pressedMoon3.png.o
-                0x003175ac                pressedMoon3_png
-                0x0031f419                pressedMoon3_png_end
-                0x0031f41c                pressedMoon3_png_size
- .rodata        0x0031f420     0x7e34 pressedMoon4.png.o
-                0x0031f420                pressedMoon4_png
-                0x00327250                pressedMoon4_png_end
-                0x00327250                pressedMoon4_png_size
- .rodata        0x00327254     0x6bf4 pressedMoon5.png.o
-                0x00327254                pressedMoon5_png
-                0x0032de44                pressedMoon5_png_size
-                0x0032de44                pressedMoon5_png_end
- .rodata        0x0032de48     0x7a94 pressedMoon6.png.o
-                0x0032de48                pressedMoon6_png
-                0x003358d5                pressedMoon6_png_end
-                0x003358d8                pressedMoon6_png_size
- .rodata        0x003358dc     0x78c0 pressedMoon7.png.o
-                0x003358dc                pressedMoon7_png
-                0x0033d195                pressedMoon7_png_end
-                0x0033d198                pressedMoon7_png_size
- .rodata        0x0033d19c     0x7fa4 pressedMoon8.png.o
-                0x0033d19c                pressedMoon8_png
-                0x0034513c                pressedMoon8_png_size
-                0x0034513c                pressedMoon8_png_end
- .rodata        0x00345140     0x7d40 pressedPokeball1.png.o
-                0x00345140                pressedPokeball1_png
-                0x0034ce7a                pressedPokeball1_png_end
-                0x0034ce7c                pressedPokeball1_png_size
- .rodata        0x0034ce80     0x82e8 pressedPokeball2.png.o
-                0x0034ce80                pressedPokeball2_png
-                0x00355163                pressedPokeball2_png_end
-                0x00355164                pressedPokeball2_png_size
- .rodata        0x00355168     0x8088 pressedPokeball3.png.o
-                0x00355168                pressedPokeball3_png
-                0x0035d1ea                pressedPokeball3_png_end
-                0x0035d1ec                pressedPokeball3_png_size
- .rodata        0x0035d1f0     0x89ec pressedPokeball4.png.o
-                0x0035d1f0                pressedPokeball4_png
-                0x00365bd6                pressedPokeball4_png_end
-                0x00365bd8                pressedPokeball4_png_size
- .rodata        0x00365bdc     0x833c pressedPokeball5.png.o
-                0x00365bdc                pressedPokeball5_png
-                0x0036df12                pressedPokeball5_png_end
-                0x0036df14                pressedPokeball5_png_size
- .rodata        0x0036df18     0x85e0 pressedPokeball6.png.o
-                0x0036df18                pressedPokeball6_png
-                0x003764f4                pressedPokeball6_png_size
-                0x003764f4                pressedPokeball6_png_end
- .rodata        0x003764f8     0x80c4 pressedPokeball7.png.o
-                0x003764f8                pressedPokeball7_png
-                0x0037e5b6                pressedPokeball7_png_end
-                0x0037e5b8                pressedPokeball7_png_size
- .rodata        0x0037e5bc     0x896c pressedPokeball8.png.o
-                0x0037e5bc                pressedPokeball8_png
-                0x00386f23                pressedPokeball8_png_end
-                0x00386f24                pressedPokeball8_png_size
- .rodata        0x00386f28     0xa268 topscr.png.o
-                0x00386f28                topscr_png
-                0x00391189                topscr_png_end
-                0x0039118c                topscr_png_size
- .rodata        0x00391190      0x9a8 /usr/local/devkitPro/portlibs/armv6k/lib/libpng.a(png.o)
-                0x00391338                png_sRGB_delta
-                0x00391538                png_sRGB_base
-                0x00391938                png_sRGB_table
- .rodata        0x00391b38       0x21 /usr/local/devkitPro/portlibs/armv6k/lib/libpng.a(pngerror.o)
- *fill*         0x00391b59        0x3 
- .rodata        0x00391b5c      0x113 /usr/local/devkitPro/portlibs/armv6k/lib/libpng.a(pngrutil.o)
- *fill*         0x00391c6f        0x1 
- .rodata        0x00391c70      0x300 /usr/local/devkitPro/portlibs/armv6k/lib/libpng.a(pngtrans.o)
- .rodata        0x00391f70     0x2000 /usr/local/devkitPro/portlibs/armv6k/lib/libz.a(crc32.o)
- .rodata        0x00393f70      0x8a6 /usr/local/devkitPro/portlibs/armv6k/lib/libz.a(inflate.o)
- *fill*         0x00394816        0x2 
- .rodata        0x00394818      0x12f /usr/local/devkitPro/portlibs/armv6k/lib/libz.a(inftrees.o)
-                0x00394918                inflate_copyright
- *fill*         0x00394947        0x1 
- .rodata        0x00394948       0x10 /usr/local/devkitPro/libctru/lib/libsf2d.a(sf2d_texture.o)
- .rodata        0x00394958      0x150 /usr/local/devkitPro/libctru/lib/libsf2d.a(shader.shbin.o)
-                0x00394958                shader_shbin
-                0x00394aa4                shader_shbin_size
-                0x00394aa4                shader_shbin_end
- .rodata        0x00394aa8       0x38 /usr/local/devkitPro/libctru/lib/libcitro3d.a(texture.o)
- .rodata        0x00394ae0        0x3 /usr/local/devkitPro/libctru/lib/libcitro3d.a(base.o)
- *fill*         0x00394ae3        0x1 
- .rodata        0x00394ae4       0x10 /usr/local/devkitPro/libctru/lib/libcitro3d.a(renderbuffer.o)
- .rodata        0x00394af4       0x1c /usr/local/devkitPro/libctru/lib/libctru.a(gfx.o)
- .rodata        0x00394b10        0xc /usr/local/devkitPro/libctru/lib/libctru.a(apt.o)
- .rodata        0x00394b1c       0x3c /usr/local/devkitPro/libctru/lib/libctru.a(sdmc_dev.o)
+                0x00219e2f                number7_png_end
+                0x00219e30                number7_png_size
+ .rodata        0x00219e34      0x76c number8.png.o
+                0x00219e34                number8_png
+                0x0021a59c                number8_png_end
+                0x0021a59c                number8_png_size
+ .rodata        0x0021a5a0      0x718 number9.png.o
+                0x0021a5a0                number9_png
+                0x0021acb1                number9_png_end
+                0x0021acb4                number9_png_size
+ .rodata        0x0021acb8     0x7b28 pokeball1.png.o
+                0x0021acb8                pokeball1_png
+                0x002227d9                pokeball1_png_end
+                0x002227dc                pokeball1_png_size
+ .rodata        0x002227e0     0x8194 pokeball2.png.o
+                0x002227e0                pokeball2_png
+                0x0022a96f                pokeball2_png_end
+                0x0022a970                pokeball2_png_size
+ .rodata        0x0022a974     0x7ef0 pokeball3.png.o
+                0x0022a974                pokeball3_png
+                0x0023285e                pokeball3_png_end
+                0x00232860                pokeball3_png_size
+ .rodata        0x00232864     0x88e4 pokeball4.png.o
+                0x00232864                pokeball4_png
+                0x0023b143                pokeball4_png_end
+                0x0023b144                pokeball4_png_size
+ .rodata        0x0023b148     0x824c pokeball5.png.o
+                0x0023b148                pokeball5_png
+                0x0024338f                pokeball5_png_end
+                0x00243390                pokeball5_png_size
+ .rodata        0x00243394     0x842c pokeball6.png.o
+                0x00243394                pokeball6_png
+                0x0024b7bc                pokeball6_png_size
+                0x0024b7bc                pokeball6_png_end
+ .rodata        0x0024b7c0     0x7f0c pokeball7.png.o
+                0x0024b7c0                pokeball7_png
+                0x002536c5                pokeball7_png_end
+                0x002536c8                pokeball7_png_size
+ .rodata        0x002536cc     0x890c pokeball8.png.o
+                0x002536cc                pokeball8_png
+                0x0025bfd1                pokeball8_png_end
+                0x0025bfd4                pokeball8_png_size
+ .rodata        0x0025bfd8     0xb9d8 pressedButton1.png.o
+                0x0025bfd8                pressedButton1_png
+                0x002679ac                pressedButton1_png_end
+                0x002679ac                pressedButton1_png_size
+ .rodata        0x002679b0     0xd56c pressedButton2.png.o
+                0x002679b0                pressedButton2_png
+                0x00274f15                pressedButton2_png_end
+                0x00274f18                pressedButton2_png_size
+ .rodata        0x00274f1c     0xd65c pressedButton3.png.o
+                0x00274f1c                pressedButton3_png
+                0x00282571                pressedButton3_png_end
+                0x00282574                pressedButton3_png_size
+ .rodata        0x00282578     0xd88c pressedButton4.png.o
+                0x00282578                pressedButton4_png
+                0x0028fdfd                pressedButton4_png_end
+                0x0028fe00                pressedButton4_png_size
+ .rodata        0x0028fe04     0xd930 pressedButton5.png.o
+                0x0028fe04                pressedButton5_png
+                0x0029d72e                pressedButton5_png_end
+                0x0029d730                pressedButton5_png_size
+ .rodata        0x0029d734     0xd830 pressedButton6.png.o
+                0x0029d734                pressedButton6_png
+                0x002aaf5f                pressedButton6_png_end
+                0x002aaf60                pressedButton6_png_size
+ .rodata        0x002aaf64     0xd5a8 pressedButton7.png.o
+                0x002aaf64                pressedButton7_png
+                0x002b8506                pressedButton7_png_end
+                0x002b8508                pressedButton7_png_size
+ .rodata        0x002b850c     0xd940 pressedButton8.png.o
+                0x002b850c                pressedButton8_png
+                0x002c5e45                pressedButton8_png_end
+                0x002c5e48                pressedButton8_png_size
+ .rodata        0x002c5e4c     0x79bc pressedFrame1.png.o
+                0x002c5e4c                pressedFrame1_png
+                0x002cd801                pressedFrame1_png_end
+                0x002cd804                pressedFrame1_png_size
+ .rodata        0x002cd808     0x7c68 pressedFrame2.png.o
+                0x002cd808                pressedFrame2_png
+                0x002d5469                pressedFrame2_png_end
+                0x002d546c                pressedFrame2_png_size
+ .rodata        0x002d5470     0x8a70 pressedFrame3.png.o
+                0x002d5470                pressedFrame3_png
+                0x002ddeda                pressedFrame3_png_end
+                0x002ddedc                pressedFrame3_png_size
+ .rodata        0x002ddee0     0x7bb4 pressedFrame4.png.o
+                0x002ddee0                pressedFrame4_png
+                0x002e5a8d                pressedFrame4_png_end
+                0x002e5a90                pressedFrame4_png_size
+ .rodata        0x002e5a94     0x8e40 pressedFrame5.png.o
+                0x002e5a94                pressedFrame5_png
+                0x002ee8cf                pressedFrame5_png_end
+                0x002ee8d0                pressedFrame5_png_size
+ .rodata        0x002ee8d4     0x63b0 pressedFrame6.png.o
+                0x002ee8d4                pressedFrame6_png
+                0x002f4c7f                pressedFrame6_png_end
+                0x002f4c80                pressedFrame6_png_size
+ .rodata        0x002f4c84     0x91e8 pressedFrame7.png.o
+                0x002f4c84                pressedFrame7_png
+                0x002fde66                pressedFrame7_png_end
+                0x002fde68                pressedFrame7_png_size
+ .rodata        0x002fde6c     0x9868 pressedFrame8.png.o
+                0x002fde6c                pressedFrame8_png
+                0x003076cf                pressedFrame8_png_end
+                0x003076d0                pressedFrame8_png_size
+ .rodata        0x003076d4     0x7894 pressedMoon1.png.o
+                0x003076d4                pressedMoon1_png
+                0x0030ef62                pressedMoon1_png_end
+                0x0030ef64                pressedMoon1_png_size
+ .rodata        0x0030ef68     0x85ac pressedMoon2.png.o
+                0x0030ef68                pressedMoon2_png
+                0x0031750e                pressedMoon2_png_end
+                0x00317510                pressedMoon2_png_size
+ .rodata        0x00317514     0x7e74 pressedMoon3.png.o
+                0x00317514                pressedMoon3_png
+                0x0031f381                pressedMoon3_png_end
+                0x0031f384                pressedMoon3_png_size
+ .rodata        0x0031f388     0x7e34 pressedMoon4.png.o
+                0x0031f388                pressedMoon4_png
+                0x003271b8                pressedMoon4_png_end
+                0x003271b8                pressedMoon4_png_size
+ .rodata        0x003271bc     0x6bf4 pressedMoon5.png.o
+                0x003271bc                pressedMoon5_png
+                0x0032ddac                pressedMoon5_png_size
+                0x0032ddac                pressedMoon5_png_end
+ .rodata        0x0032ddb0     0x7a94 pressedMoon6.png.o
+                0x0032ddb0                pressedMoon6_png
+                0x0033583d                pressedMoon6_png_end
+                0x00335840                pressedMoon6_png_size
+ .rodata        0x00335844     0x78c0 pressedMoon7.png.o
+                0x00335844                pressedMoon7_png
+                0x0033d0fd                pressedMoon7_png_end
+                0x0033d100                pressedMoon7_png_size
+ .rodata        0x0033d104     0x7fa4 pressedMoon8.png.o
+                0x0033d104                pressedMoon8_png
+                0x003450a4                pressedMoon8_png_size
+                0x003450a4                pressedMoon8_png_end
+ .rodata        0x003450a8     0x7d40 pressedPokeball1.png.o
+                0x003450a8                pressedPokeball1_png
+                0x0034cde2                pressedPokeball1_png_end
+                0x0034cde4                pressedPokeball1_png_size
+ .rodata        0x0034cde8     0x82e8 pressedPokeball2.png.o
+                0x0034cde8                pressedPokeball2_png
+                0x003550cb                pressedPokeball2_png_end
+                0x003550cc                pressedPokeball2_png_size
+ .rodata        0x003550d0     0x8088 pressedPokeball3.png.o
+                0x003550d0                pressedPokeball3_png
+                0x0035d152                pressedPokeball3_png_end
+                0x0035d154                pressedPokeball3_png_size
+ .rodata        0x0035d158     0x89ec pressedPokeball4.png.o
+                0x0035d158                pressedPokeball4_png
+                0x00365b3e                pressedPokeball4_png_end
+                0x00365b40                pressedPokeball4_png_size
+ .rodata        0x00365b44     0x833c pressedPokeball5.png.o
+                0x00365b44                pressedPokeball5_png
+                0x0036de7a                pressedPokeball5_png_end
+                0x0036de7c                pressedPokeball5_png_size
+ .rodata        0x0036de80     0x85e0 pressedPokeball6.png.o
+                0x0036de80                pressedPokeball6_png
+                0x0037645c                pressedPokeball6_png_size
+                0x0037645c                pressedPokeball6_png_end
+ .rodata        0x00376460     0x80c4 pressedPokeball7.png.o
+                0x00376460                pressedPokeball7_png
+                0x0037e51e                pressedPokeball7_png_end
+                0x0037e520                pressedPokeball7_png_size
+ .rodata        0x0037e524     0x896c pressedPokeball8.png.o
+                0x0037e524                pressedPokeball8_png
+                0x00386e8b                pressedPokeball8_png_end
+                0x00386e8c                pressedPokeball8_png_size
+ .rodata        0x00386e90     0xa268 topscr.png.o
+                0x00386e90                topscr_png
+                0x003910f1                topscr_png_end
+                0x003910f4                topscr_png_size
+ .rodata        0x003910f8      0x9a8 /usr/local/devkitPro/portlibs/armv6k/lib/libpng.a(png.o)
+                0x003912a0                png_sRGB_delta
+                0x003914a0                png_sRGB_base
+                0x003918a0                png_sRGB_table
+ .rodata        0x00391aa0       0x21 /usr/local/devkitPro/portlibs/armv6k/lib/libpng.a(pngerror.o)
+ *fill*         0x00391ac1        0x3 
+ .rodata        0x00391ac4      0x113 /usr/local/devkitPro/portlibs/armv6k/lib/libpng.a(pngrutil.o)
+ *fill*         0x00391bd7        0x1 
+ .rodata        0x00391bd8      0x300 /usr/local/devkitPro/portlibs/armv6k/lib/libpng.a(pngtrans.o)
+ .rodata        0x00391ed8     0x2000 /usr/local/devkitPro/portlibs/armv6k/lib/libz.a(crc32.o)
+ .rodata        0x00393ed8      0x8a6 /usr/local/devkitPro/portlibs/armv6k/lib/libz.a(inflate.o)
+ *fill*         0x0039477e        0x2 
+ .rodata        0x00394780      0x12f /usr/local/devkitPro/portlibs/armv6k/lib/libz.a(inftrees.o)
+                0x00394880                inflate_copyright
+ *fill*         0x003948af        0x1 
+ .rodata        0x003948b0       0x10 /usr/local/devkitPro/libctru/lib/libsf2d.a(sf2d_texture.o)
+ .rodata        0x003948c0      0x150 /usr/local/devkitPro/libctru/lib/libsf2d.a(shader.shbin.o)
+                0x003948c0                shader_shbin
+                0x00394a0c                shader_shbin_size
+                0x00394a0c                shader_shbin_end
+ .rodata        0x00394a10       0x38 /usr/local/devkitPro/libctru/lib/libcitro3d.a(texture.o)
+ .rodata        0x00394a48        0x3 /usr/local/devkitPro/libctru/lib/libcitro3d.a(base.o)
+ *fill*         0x00394a4b        0x1 
+ .rodata        0x00394a4c       0x10 /usr/local/devkitPro/libctru/lib/libcitro3d.a(renderbuffer.o)
+ .rodata        0x00394a5c       0x1c /usr/local/devkitPro/libctru/lib/libctru.a(gfx.o)
+ .rodata        0x00394a78        0xc /usr/local/devkitPro/libctru/lib/libctru.a(apt.o)
+ .rodata        0x00394a84       0x3c /usr/local/devkitPro/libctru/lib/libctru.a(sdmc_dev.o)
  *(.roda)
  *(.rodata.*)
  .rodata.str1.4
-                0x00394b58        0xb /usr/local/devkitPro/libctru/lib/libsfil.a(sfil_png.o)
- *fill*         0x00394b63        0x1 
+                0x00394ac0        0xb /usr/local/devkitPro/libctru/lib/libsfil.a(sfil_png.o)
+ *fill*         0x00394acb        0x1 
  .rodata.str1.4
-                0x00394b64      0x9ba /usr/local/devkitPro/portlibs/armv6k/lib/libpng.a(png.o)
+                0x00394acc      0x9ba /usr/local/devkitPro/portlibs/armv6k/lib/libpng.a(png.o)
                                 0x9ce (size before relaxing)
- *fill*         0x0039551e        0x2 
+ *fill*         0x00395486        0x2 
  .rodata.str1.4
-                0x00395520       0xa2 /usr/local/devkitPro/portlibs/armv6k/lib/libpng.a(pngerror.o)
- *fill*         0x003955c2        0x2 
+                0x00395488       0xa2 /usr/local/devkitPro/portlibs/armv6k/lib/libpng.a(pngerror.o)
+ *fill*         0x0039552a        0x2 
  .rodata.str1.4
-                0x003955c4       0x5a /usr/local/devkitPro/portlibs/armv6k/lib/libpng.a(pngmem.o)
- *fill*         0x0039561e        0x2 
+                0x0039552c       0x5a /usr/local/devkitPro/portlibs/armv6k/lib/libpng.a(pngmem.o)
+ *fill*         0x00395586        0x2 
  .rodata.str1.4
-                0x00395620      0x879 /usr/local/devkitPro/portlibs/armv6k/lib/libpng.a(pngread.o)
+                0x00395588      0x879 /usr/local/devkitPro/portlibs/armv6k/lib/libpng.a(pngread.o)
                                 0x885 (size before relaxing)
- *fill*         0x00395e99        0x3 
+ *fill*         0x00395e01        0x3 
  .rodata.str1.4
-                0x00395e9c       0x6c /usr/local/devkitPro/portlibs/armv6k/lib/libpng.a(pngrio.o)
+                0x00395e04       0x6c /usr/local/devkitPro/portlibs/armv6k/lib/libpng.a(pngrio.o)
  .rodata.str1.4
-                0x00395f08      0x344 /usr/local/devkitPro/portlibs/armv6k/lib/libpng.a(pngrtran.o)
+                0x00395e70      0x344 /usr/local/devkitPro/portlibs/armv6k/lib/libpng.a(pngrtran.o)
  .rodata.str1.4
-                0x0039624c      0x54d /usr/local/devkitPro/portlibs/armv6k/lib/libpng.a(pngrutil.o)
+                0x003961b4      0x54d /usr/local/devkitPro/portlibs/armv6k/lib/libpng.a(pngrutil.o)
                                 0x595 (size before relaxing)
- *fill*         0x00396799        0x3 
+ *fill*         0x00396701        0x3 
  .rodata.str1.4
-                0x0039679c      0x643 /usr/local/devkitPro/portlibs/armv6k/lib/libpng.a(pngset.o)
+                0x00396704      0x643 /usr/local/devkitPro/portlibs/armv6k/lib/libpng.a(pngset.o)
                                 0x65f (size before relaxing)
- *fill*         0x00396ddf        0x1 
+ *fill*         0x00396d47        0x1 
  .rodata.str1.4
-                0x00396de0       0xa3 /usr/local/devkitPro/portlibs/armv6k/lib/libpng.a(pngtrans.o)
- *fill*         0x00396e83        0x1 
+                0x00396d48       0xa3 /usr/local/devkitPro/portlibs/armv6k/lib/libpng.a(pngtrans.o)
+ *fill*         0x00396deb        0x1 
  .rodata.str1.4
-                0x00396e84      0x1e7 /usr/local/devkitPro/portlibs/armv6k/lib/libz.a(inflate.o)
+                0x00396dec      0x1e7 /usr/local/devkitPro/portlibs/armv6k/lib/libz.a(inflate.o)
  .rodata.str1.4
-                0x0039706b       0x54 /usr/local/devkitPro/portlibs/armv6k/lib/libz.a(inffast.o)
- *fill*         0x0039706b        0x1 
+                0x00396fd3       0x54 /usr/local/devkitPro/portlibs/armv6k/lib/libz.a(inffast.o)
+ *fill*         0x00396fd3        0x1 
  .rodata.str1.4
-                0x0039706c       0x25 /usr/local/devkitPro/libctru/lib/libsf2d.a(sf2d.o)
- *fill*         0x00397091        0x3 
+                0x00396fd4       0x25 /usr/local/devkitPro/libctru/lib/libsf2d.a(sf2d.o)
+ *fill*         0x00396ff9        0x3 
  .rodata.str1.4
-                0x00397094        0x9 /usr/local/devkitPro/libctru/lib/libctru.a(ptmsysm.o)
- *fill*         0x0039709d        0x3 
+                0x00396ffc        0x9 /usr/local/devkitPro/libctru/lib/libctru.a(ptmsysm.o)
+ *fill*         0x00397005        0x3 
  .rodata.str1.4
-                0x003970a0       0x15 /usr/local/devkitPro/libctru/lib/libctru.a(hid.o)
- *fill*         0x003970b5        0x3 
+                0x00397008       0x15 /usr/local/devkitPro/libctru/lib/libctru.a(hid.o)
+ *fill*         0x0039701d        0x3 
  .rodata.str1.4
-                0x003970b8       0x16 /usr/local/devkitPro/libctru/lib/libctru.a(apt.o)
- *fill*         0x003970ce        0x2 
+                0x00397020       0x16 /usr/local/devkitPro/libctru/lib/libctru.a(apt.o)
+ *fill*         0x00397036        0x2 
  .rodata.str1.4
-                0x003970d0        0x9 /usr/local/devkitPro/libctru/lib/libctru.a(gspgpu.o)
- *fill*         0x003970d9        0x3 
+                0x00397038        0x9 /usr/local/devkitPro/libctru/lib/libctru.a(gspgpu.o)
+ *fill*         0x00397041        0x3 
  .rodata.str1.4
-                0x003970dc        0x7 /usr/local/devkitPro/libctru/lib/libctru.a(irrst.o)
- *fill*         0x003970e3        0x1 
+                0x00397044        0x7 /usr/local/devkitPro/libctru/lib/libctru.a(irrst.o)
+ *fill*         0x0039704b        0x1 
  .rodata.str1.4
-                0x003970e4        0x5 /usr/local/devkitPro/libctru/lib/libctru.a(srv.o)
- *fill*         0x003970e9        0x3 
+                0x0039704c        0x5 /usr/local/devkitPro/libctru/lib/libctru.a(srv.o)
+ *fill*         0x00397051        0x3 
  .rodata.str1.4
-                0x003970ec        0xd /usr/local/devkitPro/libctru/lib/libctru.a(sdmc_dev.o)
+                0x00397054        0xd /usr/local/devkitPro/libctru/lib/libctru.a(sdmc_dev.o)
                                  0x11 (size before relaxing)
- *fill*         0x003970f9        0x3 
+ *fill*         0x00397061        0x3 
  .rodata.str1.4
-                0x003970fc        0x8 /usr/local/devkitPro/libctru/lib/libctru.a(fs.o)
+                0x00397064        0x8 /usr/local/devkitPro/libctru/lib/libctru.a(fs.o)
                                   0x9 (size before relaxing)
  .rodata.pow.str1.4
-                0x00397104        0x4 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libm.a(lib_a-w_pow.o)
+                0x0039706c        0x4 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libm.a(lib_a-w_pow.o)
  .rodata.__ieee754_pow.str1.4
-                0x00397108        0x1 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libm.a(lib_a-e_pow.o)
+                0x00397070        0x1 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libm.a(lib_a-e_pow.o)
  .rodata.npio2_hw
-                0x00397108       0x80 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libm.a(lib_a-ef_rem_pio2.o)
+                0x00397070       0x80 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libm.a(lib_a-ef_rem_pio2.o)
  .rodata.two_over_pi
-                0x00397188      0x318 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libm.a(lib_a-ef_rem_pio2.o)
- .rodata.PIo2   0x003974a0       0x2c /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libm.a(lib_a-kf_rem_pio2.o)
+                0x003970f0      0x318 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libm.a(lib_a-ef_rem_pio2.o)
+ .rodata.PIo2   0x00397408       0x2c /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libm.a(lib_a-kf_rem_pio2.o)
  .rodata.init_jk
-                0x003974cc        0xc /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libm.a(lib_a-kf_rem_pio2.o)
- .rodata.TWO52  0x003974d8       0x10 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libm.a(lib_a-s_rint.o)
+                0x00397434        0xc /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libm.a(lib_a-kf_rem_pio2.o)
+ .rodata.TWO52  0x00397440       0x10 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libm.a(lib_a-s_rint.o)
  .rodata._global_impure_ptr
-                0x003974e8        0x4 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libg.a(lib_a-impure.o)
-                0x003974e8                _global_impure_ptr
+                0x00397450        0x4 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libg.a(lib_a-impure.o)
+                0x00397450                _global_impure_ptr
  .rodata._vfprintf_r.str1.4
-                0x003974ec       0x3f /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libg.a(lib_a-vfprintf.o)
+                0x00397454       0x3f /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libg.a(lib_a-vfprintf.o)
                                  0x42 (size before relaxing)
- *fill*         0x0039752b        0x1 
+ *fill*         0x00397493        0x1 
  .rodata.blanks.8415
-                0x0039752c       0x10 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libg.a(lib_a-vfprintf.o)
+                0x00397494       0x10 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libg.a(lib_a-vfprintf.o)
  .rodata.zeroes.8416
-                0x0039753c       0x10 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libg.a(lib_a-vfprintf.o)
+                0x003974a4       0x10 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libg.a(lib_a-vfprintf.o)
  .rodata._dtoa_r.str1.4
-                0x0039754c       0x10 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libg.a(lib_a-dtoa.o)
+                0x003974b4       0x10 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libg.a(lib_a-dtoa.o)
                                  0x12 (size before relaxing)
  .rodata.str1.4
-                0x0039755c       0x48 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libg.a(lib_a-locale.o)
+                0x003974c4       0x48 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libg.a(lib_a-locale.o)
                                  0x4c (size before relaxing)
- *fill*         0x003975a4        0x4 
+ *fill*         0x0039750c        0x4 
  .rodata.__mprec_bigtens
-                0x003975a8       0x28 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libg.a(lib_a-mprec.o)
-                0x003975a8                __mprec_bigtens
+                0x00397510       0x28 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libg.a(lib_a-mprec.o)
+                0x00397510                __mprec_bigtens
  .rodata.__mprec_tens
-                0x003975d0       0xc8 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libg.a(lib_a-mprec.o)
-                0x003975d0                __mprec_tens
+                0x00397538       0xc8 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libg.a(lib_a-mprec.o)
+                0x00397538                __mprec_tens
  .rodata.p05.7191
-                0x00397698        0xc /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libg.a(lib_a-mprec.o)
+                0x00397600        0xc /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libg.a(lib_a-mprec.o)
  .rodata.__action_table
-                0x003976a4       0x6c /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libg.a(lib_a-svfiprintf.o)
-                0x003976a4                __action_table
+                0x0039760c       0x6c /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libg.a(lib_a-svfiprintf.o)
+                0x0039760c                __action_table
  .rodata.__chclass
-                0x00397710      0x100 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libg.a(lib_a-svfiprintf.o)
-                0x00397710                __chclass
+                0x00397678      0x100 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libg.a(lib_a-svfiprintf.o)
+                0x00397678                __chclass
  .rodata.__state_table
-                0x00397810       0x6c /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libg.a(lib_a-svfiprintf.o)
-                0x00397810                __state_table
+                0x00397778       0x6c /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libg.a(lib_a-svfiprintf.o)
+                0x00397778                __state_table
  .rodata._ctype_
-                0x0039787c      0x101 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libg.a(lib_a-ctype_.o)
-                0x0039787c                _ctype_
- *fill*         0x0039797d        0x3 
+                0x003977e4      0x101 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libg.a(lib_a-ctype_.o)
+                0x003977e4                _ctype_
+ *fill*         0x003978e5        0x3 
  .rodata.AddDevice.str1.4
-                0x00397980        0x8 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libsysbase.a(iosupport.o)
+                0x003978e8        0x8 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libsysbase.a(iosupport.o)
  .rodata.dotab_stdnull
-                0x00397988       0x68 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libsysbase.a(iosupport.o)
-                0x00397988                dotab_stdnull
+                0x003978f0       0x68 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libsysbase.a(iosupport.o)
+                0x003978f0                dotab_stdnull
  .rodata.DIRECTORY_PARENT
-                0x003979f0        0x3 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libsysbase.a(chdir.o)
-                0x003979f0                DIRECTORY_PARENT
+                0x00397958        0x3 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/libsysbase.a(chdir.o)
+                0x00397958                DIRECTORY_PARENT
  *all.rodata*(*)
  *(.gnu.linkonce.r*)
-                0x003979f4                . = ALIGN (0x4)
- *fill*         0x003979f3        0x1 
+                0x0039795c                . = ALIGN (0x4)
+ *fill*         0x0039795b        0x1 
 
-.eh_frame       0x003979f4        0x0
- .eh_frame      0x003979f4        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/armv6k/fpu/crtbegin.o
+.eh_frame       0x0039795c        0x0
+ .eh_frame      0x0039795c        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/armv6k/fpu/crtbegin.o
 
-.rel.dyn        0x003979f4        0x0
- .rel.iplt      0x003979f4        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/3dsx_crt0.o
+.rel.dyn        0x0039795c        0x0
+ .rel.iplt      0x0039795c        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/6.3.0/../../../../arm-none-eabi/lib/armv6k/fpu/3dsx_crt0.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x003979f4                __exidx_start = .
+                0x0039795c                __exidx_start = .
 
 ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x003979f4                __exidx_end = .
+                0x0039795c                __exidx_end = .
 
 .data           0x00398000     0x2f0c
  *(.data)
