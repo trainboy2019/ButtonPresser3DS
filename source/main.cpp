@@ -72,6 +72,17 @@
 #include "frame8_png.h"
 #include "pressedFrame8_png.h"
 
+#include "number0_png.h"
+#include "number1_png.h"
+#include "number2_png.h"
+#include "number3_png.h"
+#include "number4_png.h"
+#include "number5_png.h"
+#include "number6_png.h"
+#include "number7_png.h"
+#include "number8_png.h"
+#include "number9_png.h"
+
 #include "topscr_png.h"
 
 using namespace std;
@@ -141,13 +152,24 @@ int main() {
     sf2d_texture* pressedFrame7   = sfil_load_PNG_buffer(pressedFrame7_png, SF2D_PLACE_RAM);
     sf2d_texture* unpressedFrame7 = sfil_load_PNG_buffer(frame7_png,        SF2D_PLACE_RAM);
     sf2d_texture* pressedFrame8   = sfil_load_PNG_buffer(pressedFrame8_png, SF2D_PLACE_RAM);
-    sf2d_texture* unpressedFrame8 = sfil_load_PNG_buffer(frame8_png,        SF2D_PLACE_RAM);
+    sf2d_texture* unpressedFrame8   = sfil_load_PNG_buffer(frame8_png, SF2D_PLACE_RAM);
+    sf2d_texture* number0 = sfil_load_PNG_buffer(number0_png,        SF2D_PLACE_RAM);
+    sf2d_texture* number1 = sfil_load_PNG_buffer(number1_png,        SF2D_PLACE_RAM);
+    sf2d_texture* number2 = sfil_load_PNG_buffer(number2_png,        SF2D_PLACE_RAM);
+    sf2d_texture* number3 = sfil_load_PNG_buffer(number3_png,        SF2D_PLACE_RAM);
+    sf2d_texture* number4 = sfil_load_PNG_buffer(number4_png,        SF2D_PLACE_RAM);
+    sf2d_texture* number5 = sfil_load_PNG_buffer(number5_png,        SF2D_PLACE_RAM);
+    sf2d_texture* number6 = sfil_load_PNG_buffer(number6_png,        SF2D_PLACE_RAM);
+    sf2d_texture* number7 = sfil_load_PNG_buffer(number7_png,        SF2D_PLACE_RAM);
+    sf2d_texture* number8 = sfil_load_PNG_buffer(number8_png,        SF2D_PLACE_RAM);
+    sf2d_texture* number9 = sfil_load_PNG_buffer(number9_png,        SF2D_PLACE_RAM);
 	sf2d_texture* topScreen       = sfil_load_PNG_buffer(topscr_png,        SF2D_PLACE_RAM);
 
 	int posx = (320 / 2);
 	int posy = (240 / 2);
     
-    int score = 0;
+    int scoreO = 0;
+    int scoreT=0;
     int color = 1;
     int style = 1;
     bool pressed = false;
@@ -161,7 +183,78 @@ int main() {
 
 		if (kDown & KEY_TOUCH) {
 			pressed=true;
-            score=score+1;
+            if (scoreO<9){
+                scoreO++;
+            }
+            else{
+                if (scoreT<9){
+                    scoreO=0;
+                    scoreT++;
+                }
+            }
+            sf2d_start_frame(GFX_BOTTOM, GFX_LEFT);
+            if (scoreO==0) {
+                sf2d_draw_texture(number0, 50, 52);
+            }
+            else if (scoreO==1) {
+                sf2d_draw_texture(number1, 50, 52);
+            }
+            else if (scoreO==2) {
+                sf2d_draw_texture(number2, 50, 52);
+            }
+            else if (scoreO==3) {
+                sf2d_draw_texture(number3, 50, 52);
+            }
+            else if (scoreO==4) {
+                sf2d_draw_texture(number4, 50, 52);
+            }
+            else if (scoreO==5) {
+                sf2d_draw_texture(number5, 50, 52);
+            }
+            else if (scoreO==6) {
+                sf2d_draw_texture(number6, 50, 52);
+            }
+            else if (scoreO==7) {
+                sf2d_draw_texture(number7, 50, 52);
+            }
+            else if (scoreO==8) {
+                sf2d_draw_texture(number8, 50, 52);
+            }
+            else if (scoreO==9) {
+                sf2d_draw_texture(number9, 50, 52);
+            }
+            
+            if (scoreT==0) {
+                sf2d_draw_texture(number0, 0, 52);
+            }
+            else if (scoreT==1) {
+                sf2d_draw_texture(number1, 0, 52);
+            }
+            else if (scoreT==2) {
+                sf2d_draw_texture(number2, 0, 52);
+            }
+            else if (scoreT==3) {
+                sf2d_draw_texture(number3, 0, 52);
+            }
+            else if (scoreT==4) {
+                sf2d_draw_texture(number4, 0, 52);
+            }
+            else if (scoreT==5) {
+                sf2d_draw_texture(number5, 0, 52);
+            }
+            else if (scoreT==6) {
+                sf2d_draw_texture(number6, 0, 52);
+            }
+            else if (scoreT==7) {
+                sf2d_draw_texture(number7, 0, 52);
+            }
+            else if (scoreT==8) {
+                sf2d_draw_texture(number8, 0, 52);
+            }
+            else if (scoreT==9) {
+                sf2d_draw_texture(number9, 0, 52);
+            }
+            sf2d_end_frame();
 		}
         if (kHeld & KEY_TOUCH){
             pressed=true;
@@ -528,6 +621,17 @@ int main() {
     sf2d_free_texture(pressedFrame7);
     sf2d_free_texture(unpressedFrame8);
     sf2d_free_texture(pressedFrame8);
+    
+    sf2d_free_texture(number0);
+    sf2d_free_texture(number1);
+    sf2d_free_texture(number2);
+    sf2d_free_texture(number3);
+    sf2d_free_texture(number4);
+    sf2d_free_texture(number5);
+    sf2d_free_texture(number6);
+    sf2d_free_texture(number7);
+    sf2d_free_texture(number8);
+    sf2d_free_texture(number9);
 
 	sf2d_fini();
 
